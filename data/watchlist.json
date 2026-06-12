@@ -6,7 +6,7 @@
     {"id": "policy-library-it", "url": "https://policy.umn.edu/it", "label": "University Policy Library — Information Technology section"},
     {"id": "genai-syllabus-statements", "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements", "label": "Provost GenAI syllabus statements"},
     {"id": "teaching-generative-ai", "url": "https://teachingsupport.umn.edu/teaching-generative-ai", "label": "Teaching Support — Teaching with Generative AI hub"},
-    {"id": "presidential-ai-task-force", "url": "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force", "label": "Presidential AI Task Force"},
+    {"id": "provost-ai-communications", "url": "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota", "label": "Provost — AI at the University of Minnesota (governance updates)"},
     {"id": "digital-access-policy", "url": "https://policy.umn.edu/it/digitalaccess", "label": "Digital accessibility policy (enforceable April 2027)"},
     {"id": "libraries-genai-guide", "url": "https://libguides.umn.edu/genai", "label": "Libraries GenAI research guide"},
     {"id": "grad-genai-guidance", "url": "https://grad.umn.edu/guidance-generative-ai-graduate-education", "label": "Graduate School GenAI guidance"},
