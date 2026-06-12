@@ -126,7 +126,12 @@
       "question": "How does UMN compare with other Big Ten schools on AI?",
       "answer": "UMN is mid-pack. Like every Big Ten school, it leaves classroom AI rules to instructors. On tools, UMN licenses Google Gemini and Microsoft Copilot but — unlike ASU, UCLA, Illinois, or Nebraska — has no OpenAI deal, and unlike Michigan (U-M GPT) or Penn State (AI Studio), no homegrown AI platform. Ohio State's 'AI Fluency' graduation initiative and Purdue's AI competency requirement go further curricularly. UMN's distinctive moves: an explicit no-AI-detectors stance and new central governance (Vice Provost for AI, 2026).",
       "keywords": ["compare", "comparison", "big", "ten", "other", "schools", "universities", "michigan", "wisconsin", "ohio", "peer", "rank"],
-      "sources": [],
+      "sources": [
+        {"title": "Navigating AI @ UMN — OIT", "url": "https://it.umn.edu/navigating-ai-umn"},
+        {"title": "ASU–OpenAI partnership announcement (Jan 2024)", "url": "https://news.asu.edu/20240118-university-news-new-collaboration-openai-charts-future-ai-higher-education"},
+        {"title": "U-M GPT — University of Michigan", "url": "https://genai.umich.edu/"},
+        {"title": "AI Fluency — Ohio State", "url": "https://oaa.osu.edu/ai-fluency"}
+      ],
       "related_page": "compare.html"
     },
     {

@@ -1,4 +1,4 @@
-name: Weekly policy check
+name: Weekly policy and link check
 
 on:
   schedule:
@@ -23,17 +23,23 @@ jobs:
       - name: Check watched policy pages for changes
         run: python scripts/check_policies.py
 
+      - name: Check internal links and source coverage
+        run: python scripts/check_links.py --internal
+
+      - name: Check all external links (repair moved/dead URLs)
+        run: python scripts/check_links.py --external
+
       - name: Commit and push any detected changes
         id: commit
         run: |
           git config user.name "policy-check-bot"
           git config user.email "actions@github.com"
-          git add data/status.json data/changelog.json data/snapshots/
+          git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit."
             echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "Weekly policy check: $(date -u +%Y-%m-%d)"
+            git commit -m "Weekly policy and link check: $(date -u +%Y-%m-%d)"
             git push
             echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
