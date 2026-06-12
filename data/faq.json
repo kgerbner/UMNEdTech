@@ -140,7 +140,7 @@
       "answer": "Nobody outside the administration knows the full total — most contract amounts are never disclosed. What is public comes from Board of Regents docket summaries (required only for purchases of $1,000,000+) and news reporting: roughly $10 million to Oracle for PeopleSoft licensing and maintenance (2025–2027), $7.29 million to Salesforce (2023–2028), a reported $5.02 million for Canvas via the Unizin consortium (2017–2022) plus about $427,500/year in Unizin membership fees, about $281,000/year for Zoom, and the one-time $83.5 million ESUP systems upgrade completed in 2015. Contracts under $1 million — Turnitin, Kaltura, Honorlock, Qualtrics, and many more — are not publicly reported at all.",
       "keywords": ["spend", "spending", "cost", "costs", "money", "million", "budget", "pay", "pays", "price", "total", "much", "dollars", "tuition", "contracts"],
       "sources": [
-        {"title": "Board of Regents meeting materials", "url": "https://regents.umn.edu/meetings/board-meeting-materials"},
+        {"title": "Board of Regents meeting materials", "url": "https://regents.umn.edu/meeting-materials"},
         {"title": "University continues use of Zoom amid questions about privacy — Minnesota Daily", "url": "https://mndaily.com/255632/city/adzoom/"},
         {"title": "About The Upgrade (ESUP) — upgrade.umn.edu", "url": "http://upgrade.umn.edu/about/"}
       ],
@@ -164,7 +164,7 @@
       "answer": "Because UMN doesn't publish them — and isn't required to. Purchases of $1,000,000+ appear only as one-paragraph summaries in Board of Regents docket PDFs (that's how the Oracle ~$10M and Salesforce $7.29M figures are public), and purchases of $5,000,000+ require Board approval. But full contract text is published nowhere, and there is no searchable contracts database. The remedy: UMN is subject to the Minnesota Government Data Practices Act, and anyone can request contract documents through UMN's Data Request Center — see our step-by-step guide, including a template request.",
       "keywords": ["contract", "read", "request", "public", "records", "data", "practices", "act", "foia", "transparency", "regents", "docket", "secret", "hidden", "disclose", "why"],
       "sources": [
-        {"title": "Board of Regents meeting materials", "url": "https://regents.umn.edu/meetings/board-meeting-materials"},
+        {"title": "Board of Regents meeting materials", "url": "https://regents.umn.edu/meeting-materials"},
         {"title": "UMN Data Request Center", "url": "https://umn.nextrequest.com/"},
         {"title": "Minnesota Government Data Practices Act", "url": "https://www.revisor.mn.gov/statutes/cite/13"}
       ],

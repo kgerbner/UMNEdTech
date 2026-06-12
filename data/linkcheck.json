@@ -66,7 +66,7 @@
       "ok": true,
       "consecutive_failures": 0
     },
-    "https://citl.illinois.edu/about-citl/news/2021/02/23/illinois-preparing-to-roll-out-canvas-learning-management-system-unified-system-will-replace-compass-other-platforms-on-campus": {
+    "https://atlas.illinois.edu/news/2021-07-19t152859/canvas-replacing-compass": {
       "status": 404,
       "last_checked": "2026-06-12T21:40:11+00:00",
       "ok": false,
@@ -642,7 +642,7 @@
       "ok": true,
       "consecutive_failures": 0
     },
-    "https://regents.umn.edu/meetings/board-meeting-materials": {
+    "https://regents.umn.edu/meeting-materials": {
       "status": 404,
       "last_checked": "2026-06-12T21:40:11+00:00",
       "ok": false,
@@ -672,7 +672,7 @@
       "ok": true,
       "consecutive_failures": 0
     },
-    "https://teaching.berkeley.edu/teaching-strategies/genai-teaching/understanding-genai-and-campus-expectations": {
+    "https://teaching.berkeley.edu/topics/ai-teaching": {
       "status": 404,
       "last_checked": "2026-06-12T21:40:11+00:00",
       "ok": false,
@@ -1038,7 +1038,7 @@
       "ok": false,
       "consecutive_failures": 1
     },
-    "https://www.techservices.illinois.edu/2025/11/11/chatgpt-arrives-at-u-of-i/": {
+    "https://www.techservices.illinois.edu/2025/11/11/chatgpt-edu-arrives-at-u-of-i/": {
       "status": 404,
       "last_checked": "2026-06-12T21:40:11+00:00",
       "ok": false,

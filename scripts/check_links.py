@@ -63,9 +63,14 @@ def collect_external_urls():
     for path in list(HTML_FILES) + JSON_FILES:
         text = path.read_text()
         for m in URL_RE.finditer(text):
-            url = m.group(0).rstrip(".,)’”")
+            url = m.group(0)
             # JSON escaping: URLs never legitimately contain backslashes here.
             url = url.split("\\")[0]
+            url = url.rstrip(".,’”")
+            # Trim a trailing ")" only when it is unbalanced — Wikipedia URLs
+            # like .../Gopher_(protocol) legitimately end with one.
+            while url.endswith(")") and url.count(")") > url.count("("):
+                url = url[:-1]
             urls.add(url)
     return sorted(urls)
 

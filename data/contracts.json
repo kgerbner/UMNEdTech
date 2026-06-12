@@ -54,7 +54,7 @@
       "since": null,
       "sources": [
         {"title": "Office 365 FAQs — IT@UMN", "url": "https://it.umn.edu/office-365-faqs"},
-        {"title": "Office 365 ProPlus Transition — IT@UMN", "url": "https://it.umn.edu/office-365-faqs"}
+        {"title": "Microsoft 365 Apps — IT@UMN", "url": "https://it.umn.edu/services-technologies/microsoft-365-apps-enterprise"}
       ],
       "status": "partially-verified"
     },
@@ -208,7 +208,7 @@
       "since": "1996",
       "sources": [
         {"title": "About The Upgrade — upgrade.umn.edu", "url": "http://upgrade.umn.edu/about/"},
-        {"title": "Board of Regents Finance & Operations dockets — regents.umn.edu", "url": "https://regents.umn.edu/meetings/board-meeting-materials"}
+        {"title": "Board of Regents Finance & Operations dockets — regents.umn.edu", "url": "https://regents.umn.edu/meeting-materials"}
       ],
       "status": "partially-verified"
     },
@@ -222,7 +222,7 @@
       "since": null,
       "sources": [
         {"title": "Salesforce CRM — IT@UMN", "url": "https://it.umn.edu/services-technologies/salesforce-crm"},
-        {"title": "Board of Regents docket, March 2023 — regents.umn.edu", "url": "https://regents.umn.edu/meetings/board-meeting-materials"}
+        {"title": "Board of Regents docket, March 2023 — regents.umn.edu", "url": "https://regents.umn.edu/meeting-materials"}
       ],
       "status": "partially-verified"
     }

@@ -200,12 +200,12 @@
           "url": "https://www.ncsa.illinois.edu/2025/10/08/illinois-chat-is-launched-for-campus-community/"
         },
         {
-          "title": "ChatGPT arrives at U of I – Technology Services",
-          "url": "https://www.techservices.illinois.edu/2025/11/11/chatgpt-arrives-at-u-of-i/"
+          "title": "ChatGPT Edu arrives at U of I — Technology Services",
+          "url": "https://www.techservices.illinois.edu/2025/11/11/chatgpt-edu-arrives-at-u-of-i/"
         },
         {
-          "title": "Illinois preparing to roll out Canvas – CITL",
-          "url": "https://citl.illinois.edu/about-citl/news/2021/02/23/illinois-preparing-to-roll-out-canvas-learning-management-system-unified-system-will-replace-compass-other-platforms-on-campus"
+          "title": "Canvas Is Replacing Compass — ATLAS, Illinois",
+          "url": "https://atlas.illinois.edu/news/2021-07-19t152859/canvas-replacing-compass"
         }
       ],
       "status": "partially-verified"
@@ -556,14 +556,14 @@
       "conference": "Other R1",
       "lms": "bCourses (Berkeley's branded Canvas instance, official since 2014)",
       "ai_guidance": "The Center for Teaching & Learning's 'Understanding GenAI and Campus Expectations' explains that campus leadership leaves GenAI adoption decisions to individual courses and faculty; the Office of Ethics, Risk, and Compliance publishes 'Appropriate Use of Generative AI Tools'; the Berkeley AI Hub centralizes tools and guidance.",
-      "ai_guidance_url": "https://teaching.berkeley.edu/teaching-strategies/genai-teaching/understanding-genai-and-campus-expectations",
+      "ai_guidance_url": "https://teaching.berkeley.edu/topics/ai-teaching",
       "enterprise_ai_tools": "UC-licensed Google Gemini for all students (from Aug 2025, with negotiated data protections); Campus AI Sandbox beta (LibreChat-based multi-model access to ChatGPT, Claude, and Gemini, piloted March 2025).",
       "notable": "College of Computing, Data Science, and Society (CDSS) — Berkeley's first new college in 50+ years (2023); emphasizes UC-negotiated data protections rather than a single-vendor OpenAI-style deal.",
       "syllabus_policy_approach": "Instructor discretion: campus leadership explicitly leaves GenAI permission decisions to individual instructors; unsanctioned use may constitute academic misconduct.",
       "sources": [
         {
-          "title": "Understanding GenAI and Campus Expectations — UC Berkeley CTL",
-          "url": "https://teaching.berkeley.edu/teaching-strategies/genai-teaching/understanding-genai-and-campus-expectations"
+          "title": "AI in Teaching — UC Berkeley Center for Teaching & Learning",
+          "url": "https://teaching.berkeley.edu/topics/ai-teaching"
         },
         {
           "title": "Campus AI Sandbox — Berkeley AI Hub",
