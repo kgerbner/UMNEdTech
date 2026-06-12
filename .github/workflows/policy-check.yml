@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   check:
@@ -23,13 +24,24 @@ jobs:
         run: python scripts/check_policies.py
 
       - name: Commit and push any detected changes
+        id: commit
         run: |
           git config user.name "policy-check-bot"
           git config user.email "actions@github.com"
           git add data/status.json data/changelog.json data/snapshots/
           if git diff --cached --quiet; then
             echo "No changes to commit."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "Weekly policy check: $(date -u +%Y-%m-%d)"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Pushes made with GITHUB_TOKEN don't trigger the push-based deploy
+      # workflow, so redeploy the site explicitly when data changed.
+      - name: Redeploy site with updated data
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --ref main --repo "$GITHUB_REPOSITORY"
