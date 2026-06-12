@@ -118,10 +118,34 @@
       "related_page": "compare.html"
     },
     {
+      "id": "how-much-does-umn-spend",
+      "question": "How much does UMN spend on ed tech contracts?",
+      "answer": "Nobody outside the administration knows the full total — most contract amounts are never disclosed. What is public comes from Board of Regents docket summaries (required only for purchases of $1,000,000+) and news reporting: roughly $10 million to Oracle for PeopleSoft licensing and maintenance (2025–2027), $7.29 million to Salesforce (2023–2028), a reported $5.02 million for Canvas via the Unizin consortium (2017–2022) plus about $427,500/year in Unizin membership fees, about $281,000/year for Zoom, and the one-time $83.5 million ESUP systems upgrade completed in 2015. Contracts under $1 million — Turnitin, Kaltura, Honorlock, Qualtrics, and many more — are not publicly reported at all.",
+      "keywords": ["spend", "spending", "cost", "costs", "money", "million", "budget", "pay", "pays", "price", "total", "much", "dollars", "tuition", "contracts"],
+      "sources": [
+        {"title": "Board of Regents meeting materials", "url": "https://regents.umn.edu/meetings/board-meeting-materials"},
+        {"title": "University continues use of Zoom amid questions about privacy — Minnesota Daily", "url": "https://mndaily.com/255632/city/adzoom/"},
+        {"title": "About The Upgrade (ESUP) — upgrade.umn.edu", "url": "http://upgrade.umn.edu/about/"}
+      ],
+      "related_page": "contracts.html"
+    },
+    {
+      "id": "what-data-shared-with-vendors",
+      "question": "What student data does UMN share with ed tech vendors?",
+      "answer": "More than is publicly documented. Canvas holds coursework and grades — FERPA-protected records — on Instructure's servers, and UMN belongs to Unizin, whose data platform aggregates learning data across member universities under terms that are not public. Google hosts everyone's email and documents under a negotiated contract. Honorlock receives exam recordings including webcam video and room scans (retained about a year). Turnitin keeps submitted student papers in its comparison database. In most cases, the contracts defining exactly what data flows to vendors — and what vendors may do with it — are not published; UMN says FERPA protections apply, but verifying that independently requires a public-records request.",
+      "keywords": ["share", "shared", "sharing", "data", "student", "vendor", "vendors", "sell", "sold", "selling", "privacy", "third", "party", "companies", "information"],
+      "sources": [
+        {"title": "Managing Student Records (FERPA) — Policy Library", "url": "https://policy.umn.edu/education/studentrecords"},
+        {"title": "Unizin at UMN", "url": "https://unizin.umn.edu/"},
+        {"title": "Google Apps: Acceptable Use and Data Security — IT@UMN", "url": "https://it.umn.edu/services-technologies/how-tos/google-apps-acceptable-use-data-security"}
+      ],
+      "related_page": "contracts.html"
+    },
+    {
       "id": "how-to-see-contracts",
-      "question": "Can I read UMN's actual contracts with tech companies?",
-      "answer": "Mostly not online. UMN publishes one-paragraph summaries of purchases of $1,000,000+ in Board of Regents docket PDFs (that's how we know Oracle ~$10M and Salesforce $7.29M figures), and purchases of $5,000,000+ require Board approval. But full contracts are not published anywhere, and there's no searchable contracts database. As a public institution, UMN is subject to the Minnesota Government Data Practices Act — you can request contract documents directly.",
-      "keywords": ["contract", "read", "request", "public", "records", "data", "practices", "act", "foia", "transparency", "regents", "docket"],
+      "question": "Why can't I read UMN's contracts with tech companies?",
+      "answer": "Because UMN doesn't publish them — and isn't required to. Purchases of $1,000,000+ appear only as one-paragraph summaries in Board of Regents docket PDFs (that's how the Oracle ~$10M and Salesforce $7.29M figures are public), and purchases of $5,000,000+ require Board approval. But full contract text is published nowhere, and there is no searchable contracts database. The remedy: as a public institution, UMN is subject to the Minnesota Government Data Practices Act, so you can request the contract documents directly.",
+      "keywords": ["contract", "read", "request", "public", "records", "data", "practices", "act", "foia", "transparency", "regents", "docket", "secret", "hidden", "disclose", "why"],
       "sources": [
         {"title": "Board of Regents meeting materials", "url": "https://regents.umn.edu/meetings/board-meeting-materials"},
         {"title": "Minnesota Government Data Practices Act", "url": "https://www.revisor.mn.gov/statutes/cite/13"}
