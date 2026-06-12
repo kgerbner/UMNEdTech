@@ -1,6 +1,18 @@
 {
   "questions": [
     {
+      "id": "umn-current-ai-policy",
+      "question": "What is the University of Minnesota's current AI policy?",
+      "answer": "There is no single AI policy — there are several layers. In the classroom: each instructor sets the rules (the Provost provides template syllabus statements), but the default under the Student Conduct Code is that AI use on coursework without instructor authorization is scholastic dishonesty. For data: only Public-classified data may go into AI tools that aren't UMN-licensed; the licensed tools (Google Gemini, NotebookLM, Microsoft Copilot, Zoom AI Companion) carry contractual data protections. UMN licenses no AI detector and recommends against using them. Governance is newly centralized: a Vice Provost for AI and a university-wide AI Hub, both created in March 2026.",
+      "keywords": ["current", "ai", "policy", "rules", "overall", "stance", "approach", "official", "generative", "artificial", "intelligence", "umn", "summary"],
+      "sources": [
+        {"title": "Navigating AI @ UMN — OIT", "url": "https://it.umn.edu/navigating-ai-umn"},
+        {"title": "GenAI Syllabus Statements — Provost", "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements"},
+        {"title": "AI: Appropriate Use of Generative AI Tools — OIT", "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use"}
+      ],
+      "related_page": "policies.html"
+    },
+    {
       "id": "can-i-use-chatgpt-homework",
       "question": "Can I use ChatGPT (or other AI) on my homework?",
       "answer": "It depends on your instructor. UMN has no university-wide classroom AI rule — each instructor sets their course's policy, usually in the syllabus. The default matters, though: the Student Conduct Code treats unauthorized use of 'online learning support platforms' (which includes generative AI) as scholastic dishonesty, so if your syllabus is silent, ask before using AI. Failing to disclose AI use when disclosure is required also counts.",
