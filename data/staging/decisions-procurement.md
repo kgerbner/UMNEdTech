@@ -40,3 +40,16 @@ Key URLs:
 - https://it.umn.edu/about-us/office-information-technology-organization/it-governance
 - https://it.umn.edu/services-technologies/atlas
 - https://it.umn.edu/services-technologies/academic-technology-support-services
+
+## 3. AI layer (VERIFIED unless noted)
+
+- Vice Provost for AI: Galin Jones (inaugural), effective March 4, 2026; announced by EVP/Provost GRETCHEN RITTER (not Croson — Ritter became EVPP July 31, 2025). Jones leads the AI Hub: AI literacy, governance framing, strategy, partnerships under Elevate Extraordinary 2030. (provost.umn.edu communications; mndaily; brief.umn.edu)
+- AI Hub does NOT decide tool licensing — no evidence found. Tool licensing/approval runs through OIT + University Information Security via the standard software-purchase process (VRA), per the Presidential AI Task Force recommendation that AI evaluation align "with existing procurement processes."
+- No standing university-wide AI steering committee found as of June 2026 — only the Task Force recommendation; what was implemented is the Vice Provost + AI Hub. (negative finding, searched extensively)
+- Licensed AI tools list lives at ai.umn.edu / it.umn.edu Compare AI Tools; Claude and Perplexity "not approved for any institutional data"; UNVERIFIED single-source: from Feb 26, 2026 UMN blocked unlicensed third-party AI apps (Fireflies.ai, Otter.ai, Read.ai, OpenAI/ChatGPT, xAI/Grok) from joining UMN Zoom meetings and Google Workspace (it.umn.edu/news-alerts/news/upcoming-change-third-party-ai-app).
+
+Key URLs:
+- https://provost.umn.edu/about-evpp/communications/advancing-our-roadmap-launch-ai-hub
+- https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force
+- https://it.umn.edu/services-technologies/comparisons/compare-ai-tools
+- https://it.umn.edu/news-alerts/news/upcoming-change-third-party-ai-app
