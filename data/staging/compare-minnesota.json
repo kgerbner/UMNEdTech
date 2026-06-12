@@ -1,0 +1,20 @@
+{
+  "id": "minnesota",
+  "school": "University of Minnesota",
+  "conference": "Big Ten",
+  "lms": "Canvas (Instructure), systemwide; migrated from self-hosted Moodle (Canvas selected 2017, transition complete Summer 2019)",
+  "ai_guidance": "The Provost's office provides central guidance ('AI and your classroom,' sample GenAI syllabus statements) leaving course-level AI rules to instructor discretion, complemented by the systemwide 'Navigating AI @ UMN' portal from OIT and Teaching Support/LATIS instructor guides. UMN explicitly does not endorse AI-detection tools and recommends against scanning student work with detectors.",
+  "ai_guidance_url": "https://it.umn.edu/navigating-ai-umn",
+  "enterprise_ai_tools": "Google Gemini with enterprise-grade data protection for all students, faculty, and staff (data stays within UMN, not used to train models), Google NotebookLM, and Microsoft Copilot Chat with data protection via UMN sign-in; approved only for Public-classified data unless otherwise approved. No ChatGPT Edu agreement found.",
+  "notable": "Launched a university-wide AI Hub in March 2026 under inaugural Vice Provost for AI Galin Jones, part of the Elevate Extraordinary 2030 roadmap. Notable controversy: PhD student Haishan Yang was expelled over alleged AI use on a 2024 exam and sued; the Minnesota Court of Appeals upheld the expulsion in February 2026.",
+  "syllabus_policy_approach": "Instructor discretion: the Provost publishes customizable sample GenAI syllabus statements ranging from 'no restrictions' to complete prohibition; unauthorized AI use is handled as scholastic dishonesty under the Student Conduct Code.",
+  "sources": [
+    {"title": "Navigating AI @ UMN | IT@UMN", "url": "https://it.umn.edu/navigating-ai-umn"},
+    {"title": "GenAI Syllabus Statements | Provost", "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements"},
+    {"title": "Canvas | IT@UMN", "url": "https://it.umn.edu/services-technologies/canvas"},
+    {"title": "Gemini with Enterprise-Grade Data Protection | IT@UMN", "url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"},
+    {"title": "UMN launches AI Hub", "url": "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public"},
+    {"title": "Teaching with Generative AI | Teaching Support", "url": "https://teachingsupport.umn.edu/generative-ai-teaching-and-learning"}
+  ],
+  "status": "partially-verified"
+}

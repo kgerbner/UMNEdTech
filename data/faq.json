@@ -1,0 +1,163 @@
+{
+  "questions": [
+    {
+      "id": "can-i-use-chatgpt-homework",
+      "question": "Can I use ChatGPT (or other AI) on my homework?",
+      "answer": "It depends on your instructor. UMN has no university-wide classroom AI rule — each instructor sets their course's policy, usually in the syllabus. The default matters, though: the Student Conduct Code treats unauthorized use of 'online learning support platforms' (which includes generative AI) as scholastic dishonesty, so if your syllabus is silent, ask before using AI. Failing to disclose AI use when disclosure is required also counts.",
+      "keywords": ["chatgpt", "ai", "homework", "assignment", "coursework", "student", "allowed", "cheating", "syllabus", "gemini", "copilot", "claude"],
+      "sources": [
+        {"title": "GenAI Syllabus Statements — Provost", "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements"},
+        {"title": "Avoiding Scholastic Dishonesty — Office for Community Standards", "url": "https://communitystandards.umn.edu/student-resources/avoiding-scholastic-dishonesty"}
+      ],
+      "related_page": "policies.html#student-conduct-code-ai"
+    },
+    {
+      "id": "what-ai-tools-does-umn-provide",
+      "question": "What AI tools does UMN provide to students, faculty, and staff?",
+      "answer": "As of January 2026, UMN licenses four generative AI tools with contractual data protections: Google Gemini with enterprise-grade data protection (opt-in, 100 prompts/day, available since July 2025), Google NotebookLM, Microsoft Copilot Chat with Enterprise Data Protection (sign in with your UMN Internet ID), and Zoom AI Companion (opt-in). UMN has no institutional ChatGPT agreement — consumer ChatGPT accounts carry no UMN protections.",
+      "keywords": ["ai", "tools", "gemini", "copilot", "notebooklm", "zoom", "licensed", "free", "provided", "enterprise", "chatgpt"],
+      "sources": [
+        {"title": "Navigating AI @ UMN — OIT", "url": "https://it.umn.edu/navigating-ai-umn"},
+        {"title": "Gemini with Enterprise-Grade Data Protection — IT@UMN", "url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"}
+      ],
+      "related_page": "contracts.html#google-gemini"
+    },
+    {
+      "id": "what-data-can-i-put-in-ai",
+      "question": "What University data can I put into an AI tool?",
+      "answer": "It depends on the tool and the data's classification. Public data can go into any AI platform. Private-Restricted data (student grades, UCard numbers) and Private-Highly Restricted data (SSNs, medical records) may NOT be put into AI tools that aren't UMN-licensed — doing so violates University policy. Even in licensed tools, restrictions apply: PHI is no longer approved for Microsoft Copilot, for example.",
+      "keywords": ["data", "privacy", "classification", "private", "restricted", "ai", "upload", "ferpa", "student", "information", "put", "enter"],
+      "sources": [
+        {"title": "AI: Appropriate Use of Generative AI Tools — OIT", "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use"},
+        {"title": "Data Classification policy", "url": "https://policy.umn.edu/it/dataclassification"}
+      ],
+      "related_page": "policies.html#appropriate-use-of-generative-ai-tools"
+    },
+    {
+      "id": "does-umn-use-ai-detectors",
+      "question": "Does UMN use AI detectors on student work?",
+      "answer": "No — not officially. UMN licenses no AI-detection tool, and Turnitin's AI Writing Indicator is explicitly not enabled for UMN. University guidance warns instructors that detectors are unreliable (false accusations, bias against non-native English writers) and that running student work through unvetted third-party detectors risks violating FERPA. That said, AI-related discipline still happens — a PhD student's 2025 expulsion over alleged AI use was upheld on appeal in 2026.",
+      "keywords": ["detector", "detection", "turnitin", "ai", "writing", "indicator", "gptzero", "accused", "false", "plagiarism"],
+      "sources": [
+        {"title": "What Faculty Should Know About GenAI Detectors — Teaching Support", "url": "https://teachingsupport.umn.edu/what-faculty-should-know-about-genai-detectors"},
+        {"title": "Turnitin — IT@UMN", "url": "https://it.umn.edu/services-technologies/turnitin"}
+      ],
+      "related_page": "contracts.html#turnitin"
+    },
+    {
+      "id": "who-sees-canvas-data",
+      "question": "Who can see my data in Canvas?",
+      "answer": "Canvas (run by Instructure, procured through the Unizin consortium) is UMN's system of record for coursework and grades, which are FERPA-protected education records — accessible to school officials with a legitimate educational interest, such as your instructors and TAs. The contract's specific data-protection terms are not published; UMN is also a member of Unizin, whose data platform aggregates learning data across member universities under terms that are not publicly documented.",
+      "keywords": ["canvas", "data", "lms", "instructure", "grades", "see", "access", "privacy", "unizin", "records"],
+      "sources": [
+        {"title": "Canvas — IT@UMN", "url": "https://it.umn.edu/services-technologies/canvas"},
+        {"title": "Managing Student Records (FERPA) — Policy Library", "url": "https://policy.umn.edu/education/studentrecords"}
+      ],
+      "related_page": "contracts.html#instructure-canvas"
+    },
+    {
+      "id": "does-umn-use-proctoring",
+      "question": "Does UMN use exam proctoring software?",
+      "answer": "Yes. Since 2025 UMN uses Honorlock (which replaced Proctorio, used 2017–2025). Honorlock's AI flags suspicious behavior and can trigger a live human proctor; exams may include webcam recording and room scans. Per UMN, recordings are FERPA-protected, viewable only by UMN instructors/TAs/designated IT staff, and retained about one year; Honorlock staff lack access to personally identifiable information. Instructors must give written advance notice, and students consent at exam login. Respondus LockDown Browser also remains in use.",
+      "keywords": ["proctoring", "proctorio", "honorlock", "exam", "test", "webcam", "surveillance", "recording", "room", "scan", "respondus", "monitor"],
+      "sources": [
+        {"title": "Fall 2025 Academic Technology Tools Update — UMD ITSS", "url": "https://itss.d.umn.edu/articles/2025attools"},
+        {"title": "Online Assessments and e-Proctoring Guidance — Teaching Support", "url": "https://teachingsupport.umn.edu/resources/online-assessments-and-e-proctoring-guidance-instructors"}
+      ],
+      "related_page": "contracts.html#honorlock"
+    },
+    {
+      "id": "is-my-email-private",
+      "question": "Is my UMN email private? Does Google read it?",
+      "answer": "UMN email runs on Google Workspace under a negotiated contract that UMN says protects the privacy and confidentiality of student, faculty, staff, and alumni data — FERPA-protected data is permitted in core Google apps, and a HIPAA agreement covers health units. The full contract text is not published. Note that since 2024, UMN no longer provides email for life: alumni and retirees lose @umn.edu addresses.",
+      "keywords": ["email", "gmail", "google", "private", "privacy", "read", "workspace", "alumni", "account"],
+      "sources": [
+        {"title": "Google Apps: Acceptable Use and Data Security — IT@UMN", "url": "https://it.umn.edu/services-technologies/how-tos/google-apps-acceptable-use-data-security"},
+        {"title": "Google Workspace — IT@UMN", "url": "https://it.umn.edu/services-technologies/google-workspace"}
+      ],
+      "related_page": "contracts.html#google-workspace"
+    },
+    {
+      "id": "how-do-i-cite-ai",
+      "question": "How should I cite or disclose AI use in my work?",
+      "answer": "UMN Libraries' guidance: cite generative AI whenever you paraphrase, quote, or incorporate AI-generated text, images, data, or code; acknowledge functional uses (like editing your prose or translating) in a note; and follow your instructor's specific rules. Watch out for hallucinated citations — AI tools fabricate plausible-looking articles and page numbers. Copy-pasting AI output into an assignment without authorization is plagiarism under the Conduct Code.",
+      "keywords": ["cite", "citation", "disclose", "acknowledge", "credit", "ai", "apa", "mla", "writing", "reference"],
+      "sources": [
+        {"title": "Generative AI tools — UMN Libraries research guide", "url": "https://libguides.umn.edu/genai"}
+      ],
+      "related_page": "policies.html#libraries-genai-guide"
+    },
+    {
+      "id": "faculty-syllabus-ai-policy",
+      "question": "I'm an instructor — how do I set an AI policy for my course?",
+      "answer": "Use the Provost's GenAI syllabus statements, developed with the Senate Committee on Educational Policy: customizable templates ranging from 'no restrictions' to complete prohibition. Be explicit about which uses and which tools are allowed and how students must disclose AI assistance. UMN recommends pointing students to UMN-licensed tools (Gemini, Copilot), which are vetted for accessibility and data privacy — and recommends against relying on AI detectors.",
+      "keywords": ["syllabus", "instructor", "faculty", "course", "policy", "statement", "teaching", "set", "template", "scep"],
+      "sources": [
+        {"title": "GenAI Syllabus Statements — Provost", "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements"},
+        {"title": "Teaching with Generative AI — Teaching Support", "url": "https://teachingsupport.umn.edu/teaching-generative-ai"}
+      ],
+      "related_page": "policies.html#genai-syllabus-statements"
+    },
+    {
+      "id": "who-governs-ai-at-umn",
+      "question": "Who is in charge of AI at UMN?",
+      "answer": "Since March 2026, Dr. Galin Jones is UMN's inaugural Vice Provost for Artificial Intelligence, leading the new university-wide AI Hub. That structure came out of the Presidential AI Task Force (charged January 2025), whose public reports recommended a central governance framework. Day-to-day rules still flow through existing offices: OIT (tools and data rules), the Provost (teaching guidance), and the Policy Library (formal policies).",
+      "keywords": ["governance", "charge", "vice", "provost", "ai", "hub", "task", "force", "leadership", "who", "jones"],
+      "sources": [
+        {"title": "UMN launches AI Hub", "url": "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public"},
+        {"title": "Presidential AI Task Force", "url": "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force"}
+      ],
+      "related_page": "policies.html#vice-provost-for-ai-and-ai-hub"
+    },
+    {
+      "id": "how-umn-compares",
+      "question": "How does UMN compare with other Big Ten schools on AI?",
+      "answer": "UMN is mid-pack. Like every Big Ten school, it leaves classroom AI rules to instructors. On tools, UMN licenses Google Gemini and Microsoft Copilot but — unlike ASU, UCLA, Illinois, or Nebraska — has no OpenAI deal, and unlike Michigan (U-M GPT) or Penn State (AI Studio), no homegrown AI platform. Ohio State's 'AI Fluency' graduation initiative and Purdue's AI competency requirement go further curricularly. UMN's distinctive moves: an explicit no-AI-detectors stance and new central governance (Vice Provost for AI, 2026).",
+      "keywords": ["compare", "comparison", "big", "ten", "other", "schools", "universities", "michigan", "wisconsin", "ohio", "peer", "rank"],
+      "sources": [],
+      "related_page": "compare.html"
+    },
+    {
+      "id": "how-to-see-contracts",
+      "question": "Can I read UMN's actual contracts with tech companies?",
+      "answer": "Mostly not online. UMN publishes one-paragraph summaries of purchases of $1,000,000+ in Board of Regents docket PDFs (that's how we know Oracle ~$10M and Salesforce $7.29M figures), and purchases of $5,000,000+ require Board approval. But full contracts are not published anywhere, and there's no searchable contracts database. As a public institution, UMN is subject to the Minnesota Government Data Practices Act — you can request contract documents directly.",
+      "keywords": ["contract", "read", "request", "public", "records", "data", "practices", "act", "foia", "transparency", "regents", "docket"],
+      "sources": [
+        {"title": "Board of Regents meeting materials", "url": "https://regents.umn.edu/meetings/board-meeting-materials"},
+        {"title": "Minnesota Government Data Practices Act", "url": "https://www.revisor.mn.gov/statutes/cite/13"}
+      ],
+      "related_page": "contracts.html"
+    },
+    {
+      "id": "umn-invented-gopher",
+      "question": "Did UMN really invent part of the internet?",
+      "answer": "Yes — the Gopher protocol, released in April 1991 by Mark McCahill's team at UMN's Microcomputer Center and named for the Golden Gophers. For about two years it was the dominant way to navigate the internet, before losing out to the World Wide Web — a defeat hastened when UMN announced licensing fees in 1993, just as CERN made the Web free. The earliest known use of the phrase 'surfing the internet' on Usenet is McCahill's, describing Gopher.",
+      "keywords": ["gopher", "internet", "invented", "history", "protocol", "mccahill", "web", "1991"],
+      "sources": [
+        {"title": "The rise and fall of the Gopher protocol — MinnPost", "url": "https://www.minnpost.com/business/2016/08/rise-and-fall-gopher-protocol/"}
+      ],
+      "related_page": "history.html"
+    },
+    {
+      "id": "zoom-recordings",
+      "question": "Are my Zoom classes recorded, and is that private?",
+      "answer": "Instructors can record Zoom classes; recordings of class sessions that identify students are generally FERPA-protected education records. UMN licensed Zoom in January 2019 (reported ~$281,000/year), reviewed its contract and privacy terms before signing, and maintains a HIPAA Business Associate Agreement plus a separate health-care instance. Zoom AI Companion is available but off by default.",
+      "keywords": ["zoom", "recording", "recorded", "class", "video", "lecture", "private", "ai", "companion"],
+      "sources": [
+        {"title": "Zoom — IT@UMN", "url": "https://it.umn.edu/services-technologies/zoom"},
+        {"title": "University continues use of Zoom amid questions about privacy — Minnesota Daily", "url": "https://mndaily.com/255632/city/adzoom/"}
+      ],
+      "related_page": "contracts.html#zoom"
+    },
+    {
+      "id": "accessibility-ai-tools",
+      "question": "Do UMN's technology choices have to be accessible?",
+      "answer": "Yes. UMN's digital accessibility policy requires digital content and IT — including purchased software and AI tools — to meet WCAG 2.1 Level AA, with enforcement beginning April 26, 2027 under the ADA Title II web rule. There's also a 'Digital Accessibility in Procurement' procedure, one reason UMN steers people toward licensed AI tools that have been vetted for accessibility.",
+      "keywords": ["accessibility", "accessible", "disability", "wcag", "ada", "screen", "reader", "procurement"],
+      "sources": [
+        {"title": "Accessibility of Digital Content and IT — Policy Library", "url": "https://policy.umn.edu/it/digitalaccess"}
+      ],
+      "related_page": "policies.html#accessibility-of-digital-content-and-it"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "wisconsin",
+    "school": "University of Wisconsin–Madison",
+    "conference": "Big Ten",
+    "lms": "Canvas (single, centrally supported campus-wide LMS since 2018, part of the Learn@UW suite)",
+    "ai_guidance": "UW–Madison's Center for Teaching, Learning and Mentoring publishes 'Guiding Principles for Generative AI in Teaching' plus sample AI syllabus statements. DoIT's 'Generative AI @ UW–Madison' pages list approved tools, and the Office of Student Conduct affirms AI use in coursework is allowed at the discretion of the instructor.",
+    "ai_guidance_url": "https://ctlm.wisc.edu/self-serve-resources/generativeai/",
+    "enterprise_ai_tools": "Microsoft Copilot Chat (NetID-protected, all students/faculty/staff), Google Gemini and NotebookLM (prompts not used for model training), Zoom AI Companion, plus builder platforms AWS Bedrock and Azure AI Studio. No campus-wide ChatGPT Edu found.",
+    "notable": "RISE-AI is the first focus of Chancellor Mnookin's Wisconsin RISE Initiative: up to 50 new AI-focused faculty hires, boosted by a $15 million Wisconsin Alumni Research Foundation commitment. UW–Madison designated 2026 the 'Year of AI Readiness and Competency.'",
+    "syllabus_policy_approach": "Instructor discretion: no blanket institutional rule; students are responsible for knowing each instructor's expectations.",
+    "sources": [
+      {"title": "Generative AI in teaching & learning – CTLM, UW–Madison", "url": "https://ctlm.wisc.edu/self-serve-resources/generativeai/"},
+      {"title": "Generative AI Services at UW–Madison – UW–Madison IT", "url": "https://it.wisc.edu/generative-ai-services-uw-madison/"},
+      {"title": "RISE-AI – Wisconsin RISE Initiative", "url": "https://rise.wisc.edu/rise-ai/"},
+      {"title": "Generative AI – Office of Student Conduct", "url": "https://conduct.students.wisc.edu/artificial-intelligence/"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "purdue",
+    "school": "Purdue University",
+    "conference": "Big Ten",
+    "lms": "Brightspace (D2L) — adopted via 2019 Board of Trustees contract, fully replaced Blackboard in fall 2020",
+    "ai_guidance": "No university-wide policy restricting generative AI; the Office of the Provost issued 'Guidelines for Teaching & Learning in the Age of AI' (spring 2024) and AI@Purdue resources guide instructors on syllabus statements, academic integrity, and caution with unreliable AI-detection tools.",
+    "ai_guidance_url": "https://www.purdue.edu/innovativelearning/tools-resources/ai/",
+    "enterprise_ai_tools": "Microsoft Copilot with Data Protection (GPT-4 access for all since March 2024); Google Gemini Enterprise for Education and a free year of Gemini Advanced under Purdue's Google partnership. No ChatGPT Edu deal found.",
+    "notable": "Purdue Computes initiative and the Institute for Physical AI (billed as the nation's first, recruiting 50 faculty). Purdue will require an 'AI working competency' for graduation starting with fall 2026 freshmen, and signed a 5-year Google partnership for AI-enabled education and research.",
+    "syllabus_policy_approach": "Instructor discretion: professors determine whether and to what extent AI tools are permissible per course; provost guidance warns against relying on AI detectors.",
+    "sources": [
+      {"title": "AI resources – Purdue Innovative Learning", "url": "https://www.purdue.edu/innovativelearning/tools-resources/ai/"},
+      {"title": "Copilot with Data Protection – Purdue IT", "url": "https://it.purdue.edu/newsroom/2024/240313-copilot-with-data-protection.php"},
+      {"title": "Purdue launches nation's first Institute for Physical AI – Purdue Newsroom", "url": "https://www.purdue.edu/newsroom/2023/Q2/purdue-launches-nations-first-institute-of-physical-ai-ipai-recruiting-50-new-faculty/"},
+      {"title": "Trustees approve new LMS contract (D2L Brightspace) – Purdue Newsroom", "url": "https://www.purdue.edu/newsroom/archive/releases/2019/Q3/trustees-approve-new-learning-management-system-contract.html"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "illinois",
+    "school": "University of Illinois Urbana-Champaign",
+    "conference": "Big Ten",
+    "lms": "Canvas — campus-wide since June 2022, after a unified-LMS migration that retired Illinois Compass 2g (Blackboard) and Moodle",
+    "ai_guidance": "The Center for Innovation in Teaching & Learning publishes 'Teaching with AI' guidance covering pedagogy, academic integrity, and syllabus language; campus GenAI resources grew from the Generative AI Solutions Hub charged by the Provost and CIO.",
+    "ai_guidance_url": "https://citl.illinois.edu/generative-artificial-intelligence-gen-ai/teaching-implications",
+    "enterprise_ai_tools": "Illinois Chat (free campus-wide custom LLM platform built by NCSA, launched fall 2025); ChatGPT Edu via a direct OpenAI partnership (1,000 licenses, announced November 2025); Microsoft Copilot with Data Protection.",
+    "notable": "Illinois Chat lets users create personalized LLM chatbots, integrates with Canvas (Instructure Innovative Tool Award), and grew from a course prototype that fielded 22,000+ student questions. The ChatGPT Edu deal is one of the university's first direct AI-vendor partnerships.",
+    "syllabus_policy_approach": "Instructor discretion: CITL states instructors set AI rules per course and advises against blanket bans, citing unreliable detection.",
+    "sources": [
+      {"title": "Teaching with AI – CITL, Illinois", "url": "https://citl.illinois.edu/generative-artificial-intelligence-gen-ai/teaching-implications"},
+      {"title": "Illinois Chat Is Launched – NCSA", "url": "https://www.ncsa.illinois.edu/2025/10/08/illinois-chat-is-launched-for-campus-community/"},
+      {"title": "ChatGPT arrives at U of I – Technology Services", "url": "https://www.techservices.illinois.edu/2025/11/11/chatgpt-arrives-at-u-of-i/"},
+      {"title": "Illinois preparing to roll out Canvas – CITL", "url": "https://citl.illinois.edu/about-citl/news/2021/02/23/illinois-preparing-to-roll-out-canvas-learning-management-system-unified-system-will-replace-compass-other-platforms-on-campus"}
+    ],
+    "status": "partially-verified"
+  }
+]

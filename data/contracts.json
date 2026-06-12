@@ -1,0 +1,230 @@
+{
+  "contracts": [
+    {
+      "id": "instructure-canvas",
+      "vendor": "Instructure",
+      "product": "Canvas (learning management system)",
+      "category": "LMS",
+      "summary": "UMN's systemwide learning management system since 2017 (fully replacing Moodle by Fall 2019), hosting course sites, assignments, and grades for students and instructors across all campuses. Procured through the Unizin university consortium rather than directly from Instructure.",
+      "data_notes": "A reported Board of Regents item lists a $5,023,000 contract with Unizin, Ltd. for Canvas covering July 2017 – June 2022 (figure from secondary reporting; not confirmed against the docket). As the system of record for coursework and grades, Canvas holds FERPA-protected education records, but the contract's specific data-protection terms are not published. Renewal terms after 2022 are not publicly documented.",
+      "since": "2017",
+      "sources": [
+        {"title": "Canvas — IT@UMN", "url": "https://it.umn.edu/services-technologies/canvas"},
+        {"title": "UMN selects Canvas to replace Moodle — IT@UMN", "url": "https://it.umn.edu/news/canvas-replace-moodle"},
+        {"title": "Unizin at UMN", "url": "https://unizin.umn.edu/"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "unizin-consortium",
+      "vendor": "Unizin, Ltd.",
+      "product": "Consortium membership & Unizin Data Platform",
+      "category": "Administrative Systems",
+      "summary": "UMN has been a member of the Unizin university consortium since October 2014. Unizin negotiates digital-learning contracts collectively for its members (UMN's Canvas contract runs through it) and operates the Unizin Data Platform, which aggregates learning data across member institutions.",
+      "data_notes": "Membership fees were reported around $427,500 per year for the 2017–2020 renewal. The Unizin Data Platform centralizes student learning records across universities; UMN's specific participation terms and what student data flows to the platform are not publicly documented.",
+      "since": "2014",
+      "sources": [
+        {"title": "Unizin at UMN", "url": "https://unizin.umn.edu/"},
+        {"title": "Unizin — Wikipedia", "url": "https://en.wikipedia.org/wiki/Unizin"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "google-workspace",
+      "vendor": "Google",
+      "product": "Google Workspace for Education (Gmail, Drive, Docs, Calendar, Meet)",
+      "category": "Productivity & Email",
+      "summary": "UMN's primary email and collaboration platform for all students, faculty, and staff systemwide since 2009–2010, when it replaced GopherMail with projected savings of $2–3 million per year. In 2024, after Google ended unlimited education storage, UMN capped accounts at 50 GB and ended 'Email for Life' for alumni and retirees.",
+      "data_notes": "UMN states it negotiated contract terms protecting the privacy and confidentiality of student, faculty, staff, and alumni data: FERPA-protected data is permitted in core Google apps, and a HIPAA Business Associate Agreement allows health-care units to use core apps with PHI. The full contract text is not published. Storage overage was reportedly billed at $150,000 per petabyte starting January 2025.",
+      "since": "2009",
+      "sources": [
+        {"title": "Google Workspace — IT@UMN", "url": "https://it.umn.edu/services-technologies/google-workspace"},
+        {"title": "Google Apps: Acceptable Use and Data Security — IT@UMN", "url": "https://it.umn.edu/services-technologies/how-tos/google-apps-acceptable-use-data-security"},
+        {"title": "With Google, U follows student e-mail outsourcing trend — Minnesota Daily", "url": "https://mndaily.com/245759/uncategorized/google-u-follows-student-e-mail-outsourcing-trend/"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "microsoft-365",
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Apps (Word, Excel, PowerPoint)",
+      "category": "Productivity & Email",
+      "summary": "Free desktop Office apps for enrolled students (1+ credit) and current employees, installable on up to 5 computers, 5 tablets, and 5 phones. UMN's subscription is deliberately desktop-focused: OneDrive, Teams, and most Microsoft cloud services are not activated, since Google fills the email/cloud role.",
+      "data_notes": "OIT explicitly tells users not to store University business in personal OneDrive accounts. Specific contract terms (pricing, data protection addenda) are not publicly documented. Whether Teams/OneDrive status has changed recently is unconfirmed.",
+      "since": null,
+      "sources": [
+        {"title": "Office 365 FAQs — IT@UMN", "url": "https://it.umn.edu/office-365-faqs"},
+        {"title": "Office 365 ProPlus Transition — IT@UMN", "url": "https://it.umn.edu/planned-changes/office-365-proplus-transition"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "zoom",
+      "vendor": "Zoom",
+      "product": "Zoom (video conferencing, Zoom Phone, Zoom Rooms)",
+      "category": "Video & Media",
+      "summary": "UMN's preferred video conferencing platform since January 2019, licensed for all current faculty, students, and staff (meetings up to 300 participants; webinars up to 1,000). Became the backbone of remote instruction in March 2020.",
+      "data_notes": "The original deal was reported as a five-year contract worth over $1.4 million (~$281,000/year); renewal terms after ~2024 are not publicly documented. Zoom signed a HIPAA Business Associate Agreement approved by UMN's General Counsel, and a separate health-care-component instance exists for PHI. OIT reviewed Zoom's contract and privacy terms before signing. Zoom AI Companion is available but off by default (opt-in).",
+      "since": "2019",
+      "sources": [
+        {"title": "Zoom — IT@UMN", "url": "https://it.umn.edu/services-technologies/zoom"},
+        {"title": "University continues use of Zoom amid questions about privacy — Minnesota Daily", "url": "https://mndaily.com/255632/city/adzoom/"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "kaltura-mediaspace",
+      "vendor": "Kaltura",
+      "product": "Kaltura / MediaSpace (video platform)",
+      "category": "Video & Media",
+      "summary": "UMN's media management platform (mediaspace.umn.edu) for teaching, learning, and outreach video, integrated with Canvas. Free to all students, faculty, and staff. Re-selected via a 2021–2022 competitive RFP; the current contract took effect November 2022 with a three-year term plus four one-year renewal options.",
+      "data_notes": "Explicitly designated for non-PHI content only. Beyond that, the contract's data-handling terms are not publicly documented. Original adoption year (pre-2022) is not publicly stated.",
+      "since": "2022",
+      "sources": [
+        {"title": "Kaltura — IT@UMN", "url": "https://it.umn.edu/services-technologies/kaltura"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "turnitin",
+      "vendor": "Turnitin",
+      "product": "Turnitin (similarity checking)",
+      "category": "Assessment & Proctoring",
+      "summary": "Plagiarism/similarity checking integrated with Canvas assignments, comparing student work against Turnitin's database of papers, websites, and publications. University-funded at no additional cost to instructors.",
+      "data_notes": "Notably, Turnitin's AI Writing Indicator is NOT enabled for the University of Minnesota — UMN licenses no AI-detection tool and warns that running student work through unvetted third-party detectors risks violating FERPA. Student papers submitted to Turnitin are retained in its comparison database; the specific contractual terms governing that retention are not publicly documented. Adoption year not publicly stated.",
+      "since": null,
+      "sources": [
+        {"title": "Turnitin — IT@UMN", "url": "https://it.umn.edu/services-technologies/turnitin"},
+        {"title": "What Faculty Should Know About GenAI Detectors — Teaching Support", "url": "https://teachingsupport.umn.edu/what-faculty-should-know-about-genai-detectors"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "honorlock",
+      "vendor": "Honorlock",
+      "product": "Honorlock (online exam proctoring)",
+      "category": "Assessment & Proctoring",
+      "summary": "UMN's online proctoring platform since the 2025 transition, selected through a 2024 competitive RFP that cited cost, Canvas integration, faster results, and 'lower intrusiveness' than its predecessor. AI flags suspicious behavior during exams and triggers live human 'pop-in' proctors.",
+      "data_notes": "Per OIT and Teaching Support: data is FERPA-protected; Honorlock staff lack access to personally identifiable information and do not sell data; recordings (including room scans) are viewable only by UMN instructors, TAs, and designated IT staff and are retained about one year; an OIT security review preceded the contract and third-party audits continue. Instructors must give written advance notice and students consent at exam login. Contract value is not publicly documented.",
+      "since": "2025",
+      "sources": [
+        {"title": "Fall 2025 Academic Technology Tools Update — UMD ITSS", "url": "https://itss.d.umn.edu/articles/2025attools"},
+        {"title": "Teaching with Technology News, April 2025 — IT@UMN", "url": "https://it.umn.edu/teaching-with-technology-news/april-2025"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "proctorio",
+      "vendor": "Proctorio",
+      "product": "Proctorio (online exam proctoring) — RETIRED May 2025",
+      "category": "Assessment & Proctoring",
+      "summary": "UMN adopted Proctorio in August 2017 for automated exam proctoring. During pandemic remote learning it recorded students' screens, webcams, audio, and keystrokes — prompting a student petition, national Washington Post coverage in November 2020, and a Senate Digital Privacy and E-Proctoring Task Force. UMN retired it on May 31, 2025, replacing it with Honorlock.",
+      "data_notes": "UMN's 2020-era response to the privacy backlash was guidance discouraging unnecessary proctoring, not contract termination — the tool remained in use for nearly five more years. Contract value and data-retention terms were never publicly documented.",
+      "since": "2017",
+      "sources": [
+        {"title": "UMN selects Proctorio (2017 announcement) — PRWeb", "url": "https://www.prweb.com/releases/2017/08/prweb14560827.htm"},
+        {"title": "Cheating-detection companies made millions during the pandemic — Washington Post", "url": "https://www.washingtonpost.com/technology/2020/11/12/test-monitoring-student-revolt/"},
+        {"title": "Distance learning prompts conversation about online exam proctoring — Minnesota Daily", "url": "https://mndaily.com/262572/news/distance-learning-prompts-conversation-about-online-exam-proctoring/"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "qualtrics",
+      "vendor": "Qualtrics",
+      "product": "Qualtrics (survey platform)",
+      "category": "Survey & Research",
+      "summary": "UMN's licensed survey platform, free for all active faculty, staff, and students (umn.qualtrics.com), governed by University Survey & Assessment Services and a survey advisory team.",
+      "data_notes": "Qualtrics has signed a HIPAA Business Associate Agreement with UMN, permitting protected health information in surveys under the BAA; data handling is otherwise governed by UMN's data classification policy. Contract value and adoption year are not publicly documented.",
+      "since": null,
+      "sources": [
+        {"title": "Qualtrics — IT@UMN", "url": "https://it.umn.edu/services-technologies/qualtrics"},
+        {"title": "University Survey & Assessment Services", "url": "https://survey.umn.edu/"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "google-gemini",
+      "vendor": "Google",
+      "product": "Gemini with enterprise-grade data protection (+ NotebookLM)",
+      "category": "AI Tools",
+      "summary": "UMN's flagship licensed generative AI tool, available systemwide since July 15, 2025 (opt-in, 100 prompts/day). UMN licensed it partly after an OpenAI-provided survey showed roughly 13,000 umn.edu accounts using free consumer ChatGPT — the University chose to provide a contractually protected alternative.",
+      "data_notes": "Per OIT: data used in Gemini 'stays within the University of Minnesota,' is not used to train Google's models, is not human-reviewed, and Google will not sell it or use it for ads. Approved for use consistent with UMN data classification rules. The contract's financial terms are not publicly documented. A September 2025 Minnesota Daily op-ed criticized the deal's learning impacts.",
+      "since": "2025",
+      "sources": [
+        {"title": "Gemini with Enterprise-Grade Data Protection — IT@UMN", "url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"},
+        {"title": "Google's generative AI tool now available for UMN systemwide use — Minnesota Daily", "url": "https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "microsoft-copilot",
+      "vendor": "Microsoft",
+      "product": "Copilot Chat with Enterprise Data Protection",
+      "category": "AI Tools",
+      "summary": "Available to all UMN students, staff, and faculty when signed in with a UMN Internet ID (a shield icon confirms protected mode), via UMN's existing Microsoft education licensing. Effectively available since early 2024, when Microsoft enabled data protection for education tenants.",
+      "data_notes": "When signed in, prompts and responses are not saved and Microsoft does not use them for model training. Two notable restrictions: PHI is no longer approved for Copilot after Microsoft revised its data-protection statements, and file/image upload has been disabled since October 1, 2024. No separate contract value is documented — it rides on the M365 agreement.",
+      "since": "2024",
+      "sources": [
+        {"title": "Microsoft Copilot with Enterprise Data Protection — IT@UMN", "url": "https://it.umn.edu/services-technologies/copilot-enterprise-data-protection"},
+        {"title": "Navigating AI @ UMN — IT@UMN", "url": "https://it.umn.edu/navigating-ai-umn"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "openai-status",
+      "vendor": "OpenAI",
+      "product": "No institutional agreement (as of June 2026)",
+      "category": "AI Tools",
+      "summary": "Unlike peer schools (ASU, UCLA, Illinois, Nebraska, USC), UMN has no institutional ChatGPT Edu or Enterprise agreement. Roughly 13,000 umn.edu accounts were using free consumer ChatGPT as of March 2025 — usage UMN answered by licensing Gemini instead.",
+      "data_notes": "Consumer ChatGPT accounts carry no UMN contractual protections: under University policy, only Public-classified data may be used in them. This entry exists to document the absence of an agreement, which is itself a policy choice.",
+      "since": null,
+      "sources": [
+        {"title": "Google's generative AI tool now available for UMN systemwide use — Minnesota Daily", "url": "https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/"},
+        {"title": "AI appropriate use — IT@UMN", "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "coursera",
+      "vendor": "Coursera",
+      "product": "MOOC partnership & 'Coursera for Minnesota'",
+      "category": "Other",
+      "summary": "UMN joined Coursera in February 2013 as a nonexclusive content partner (Coursera charged UMN nothing; no credit awarded) and remains one, with 30+ courses and specializations. 'Coursera for Minnesota' (coursera.umn.edu) gives all UMN students, staff, faculty, and Alumni Association life members free access to 2,000+ courses.",
+      "data_notes": "Learner data on Coursera is governed by Coursera's own terms, not UMN systems; the partnership agreements' specifics are not publicly documented.",
+      "since": "2013",
+      "sources": [
+        {"title": "UMN partners with Coursera — Provost (Feb 21, 2013)", "url": "https://provost.umn.edu/about-evpp/communications/february-21-2013-university-minnesota-partners-coursera"},
+        {"title": "Coursera for Minnesota", "url": "https://coursera.umn.edu/"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "oracle-peoplesoft",
+      "vendor": "Oracle (PeopleSoft)",
+      "product": "PeopleSoft ERP (student records, HR, finance) + MyU portal",
+      "category": "Administrative Systems",
+      "summary": "UMN's enterprise system of record since the late 1990s, holding student records, registration, HR, and payroll for the entire system. The original implementation cost roughly $52 million; the 2013–2015 'Upgrade' (ESUP) to PeopleSoft 9.2 cost $83.5 million and launched the MyU portal.",
+      "data_notes": "PeopleSoft holds the University's most sensitive administrative data (student records, SSNs, payroll), classified Private-Highly Restricted under UMN policy. A Board of Regents item (October 2024) approved roughly $10,000,000 to Oracle America for licensing and maintenance of the PeopleSoft suite plus Oracle Database, January 2025 – December 2027. Full contract terms and data-processing agreements are not published.",
+      "since": "1996",
+      "sources": [
+        {"title": "About The Upgrade — upgrade.umn.edu", "url": "http://upgrade.umn.edu/about/"},
+        {"title": "Board of Regents Finance & Operations dockets — regents.umn.edu", "url": "https://regents.umn.edu/meetings/board-meeting-materials"}
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "salesforce",
+      "vendor": "Salesforce",
+      "product": "Salesforce CRM, Marketing Cloud & Experience Cloud",
+      "category": "Administrative Systems",
+      "summary": "UMN's constituent relationship platform: offices track interactions with prospective and current students (including undergraduate recruitment), and Marketing Cloud powers systemwide mass email. Access is staff-oriented via UMN single sign-on.",
+      "data_notes": "A Board of Regents item (March 2023) approved $7,289,500 to Salesforce, Inc. for CRM, Marketing Cloud, and Experience Cloud licenses and support, May 2023 – May 2028, for all campuses. The CRM holds prospective- and current-student data; the contract's data-processing terms are not published. Under Regents policy, purchases of $1,000,000+ are reported in public docket summaries, but full contracts require a Minnesota Government Data Practices Act request.",
+      "since": null,
+      "sources": [
+        {"title": "Salesforce CRM — IT@UMN", "url": "https://it.umn.edu/services-technologies/salesforce-crm"},
+        {"title": "Board of Regents docket, March 2023 — regents.umn.edu", "url": "https://regents.umn.edu/meetings/board-meeting-materials"}
+      ],
+      "status": "partially-verified"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "arizona-state",
+    "school": "Arizona State University",
+    "conference": "Other R1",
+    "lms": "Canvas (campus-wide; transitioned from Blackboard in 2018)",
+    "ai_guidance": "The Office of the University Provost maintains a 'Teaching and learning with generative AI' resource hub with FAQs, sample syllabus language, and a self-paced course. ASU's posture is strongly adoption-oriented while requiring faculty to set explicit course-level rules.",
+    "ai_guidance_url": "https://provost.asu.edu/generative-ai",
+    "enterprise_ai_tools": "ChatGPT Edu (with GPT-5) free for all students, faculty, staff, and researchers from Oct 2025 through Sept 2026 under the expanded OpenAI partnership (FERPA-compliant); CreateAI Platform (ASU's in-house generative AI platform).",
+    "notable": "First university to partner with OpenAI (announced January 18, 2024). AI Innovation Challenge has activated nearly 700 projects. Counterpoint: in April 2026, faculty objected to ASU's AI course-builder scraping Canvas course materials without faculty consent (Chronicle, Inside Higher Ed).",
+    "syllabus_policy_approach": "Instructor discretion within a provost framework: faculty must clearly state allowable and prohibited GenAI uses in their syllabi.",
+    "sources": [
+      {"title": "Teaching and learning with generative AI — ASU Provost", "url": "https://provost.asu.edu/generative-ai"},
+      {"title": "ASU and OpenAI expand collaboration — ASU Enterprise Technology", "url": "https://tech.asu.edu/features/asu-and-openai-expand-collaboration-scaling-ai"},
+      {"title": "A new collaboration with OpenAI — ASU News (Jan 18, 2024)", "url": "https://news.asu.edu/20240118-university-news-new-collaboration-openai-charts-future-ai-higher-education"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "stanford",
+    "school": "Stanford University",
+    "conference": "Other R1",
+    "lms": "Canvas (recommended campus LMS; ~2,000 courses per quarter)",
+    "ai_guidance": "The Stanford Teaching Commons publishes an AI teaching guide including 'Creating your course policy on AI'; the Office of Community Standards treats GenAI assistance analogously to assistance from another person under the Honor Code — not permitted to substantially complete an assignment absent instructor permission.",
+    "ai_guidance_url": "https://teachingcommons.stanford.edu/teaching-guides/artificial-intelligence-teaching-guide/creating-your-course-policy-ai",
+    "enterprise_ai_tools": "Stanford AI Playground (multi-model platform: GPT, Gemini, Claude, Llama, DeepSeek, DALL-E 3) open to all affiliates; plus free Google Gemini, NotebookLM, and Microsoft Copilot Chat via SUNet ID (from Dec 2025).",
+    "notable": "Home of the Stanford Institute for Human-Centered AI (HAI), a major national AI-policy influence. AI Playground positioned as a 'safer AI platform' so the community can experiment without data leaving Stanford agreements.",
+    "syllabus_policy_approach": "Instructor discretion with an Honor Code default: absent a stated course policy, Community Standards' restrictive default applies.",
+    "sources": [
+      {"title": "Generative AI Policy Guidance — Stanford Office of Community Standards", "url": "https://communitystandards.stanford.edu/generative-ai-policy-guidance"},
+      {"title": "AI Playground — Stanford University IT", "url": "https://uit.stanford.edu/news/ai-playground-safer-ai-platform-stanford-community"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "mit",
+    "school": "Massachusetts Institute of Technology",
+    "conference": "Other R1",
+    "lms": "Canvas (Institute-wide since Fall 2020, replacing the homegrown Stellar system)",
+    "ai_guidance": "MIT IS&T publishes 'Guidance for use of Generative AI tools' (data risk, vendor terms), while the Teaching + Learning Lab provides pedagogical guidance on GenAI in assignments and assessments, recommended by the Chair of the Faculty.",
+    "ai_guidance_url": "https://ist.mit.edu/ai-guidance",
+    "enterprise_ai_tools": "OpenAI ChatGPT Enterprise available to all MIT faculty via IS&T (approved for Medium Risk data); IS&T maintains a list of licensed GenAI tools; Microsoft Copilot Chat at MIT Sloan.",
+    "notable": "MIT RAISE (Responsible AI for Social Empowerment and Education) — Institute-wide AI-literacy initiative whose Day of AI reached 170+ countries; Project NANDA's 2025 'GenAI Divide' report (~95% of enterprise GenAI pilots fail to show ROI) drew global attention.",
+    "syllabus_policy_approach": "Instructor discretion: no Institute-wide classroom mandate; instructors set subject-level policies.",
+    "sources": [
+      {"title": "Guidance for use of Generative AI tools — MIT IS&T", "url": "https://ist.mit.edu/ai-guidance"},
+      {"title": "MIT RAISE", "url": "https://raise.mit.edu/"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "uc-berkeley",
+    "school": "University of California, Berkeley",
+    "conference": "Other R1",
+    "lms": "bCourses (Berkeley's branded Canvas instance, official since 2014)",
+    "ai_guidance": "The Center for Teaching & Learning's 'Understanding GenAI and Campus Expectations' explains that campus leadership leaves GenAI adoption decisions to individual courses and faculty; the Office of Ethics, Risk, and Compliance publishes 'Appropriate Use of Generative AI Tools'; the Berkeley AI Hub centralizes tools and guidance.",
+    "ai_guidance_url": "https://teaching.berkeley.edu/teaching-strategies/genai-teaching/understanding-genai-and-campus-expectations",
+    "enterprise_ai_tools": "UC-licensed Google Gemini for all students (from Aug 2025, with negotiated data protections); Campus AI Sandbox beta (LibreChat-based multi-model access to ChatGPT, Claude, and Gemini, piloted March 2025).",
+    "notable": "College of Computing, Data Science, and Society (CDSS) — Berkeley's first new college in 50+ years (2023); emphasizes UC-negotiated data protections rather than a single-vendor OpenAI-style deal.",
+    "syllabus_policy_approach": "Instructor discretion: campus leadership explicitly leaves GenAI permission decisions to individual instructors; unsanctioned use may constitute academic misconduct.",
+    "sources": [
+      {"title": "Understanding GenAI and Campus Expectations — UC Berkeley CTL", "url": "https://teaching.berkeley.edu/teaching-strategies/genai-teaching/understanding-genai-and-campus-expectations"},
+      {"title": "Campus AI Sandbox — Berkeley AI Hub", "url": "https://ai.berkeley.edu/resources/campus-ai-sandbox"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "harvard",
+    "school": "Harvard University",
+    "conference": "Other R1",
+    "lms": "Canvas (HUIT-managed, university-wide)",
+    "ai_guidance": "HUIT's university-wide Generative AI Guidelines require Harvard-related GenAI use to occur through approved environments (the AI Sandbox or Harvard-linked enterprise accounts); the FAS Office of Undergraduate Education provides three model course approaches from 'maximally restrictive' to 'fully encouraging,' with no blanket policy.",
+    "ai_guidance_url": "https://www.huit.harvard.edu/ai/guidelines",
+    "enterprise_ai_tools": "HUIT AI Sandbox — a secure, walled-off multi-LLM environment (Azure OpenAI GPT models, Anthropic Claude, Google models) approved for Medium Risk data; OpenAI enterprise accounts linked to HarvardKey.",
+    "notable": "AI Sandbox piloted fall 2023, one of the first university-built secure multi-model GenAI environments; expanded as 'AI Sandbox 2.0' in 2024.",
+    "syllabus_policy_approach": "Instructor discretion within school-level frameworks: FAS offers three template policies; no university-wide blanket classroom rule.",
+    "sources": [
+      {"title": "Generative AI Guidelines — HUIT", "url": "https://www.huit.harvard.edu/ai/guidelines"},
+      {"title": "AI Sandbox — HUIT", "url": "https://www.huit.harvard.edu/ai-sandbox"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "ut-austin",
+    "school": "University of Texas at Austin",
+    "conference": "Other R1",
+    "lms": "Canvas (centrally supported; instructors of organized courses must maintain a minimum Canvas presence)",
+    "ai_guidance": "The Center for Teaching & Learning publishes a 'Generative AI in Teaching and Learning' resource suite recommending instructors decide whether GenAI fits their pedagogical aims and state policies clearly in syllabi; uncredited AI-generated work violates existing academic integrity policy.",
+    "ai_guidance_url": "https://ctl.utexas.edu/generative-ai-teaching-and-learning-ut-guides-and-recommendations",
+    "enterprise_ai_tools": "CIO-sanctioned secure AI tools (Aug 2025): Microsoft Copilot, Microsoft Spark, UT Sage (UT-built AI tutoring platform), and Google Gemini.",
+    "notable": "Declared 2024 the 'Year of AI' — campus-wide initiative including an online Master of Science in AI, an 'Essentials of AI' course open to all students, and the launch of UT Sage.",
+    "syllabus_policy_approach": "Instructor discretion: three sample syllabus policy models (prohibited, conditional, permitted with citation); every instructor states their policy in a designated syllabus section.",
+    "sources": [
+      {"title": "Generative AI in Teaching and Learning — UT Austin CTL", "url": "https://ctl.utexas.edu/generative-ai-teaching-and-learning-syllabus-statements"},
+      {"title": "Artificial Intelligence — UT Austin Enterprise Technology", "url": "https://tech.utexas.edu/initiatives/artificial-intelligence"},
+      {"title": "UT's 'Year of AI' — UT Austin News", "url": "https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/"}
+    ],
+    "status": "partially-verified"
+  }
+]

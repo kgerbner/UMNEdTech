@@ -1,0 +1,54 @@
+[
+  {
+    "id": "michigan",
+    "school": "University of Michigan",
+    "conference": "Big Ten",
+    "lms": "Canvas (campus-wide via ITS; adopted after a 2014-15 Unizin-member pilot)",
+    "ai_guidance": "U-M centralizes generative AI guidance at genai.umich.edu, developed with the Provost's office and Center for Academic Innovation. Faculty are asked to articulate a GenAI policy in every syllabus; the decision to allow, restrict, or prohibit GenAI rests with each instructor.",
+    "ai_guidance_url": "https://genai.umich.edu/resources/faculty",
+    "enterprise_ai_tools": "Custom in-house AI suite, free to all and approved for moderately sensitive/FERPA data: U-M GPT (multi-model chat with GPT-5-series, Claude Sonnet 4, and U-M-hosted open-source LLMs), U-M Maizey (custom-dataset RAG assistant, integrated into Canvas as an AI tutor since Aug 2025), and U-M GPT Toolkit. Microsoft Copilot also available.",
+    "notable": "First university in the world to launch its own custom closed GenAI suite (Aug 2023). Feb 2024 controversy: vendor Catalyst Research Alliance advertised 829 U-M student papers and 85 hours of recordings for AI training at $25,000; U-M said student data 'was never for sale' (consented 1997-2007 research studies) and halted the vendor arrangement.",
+    "syllabus_policy_approach": "Instructor discretion, institutionally scaffolded: every instructor is expected to include a syllabus statement choosing among three categories (encouraged; allowed with disclosure; prohibited as misconduct).",
+    "sources": [
+      {"title": "U-M Generative AI (genai.umich.edu)", "url": "https://genai.umich.edu/"},
+      {"title": "ITS AI Services - U-M", "url": "https://its.umich.edu/computing/ai"},
+      {"title": "U of Michigan halts offers to sell student data to train AI - Inside Higher Ed", "url": "https://www.insidehighered.com/news/quick-takes/2024/02/19/u-michigan-halts-offers-sell-student-data-train-ai"},
+      {"title": "Canvas at U-M", "url": "https://its.umich.edu/academics-research/teaching-learning/canvas"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "michigan-state",
+    "school": "Michigan State University",
+    "conference": "Big Ten",
+    "lms": "D2L Brightspace (centrally supported since 2012; not Canvas)",
+    "ai_guidance": "MSU's Center for Teaching and Learning Innovation publishes 'Guidance on Generative AI in Instructional Settings,' complemented by ai.msu.edu and MSU IT interim guidance. Students may use GenAI only in ways explicitly permitted by the instructor.",
+    "ai_guidance_url": "https://teachingcenter.msu.edu/teaching-resources/guidance-on-gen-ai-in-instructional-settings",
+    "enterprise_ai_tools": "Microsoft Copilot Chat with enterprise data protection free to all via Spartan 365 (long the only IT-approved tool); as of February 2026, Google Gemini and NotebookLM are also free campus-wide.",
+    "notable": "Default-restrictive academic posture: GenAI prohibited unless explicitly permitted by the instructor. Turnitin AI detection available through D2L. No custom in-house AI suite comparable to Michigan's.",
+    "syllabus_policy_approach": "Instructor discretion with a restrictive default: absent explicit permission, student GenAI use is not allowed.",
+    "sources": [
+      {"title": "Guidance on Generative AI in Instructional Settings - MSU CTLI", "url": "https://teachingcenter.msu.edu/teaching-resources/guidance-on-gen-ai-in-instructional-settings"},
+      {"title": "Artificial Intelligence Tools - Technology at MSU", "url": "https://tech.msu.edu/ai/"},
+      {"title": "Powerful AI tools (Feb 2026) - Technology at MSU", "url": "https://tech.msu.edu/news/2026/02/powerful-ai-tools/"}
+    ],
+    "status": "partially-verified"
+  },
+  {
+    "id": "ohio-state",
+    "school": "Ohio State University",
+    "conference": "Big Ten",
+    "lms": "CarmenCanvas (Ohio State's branded Canvas instance)",
+    "ai_guidance": "Ohio State's 'AI Fluency' initiative (announced June 2025) aims for every undergraduate, beginning with the class of 2029, to graduate fluent in applying AI in their field, with AI embedded across the undergraduate curriculum. Default: GenAI may not be used on coursework unless an instructor explicitly authorizes it.",
+    "ai_guidance_url": "https://oaa.osu.edu/ai-fluency",
+    "enterprise_ai_tools": "Google partnership (Aug 2025) gives all students, faculty, and staff access to Gemini and NotebookLM; Microsoft Copilot Chat campus-wide with Copilot embedded in M365 apps.",
+    "notable": "'AI Fluency' initiative with national coverage (Fortune, CBS): AI modules in the required GenEd Launch Seminar from autumn 2025, an 'Unlocking Generative AI' course open to all majors, $300 instructor training incentive (1,300+ participants by Jan 2026), and major-specific AI roadmaps from every college by Feb 2026.",
+    "syllabus_policy_approach": "Instructor discretion within a university-wide restrictive default: GenAI prohibited on assignments unless the instructor gives explicit permission.",
+    "sources": [
+      {"title": "AI Fluency - Ohio State Office of Academic Affairs", "url": "https://oaa.osu.edu/ai-fluency"},
+      {"title": "Ohio State launches bold AI Fluency initiative - Ohio State News", "url": "https://news.osu.edu/ohio-state-launches-bold-ai-fluency-initiative-to-redefine-learning-and-innovation/"},
+      {"title": "Ohio State, Google announce access to AI tools - Ohio State News", "url": "https://news.osu.edu/ohio-state-google-announce-access-to-ai-tools-for-students-faculty-staff/"}
+    ],
+    "status": "partially-verified"
+  }
+]

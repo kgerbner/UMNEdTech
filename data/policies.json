@@ -1,0 +1,307 @@
+{
+  "policies": [
+    {
+      "id": "navigating-ai-umn",
+      "title": "Navigating AI @ UMN",
+      "category": "AI Guidance",
+      "audience": ["faculty", "students", "staff"],
+      "summary": "OIT's systemwide AI guidance hub, developed with systemwide partners, aggregating resources for faculty, staff, and students to responsibly use and innovate with AI in academic, research, and professional work. Core message: use UMN-licensed AI tools, and only put Public-classified data into tools that are not UMN-licensed.",
+      "key_points": [
+        "Central hub linking AI guidance for all audiences across the UMN system",
+        "AI tools should only be used with data classified as Public unless the tool is UMN-licensed/approved",
+        "Points to the list of University-licensed AI tools (ai.umn.edu)",
+        "Developed in collaboration with systemwide partners (OIT, Provost, Libraries)"
+      ],
+      "url": "https://it.umn.edu/navigating-ai-umn",
+      "source_org": "Office of Information Technology",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "appropriate-use-of-generative-ai-tools",
+      "title": "Artificial Intelligence: Appropriate Use of Generative AI Tools",
+      "category": "AI Guidance",
+      "audience": ["faculty", "students", "staff"],
+      "summary": "OIT's operative rules for what data may be used in generative AI platforms. Public data can be used freely; it is against University policy to put Private-Highly Restricted or Private-Restricted data (including private student information) into AI tools that are not UMN-licensed. UMN-licensed tools have binding contracts with the provider.",
+      "key_points": [
+        "Public-classified data may be used in any generative AI platform",
+        "Private-Restricted and Private-Highly Restricted data are prohibited in non-licensed tools",
+        "Private student information (FERPA/Regents-defined) may not be entered into unlicensed AI tools",
+        "UMN-licensed tools as of January 2026: Microsoft Copilot with Enterprise Data Protection, Google Gemini with enterprise-grade data protection, NotebookLM, Zoom AI Companion",
+        "Copilot and Gemini gain enterprise data protection when you sign in with a UMN Internet ID"
+      ],
+      "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use",
+      "source_org": "Office of Information Technology",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "genai-syllabus-statements",
+      "title": "GenAI Syllabus Statements (Office of the Provost)",
+      "category": "AI Guidance",
+      "audience": ["faculty"],
+      "summary": "Provost-published, Senate Committee on Educational Policy-developed sample syllabus statements that instructors can adopt or adapt for any course stance on generative AI — from full prohibition to permitted use. There is no single university-wide classroom AI rule: each instructor decides.",
+      "key_points": [
+        "Developed with the Senate Committee on Educational Policy (SCEP)",
+        "Templates cover permission scope, allowed tool lists, and disclosure/citation requirements",
+        "Recommends UMN-licensed tools for accessibility and data-privacy reasons",
+        "Course policy violations, including failure to disclose AI use, can constitute scholastic dishonesty"
+      ],
+      "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements",
+      "source_org": "Office of the Executive Vice President and Provost",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "student-conduct-code-ai",
+      "title": "Board of Regents Policy: Student Conduct Code (scholastic dishonesty and AI)",
+      "category": "Academic Integrity",
+      "audience": ["students", "faculty"],
+      "summary": "The Regents Student Conduct Code defines scholastic dishonesty to include 'unauthorized use of online learning support and testing platforms.' UMN treats generative AI tools as such platforms, so the systemwide default is that GenAI may not be used on course assignments unless an instructor explicitly authorizes it.",
+      "key_points": [
+        "Default rule: no generative AI on assigned coursework without explicit instructor authorization",
+        "Failure to disclose or adequately cite AI use when required can be scholastic dishonesty",
+        "Instructors must contact the student within ten business days of a concern and report incidents to the Office for Community Standards",
+        "Sanctions range from warning to suspension, expulsion, or degree revocation; the restorative AIM (Academic Integrity Matters) program is available"
+      ],
+      "url": "https://regents.umn.edu/sites/regents.umn.edu/files/2024-05/policy_student_conduct_code.pdf",
+      "source_org": "Board of Regents",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "avoiding-scholastic-dishonesty-ai",
+      "title": "Avoiding Scholastic Dishonesty (Office for Community Standards)",
+      "category": "Academic Integrity",
+      "audience": ["students"],
+      "summary": "Student-facing guidance explaining what counts as scholastic dishonesty, including that generative AI tools are treated as online learning support platforms and may not be used except as explicitly authorized by the instructor. Explains reporting, consequences, and the AIM restorative program.",
+      "key_points": [
+        "Plain-language explanation of the Conduct Code's scholastic dishonesty definition",
+        "GenAI use without instructor permission is treated as scholastic dishonesty by default",
+        "Consequences include academic sanctions and status sanctions up to expulsion or degree revocation"
+      ],
+      "url": "https://communitystandards.umn.edu/student-resources/avoiding-scholastic-dishonesty",
+      "source_org": "Office for Community Standards (Twin Cities)",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "teaching-with-generative-ai",
+      "title": "Teaching with Generative AI (Teaching Support hub)",
+      "category": "AI Guidance",
+      "audience": ["faculty"],
+      "summary": "The systemwide Teaching Support hub for instructors on generative AI in courses: student engagement strategies, the unreliability of AI detectors, citation practices, assignment design, and responding to suspected misuse. UMN does not license any AI-detection tool and recommends against scanning student work with third-party detectors.",
+      "key_points": [
+        "Practical instructor guidance: assignment design, detection-tool caveats, citation, misuse response",
+        "UMN licenses no GenAI detection tool; entering student work into unvetted third-party detectors risks violating FERPA",
+        "Self-paced instructor courses: 'GenAI + U' and 'AI and Academic Integrity'",
+        "Emerging Technologies Faculty Fellows program builds a faculty community of practice"
+      ],
+      "url": "https://teachingsupport.umn.edu/teaching-generative-ai",
+      "source_org": "Teaching Support (Provost / LATIS / Center for Educational Innovation)",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "presidential-ai-task-force",
+      "title": "Presidential AI Task Force (Education, Research, and Operations work groups)",
+      "category": "AI Guidance",
+      "audience": ["faculty", "students", "staff", "community"],
+      "summary": "President Cunningham established Presidential Work Groups on AI in Education, Research, and Operations in December 2024. Their public reports recommend an AI governance framework using existing structures, a university-wide steering committee, foundational AI literacy for leadership, transparent AI procurement evaluation, and clearer AI expectations in syllabi.",
+      "key_points": [
+        "Three public reports: AI in Education, Research, and Administrative Operations",
+        "Recommends a university-wide AI steering committee and governance framework",
+        "Recommends transparent evaluation of AI tools aligned with existing procurement processes",
+        "Reports are public in the University Digital Conservancy (conservancy.umn.edu)"
+      ],
+      "url": "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force",
+      "source_org": "Office of the President",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "vice-provost-for-ai-and-ai-hub",
+      "title": "Vice Provost for AI and the UMN AI Hub",
+      "category": "AI Guidance",
+      "audience": ["faculty", "students", "staff", "community"],
+      "summary": "Following the task force, UMN appointed Dr. Galin Jones as inaugural Vice Provost for Artificial Intelligence (effective March 4, 2026) and launched a system AI Hub (opened April 22, 2026) under the Elevate Extraordinary 2030 strategic roadmap, unifying AI research, education, governance, and statewide partnerships.",
+      "key_points": [
+        "Inaugural Vice Provost for AI: Dr. Galin Jones, effective March 4, 2026",
+        "AI Hub launched April 2026 as the central engine for AI literacy, discovery, and governance",
+        "Merges ai.umn.edu and the Data Science and AI Hub into a single 'one-stop shop'",
+        "Mandate includes statewide partnerships with policymakers and industry"
+      ],
+      "url": "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota",
+      "source_org": "Office of the Executive Vice President and Provost",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "grad-school-genai-guidance",
+      "title": "Guidance on Generative AI in Graduate Education",
+      "category": "AI Guidance",
+      "audience": ["faculty", "students"],
+      "summary": "Graduate School guidance taking the position that blanket prohibition of GenAI does not prepare graduate students for professional life. Programs must set and clearly communicate expectations for AI use, including in theses, dissertations, and research.",
+      "key_points": [
+        "Frames GenAI as a new class of tools students must learn to use responsibly",
+        "Programs and advisors should communicate explicit AI expectations to graduate students",
+        "Recommends checking discipline-specific professional society guidelines"
+      ],
+      "url": "https://grad.umn.edu/guidance-generative-ai-graduate-education",
+      "source_org": "Graduate School",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "libraries-genai-guide",
+      "title": "Generative AI Tools — Libraries Research Guide",
+      "category": "AI Guidance",
+      "audience": ["students", "faculty", "community"],
+      "summary": "University Libraries research guide for students, instructors, and the public: follow your instructor's rules, cite GenAI whenever you paraphrase, quote, or incorporate AI-generated content, acknowledge functional uses (editing, translation), and beware hallucinated citations. Unauthorized copy-paste of GenAI output is plagiarism under the Student Conduct Code.",
+      "key_points": [
+        "Cite AI-generated text, images, data, or code as a source",
+        "Acknowledge functional uses (editing prose, translating) in a note",
+        "Warns about hallucinated citations — fabricated articles, page numbers, dates",
+        "Publicly accessible, so it also serves community users"
+      ],
+      "url": "https://libguides.umn.edu/genai",
+      "source_org": "University of Minnesota Libraries",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "umarcomm-genai-guidance",
+      "title": "Guidance on the Use of Generative AI for Communicators",
+      "category": "AI Guidance",
+      "audience": ["staff"],
+      "summary": "University Marketing Communications guidance for marketing and communications staff (explicitly not covering academic use). AI-assisted materials must be acknowledged; University data may not be uploaded to any unlicensed generative AI tool; staff must use only the licensed/approved tools listed at ai.umn.edu.",
+      "key_points": [
+        "Acknowledge AI assistance in created materials",
+        "Never upload University data to unlicensed GenAI tools",
+        "Use only licensed/approved tools listed at ai.umn.edu for University work"
+      ],
+      "url": "https://umarcomm.umn.edu/resources/guidance-use-generative-artificial-intelligence-ai",
+      "source_org": "University Marketing Communications",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "acceptable-use-of-it-resources",
+      "title": "Policy: Acceptable Use of Information Technology Resources",
+      "category": "Acceptable Use",
+      "audience": ["faculty", "students", "staff", "community"],
+      "summary": "The systemwide administrative policy governing use of all University IT resources by students, staff, faculty, alumni, guests, and sponsored affiliates. Users must comply with laws, policies, and contractual obligations, protect University data and accounts, and follow required security controls. This is the umbrella policy under which inappropriate data use in unlicensed AI tools is judged.",
+      "key_points": [
+        "Applies to all users of University IT resources systemwide",
+        "Users must protect University data and any personal devices used to access it",
+        "Required controls include encryption, patching, virus protection, and Duo two-factor authentication",
+        "Violations include password sharing, snooping on private data, and cryptocurrency mining on University resources"
+      ],
+      "url": "https://policy.umn.edu/it/itresources",
+      "source_org": "University Policy Library",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "data-classification-and-security-level",
+      "title": "Policy: Data Classification and Security Level",
+      "category": "Data Privacy & Security",
+      "audience": ["faculty", "students", "staff"],
+      "summary": "Defines the University's three data classifications — Public, Private-Restricted, and Private-Highly Restricted — and the security levels required of systems handling each. This classification scheme is the backbone of UMN's AI guidance: which data you may put into a generative AI tool depends on its classification.",
+      "key_points": [
+        "Three classifications: Public, Private-Restricted, Private-Highly Restricted",
+        "SSNs, HIPAA medical records, and credit card numbers are Private-Highly Restricted; student grades and UCard numbers are Private-Restricted",
+        "UMN's AI appropriate-use guidance directly references these classifications",
+        "Companion 'Data Classifications by Type' appendix maps concrete data types to classifications"
+      ],
+      "url": "https://policy.umn.edu/it/dataclassification",
+      "source_org": "University Policy Library",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "information-security-policy",
+      "title": "Policy: Information Security",
+      "category": "Data Privacy & Security",
+      "audience": ["faculty", "students", "staff"],
+      "summary": "The systemwide information security policy requiring appropriate controls to protect the confidentiality, integrity, and availability of University data and the systems that handle it. Works in tandem with the Data Classification policy and the Data Security Breach policy.",
+      "key_points": [
+        "Establishes security control requirements for University data and IT systems",
+        "Data access requesters must complete required trainings (e.g., FERPA training) for specific data types",
+        "Related Data Security Breach policy governs breach response and reporting"
+      ],
+      "url": "https://policy.umn.edu/it/securedata",
+      "source_org": "University Policy Library",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "managing-student-records-ferpa",
+      "title": "Policy: Managing Student Records (FERPA implementation)",
+      "category": "Data Privacy & Security",
+      "audience": ["faculty", "students", "staff"],
+      "summary": "UMN's administrative implementation of FERPA and Board of Regents Policy: Student Education Records. Students receive annual notice of FERPA rights; access to education records is limited to school officials with a legitimate educational interest; students may request amendment of inaccurate records.",
+      "key_points": [
+        "University is responsible for systemwide FERPA compliance",
+        "Access limited to school officials with legitimate educational interest",
+        "Students may request amendment of records they believe are inaccurate",
+        "AI relevance: private student information may not be put into non-UMN-licensed AI tools"
+      ],
+      "url": "https://policy.umn.edu/education/studentrecords",
+      "source_org": "University Policy Library",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "copyright-ownership",
+      "title": "Policy: Copyright Ownership",
+      "category": "Academic Integrity",
+      "audience": ["faculty", "students", "staff"],
+      "summary": "Implements Board of Regents Policy: Copyright. Faculty own copyright in their academic works; students own copyright in coursework, but the University owns works students create as University employees (e.g., as TAs/RAs). Relevant to questions about ownership of AI-assisted works and use of University-owned content in AI tools.",
+      "key_points": [
+        "Faculty own copyright in academic works per Regents Copyright policy",
+        "Students own copyright in works created in or as part of a course",
+        "University owns works created by students as employees",
+        "Companion 'Reporting Inventions or Software' policy covers University-owned inventions and software"
+      ],
+      "url": "https://policy.umn.edu/research/copyright",
+      "source_org": "University Policy Library",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "purchasing-goods-and-services",
+      "title": "Policy: Purchasing Goods and Services (incl. software procurement)",
+      "category": "Procurement & Contracts",
+      "audience": ["faculty", "staff"],
+      "summary": "Governs procurement of goods and services, including software and AI tools. Departments must check the University's software portfolio before buying; agreements of $50,000+ require a competitive RFP/RFB process or approved exception, with Purchasing Services and Office of the General Counsel review.",
+      "key_points": [
+        "Software purchases must be checked against the University's Atlas software portfolio",
+        "$50,000+ agreements require a competitive process or exception approval",
+        "UMN's AI task force recommended evaluating AI tools through these existing procurement processes",
+        "Only contracted ('UMN-licensed') AI tools may handle non-public data"
+      ],
+      "url": "https://policy.umn.edu/finance/purchasing",
+      "source_org": "University Policy Library",
+      "last_updated": null,
+      "status": "partially-verified"
+    },
+    {
+      "id": "accessibility-of-digital-content-and-it",
+      "title": "Policy: Accessibility of Digital Content and Information Technology",
+      "category": "Accessibility",
+      "audience": ["faculty", "staff", "students"],
+      "summary": "The systemwide digital accessibility policy requiring digital content and IT — including web documents, media, and applications — to meet WCAG 2.1 Level AA, with enforcement beginning April 26, 2027 (aligned with the ADA Title II web rule). Includes a procurement procedure affecting software and AI tool purchases.",
+      "key_points": [
+        "Standard: WCAG 2.1 Level AA",
+        "Becomes enforceable April 26, 2027; units expected to work toward compliance now",
+        "Covers web-based documents, media, communications, and web/mobile applications",
+        "Includes a 'Digital Accessibility in Procurement' procedure"
+      ],
+      "url": "https://policy.umn.edu/it/digitalaccess",
+      "source_org": "University Policy Library",
+      "last_updated": null,
+      "status": "partially-verified"
+    }
+  ]
+}

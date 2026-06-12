@@ -1,0 +1,35 @@
+name: Weekly policy check
+
+on:
+  schedule:
+    # Mondays at 11:00 UTC (~6 AM Central). GitHub cron uses UTC.
+    - cron: "0 11 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check watched policy pages for changes
+        run: python scripts/check_policies.py
+
+      - name: Commit and push any detected changes
+        run: |
+          git config user.name "policy-check-bot"
+          git config user.email "actions@github.com"
+          git add data/status.json data/changelog.json data/snapshots/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Weekly policy check: $(date -u +%Y-%m-%d)"
+            git push
+          fi

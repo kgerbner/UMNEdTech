@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About &amp; Methodology — UMN Ed Tech Transparency Project</title>
+<meta name="description" content="What this site is, how its information is verified, and how the weekly automated policy checker works.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-base=".">
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="masthead">
+      <a class="site-title" href="index.html"><span class="tick">▌</span>UMN Ed Tech Transparency Project</a>
+      <span class="site-tagline">Policies, contracts, and history — with sources.</span>
+    </div>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="policies.html">Policies</a>
+      <a href="contracts.html">Contracts</a>
+      <a href="history.html">History</a>
+      <a href="compare.html">Compare Universities</a>
+      <a href="about.html" aria-current="page">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap-narrow">
+  <p class="section-kicker">About this project</p>
+  <h1>About &amp; methodology</h1>
+
+  <p>The UMN Ed Tech Transparency Project is an <strong>independent, unofficial</strong> resource
+  that helps faculty, students, staff, and community members understand the University of
+  Minnesota's policies on AI and technology, its contracts with educational technology companies,
+  and how those choices compare with peer universities. It is not produced or endorsed by the
+  University of Minnesota.</p>
+
+  <h2>Principles</h2>
+  <ul>
+    <li><strong>Every claim links to a source.</strong> Summaries here are starting points; the
+    linked official document is always the authority.</li>
+    <li><strong>Absence is information.</strong> Where contract terms are not public, we say so —
+    that gap is itself something the community should know.</li>
+    <li><strong>Plain language.</strong> Policies are summarized the way you'd explain them to a
+    colleague, not the way they're written.</li>
+  </ul>
+
+  <h2>Verification levels</h2>
+  <p>Each entry carries a verification badge:</p>
+  <ul>
+    <li><span class="badge badge-verified">✓ source verified</span> — the claim is corroborated by
+    multiple independent sources, and the cited link has been confirmed by the automated checker.</li>
+    <li><span class="badge badge-unverified">partially verified</span> — the claim is corroborated
+    by multiple independent sources (official UMN pages, news coverage, public records), but we
+    have not yet re-confirmed every detail against the live primary document.</li>
+    <li><span class="badge badge-unverified">unverified</span> — a single source, a disputed
+    detail, or an inference. Treat with caution.</li>
+  </ul>
+  <p>Dollar figures for contracts come from public Board of Regents docket summaries and news
+  reporting, not from the contracts themselves, which UMN does not publish. Full contract documents
+  can be requested under the
+  <a href="https://www.revisor.mn.gov/statutes/cite/13" target="_blank" rel="noopener">Minnesota
+  Government Data Practices Act ↗</a>.</p>
+
+  <h2>How the weekly policy check works</h2>
+  <p>A scheduled job runs once a week. It fetches each page on our
+  <a href="policies.html">watchlist</a> of official UMN policy and AI-guidance pages, reduces each
+  page to its text content, and compares it against the previously stored snapshot. If a page
+  changed, the job records an entry in the public change log with the date and a link to the page,
+  and updates the "last checked" timestamp shown on the Policies page. The watchlist, snapshots,
+  and checker code are all in this site's public repository, so the monitoring itself is auditable.</p>
+  <p>The checker detects <em>that</em> a page changed, not <em>whether the change matters</em> —
+  a changed timestamp might be a typo fix or a major policy revision. Entries in the change log are
+  prompts to go read the page, not summaries of what changed.</p>
+
+  <h2>What this site is not</h2>
+  <ul>
+    <li>Not legal advice. If you face an academic integrity allegation or a data-privacy issue,
+    consult the official offices or an advocate.</li>
+    <li>Not a complete inventory. UMN uses hundreds of software tools; this site covers the major
+    systems that affect teaching, learning, and personal data.</li>
+    <li>Not frozen. University AI policy is changing fast; check the linked sources for anything
+    high-stakes.</li>
+  </ul>
+
+  <h2>Corrections</h2>
+  <p>Found an error or a missing source? Open an issue in the site's repository or contact the
+  maintainer. Corrections are tracked publicly in the repository history.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p><strong>UMN Ed Tech Transparency Project</strong></p>
+      <p class="disclaimer">An independent, unofficial resource. Not produced or endorsed by the
+      University of Minnesota. Always confirm with the linked official sources; policies summarized
+      here may change.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="policies.html">Policies</a>
+      <a href="contracts.html">Contracts</a>
+      <a href="history.html">History</a>
+      <a href="compare.html">Compare</a>
+      <a href="about.html">About &amp; methodology</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/search.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
