@@ -269,6 +269,10 @@ def check_external():
     state["last_run"] = now
     state["totals"] = {"checked": len(urls), "ok": ok, "repaired": repaired,
                        "dead": dead, "unreachable": suspect}
+    # Drop state for URLs no longer present on the site (including ones this
+    # run just rewrote), so the report reflects only current links.
+    current = set(collect_external_urls())
+    state["results"] = {u: r for u, r in state["results"].items() if u in current}
     save_json(DATA / "linkcheck.json", state)
     save_json(DATA / "changelog.json", changelog)
     print(f"\nDone: {len(urls)} checked, {ok} ok, {repaired} repaired, "
