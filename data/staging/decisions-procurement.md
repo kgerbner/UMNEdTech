@@ -66,3 +66,18 @@ Key URLs:
 - https://regents.umn.edu/meeting-materials
 - https://policy.umn.edu/finance/purchasing
 - https://policy.umn.edu/finance/purchasing-appa
+
+## 5. Academic voice / how decisions actually played out (VERIFIED unless noted)
+
+- LMS choice (2015–17): University Learning Technology Advisors (ULTA) — faculty/staff committee, 28 faculty representing each college and campus, chaired by Prof. Lee-Ann Breuch — ran the Canvas-vs-Moodle evaluation; fall 2016 pilot survey: ~80% of instructors and ~60% of students favored Canvas; open forums + vendor demos March 2017; ULTA formally recommended April 2017; FINAL DECISION by EVP/Provost Karen Hanson and VP-CIO Bernard Gulachek, announced June 7, 2017. (ulta.umn.edu; mndaily; provost LMS review condensed report PDF)
+- Earlier: May 2009 "Future CMS" workgroup chose Moodle after Blackboard killed WebVista (leadership/membership unconfirmed).
+- Proctoring: spring 2021 Minnesota Student Association resolution on Proctorio (privacy/equity) → routed through Senate committees → Provost's "Digital Privacy and E-Proctoring Task Force" convened spring 2022 at SCEP's request (chair Senenge Andzenge — single source); recommendations on proctoring practices and student rights presented to SCIT and SCEP fall 2023 (single source). 2024 Honorlock RFP: evaluation committee composition NOT public — "the academic technology community" tested the tool (single source). TRANSPARENCY GAP worth stating on site.
+- Senate bodies: SCIT (represents faculty/staff/student interests in IT, advises president/VPs/CIO); SCEP (educational policy, requested the proctoring task force, owns GenAI syllabus statements); SAIC (academic integrity, discussed Proctorio 2021, task force update 2023).
+
+Key URLs:
+- https://ulta.umn.edu/about
+- https://provost.umn.edu/sites/provost.umn.edu/files/2020-03/umn_lms_review_condensed_report_final.pdf
+- https://mndaily.com/207828/city/brcanvas/
+- https://usenate.umn.edu/senate-committee-educational-policy-scep
+- https://usenate.umn.edu/fall-2023-semester-update
+- https://it.umn.edu/teaching-with-technology-news/november-2024
