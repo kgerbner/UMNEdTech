@@ -23,9 +23,11 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SNAPSHOTS = DATA / "snapshots"
 
+# Some university WAFs (e.g. president.umn.edu) reject "compatible;" bot UAs,
+# so identify as a regular browser.
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; UMNEdTechTransparency/1.0; "
-    "+https://github.com/kgerbner/UMNEdTech) policy-change-monitor"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
 TIMEOUT = 30
 

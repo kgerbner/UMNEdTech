@@ -11,6 +11,6 @@
     {"id": "libraries-genai-guide", "url": "https://libguides.umn.edu/genai", "label": "Libraries GenAI research guide"},
     {"id": "grad-genai-guidance", "url": "https://grad.umn.edu/guidance-generative-ai-graduate-education", "label": "Graduate School GenAI guidance"},
     {"id": "policy-education", "url": "https://policy.umn.edu/education", "label": "University Policy Library — Education section"},
-    {"id": "policy-recent-changes", "url": "https://policy.umn.edu/recently-revised-policies", "label": "Policy Library — recently revised policies"}
+    {"id": "policy-library-home", "url": "https://policy.umn.edu/", "label": "University Policy Library — homepage (announcements & recent revisions)"}
   ]
 }
