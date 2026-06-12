@@ -49,7 +49,18 @@
     (<a href="https://www.revisor.mn.gov/statutes/cite/13.591" target="_blank" rel="noopener">§ 13.591 ↗</a>).
   </div>
 
-  <h2>Step 1 — Decide exactly what to ask for</h2>
+  <h2>Questions about the process?</h2>
+  <div class="search-box" style="max-width:none">
+    <label for="rq" style="position:absolute;left:-9999px">Ask a question about records requests</label>
+    <input class="search-input" type="search" id="rq" data-search-input
+           placeholder="e.g. Do I have to give my name? What does it cost? How long does it take?"
+           autocomplete="off">
+    <div class="search-results" data-search-results hidden></div>
+    <p class="search-hint">Answers link to the relevant step below and to the official sources.
+    Press Enter for a full results page.</p>
+  </div>
+
+  <h2 id="step-scope">Step 1 — Decide exactly what to ask for</h2>
   <p>Narrow requests get answered faster. UMN's own General Counsel FAQ notes that a request for one
   vendor's contract for one year is processed much faster than a sweeping multi-year, multi-contract
   request. For an ed tech contract, name the vendor and product precisely and enumerate the
@@ -70,8 +81,34 @@
   rather than asking for "all records about Canvas," which sweeps in thousands of emails and slows
   everything down.</p>
 
-  <h2>Step 2 — Use the template</h2>
-  <p>Copy, adapt the bracketed parts, and submit. This example targets Honorlock; swap in any vendor.</p>
+  <h2 id="step-template">Step 2 — Draft your request</h2>
+  <p>Pick a vendor and the documents you want, and the request letter below rewrites itself —
+  then copy it and submit. (Without JavaScript, the example below targets Honorlock; adapt the
+  bracketed parts by hand.)</p>
+
+  <form class="builder" id="request-builder">
+    <div class="builder-row">
+      <label for="rb-vendor"><strong>Vendor</strong></label>
+      <select id="rb-vendor"></select>
+      <span id="rb-custom-wrap" hidden>
+        <label for="rb-custom" style="position:absolute;left:-9999px">Vendor legal name and product</label>
+        <input type="text" id="rb-custom" placeholder="Vendor legal name (product) — e.g. Acme Corp. (tutoring app)">
+      </span>
+    </div>
+    <div class="builder-row">
+      <strong>Include:</strong>
+      <label><input type="checkbox" id="rb-addenda" checked> data protection / privacy addenda</label>
+      <label><input type="checkbox" id="rb-pricing" checked> pricing schedules</label>
+      <label><input type="checkbox" id="rb-rfp" checked> RFP file &amp; winning proposal (§ 13.591)</label>
+    </div>
+    <div class="builder-row">
+      <label for="rb-year"><strong>Agreements in effect since</strong></label>
+      <input type="number" id="rb-year" min="1990" max="2026" value="2024">
+      <span class="spacer"></span>
+      <button type="button" class="filter-btn" id="rb-copy">Copy request to clipboard</button>
+    </div>
+  </form>
+
   <pre class="template" id="request-template">To the Data Access and Privacy Office, University of Minnesota:
 
 Pursuant to the Minnesota Government Data Practices Act, Minn. Stat.
@@ -109,7 +146,7 @@ and prompt manner as required by Minn. Stat. § 13.03, subd. 2.
 
 Thank you.</pre>
 
-  <h2>Step 3 — Submit it through UMN's Data Request Center</h2>
+  <h2 id="step-submit">Step 3 — Submit it through UMN's Data Request Center</h2>
   <p>UMN handles MGDPA requests through its <strong>Data Access and Privacy Office</strong> (part
   of the Office of the General Counsel; its director is the University's designated "responsible
   authority" under the Act). Requests are submitted through the online portal:</p>
@@ -125,7 +162,7 @@ Thank you.</pre>
   explain your purpose. Note that data about your request — including any name and email you
   provide — are themselves public data.</p>
 
-  <h2>Step 4 — Know the rules on timing and fees</h2>
+  <h2 id="step-fees">Step 4 — Know the rules on timing and fees</h2>
   <ul>
     <li><strong>Timing:</strong> the law requires a response "in an appropriate and prompt manner"
     and within a "reasonable time" — there is no fixed day count for public requesters, but
@@ -138,7 +175,7 @@ Thank you.</pre>
     electronically usually costs nothing.</li>
   </ul>
 
-  <h2>Step 5 — If records are withheld, redacted, or delayed</h2>
+  <h2 id="step-denied">Step 5 — If records are withheld, redacted, or delayed</h2>
   <ol>
     <li><strong>Demand the legal basis.</strong> Every redaction must cite the specific statute
     that authorizes it (§ 13.03, subd. 3(f)). Vendors often stamp contracts "proprietary," but a
@@ -204,5 +241,6 @@ Thank you.</pre>
 
 <script src="js/search.js"></script>
 <script src="js/site.js"></script>
+<script src="js/request-builder.js"></script>
 </body>
 </html>

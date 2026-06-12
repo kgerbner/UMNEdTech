@@ -34,7 +34,11 @@
     exam: ["assessment", "test", "proctoring"],
     surveillance: ["proctoring", "monitoring", "privacy"],
     turnitin: ["plagiarism", "detection", "integrity"],
-    detection: ["turnitin", "ai", "integrity"]
+    detection: ["turnitin", "ai", "integrity"],
+    denied: ["deny", "denial", "withheld", "redacted", "refuse"],
+    deny: ["denied", "denial", "withheld"],
+    foia: ["records", "request", "public", "data", "practices"],
+    records: ["request", "public", "data"]
   };
 
   const STOP = new Set(["the", "a", "an", "is", "are", "was", "were", "do",

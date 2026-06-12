@@ -185,6 +185,35 @@ a:hover { color: var(--accent-dark); }
 .search-results-page .result h4 { font-size: 1.12rem; }
 .search-count { color: var(--ink-faint); font-size: 0.9rem; margin: 1rem 0 0; }
 
+/* Request builder (records-request.html) */
+.builder {
+  background: var(--accent-wash);
+  border: 1px solid #cdd9ea;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+.builder-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.builder-row label { font-size: 0.93rem; }
+.builder select, .builder input[type="text"], .builder input[type="number"] {
+  font-family: var(--sans);
+  font-size: 0.93rem;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--panel);
+  color: var(--ink);
+}
+.builder input[type="text"] { min-width: 22rem; max-width: 100%; }
+.builder input[type="number"] { width: 6rem; }
+.builder .spacer { flex: 1; }
+
 /* Template request (records-request.html) */
 pre.template {
   background: var(--panel);

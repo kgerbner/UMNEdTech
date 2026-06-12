@@ -178,6 +178,51 @@
       "related_page": "records-request.html"
     },
     {
+      "id": "records-request-anonymous",
+      "question": "Do I have to give my name or a reason to request UMN records?",
+      "answer": "No. Under the Minnesota Government Data Practices Act, a government entity cannot require you to identify yourself or explain why you want public data (Minn. Stat. § 13.03; Minn. Rules 1205.0300). UMN's Data Request Center portal does require an email address so it can deliver the records, and be aware that data about your request — including any name or email you provide — are themselves public data.",
+      "keywords": ["anonymous", "name", "identify", "reason", "why", "request", "records", "give", "who", "purpose"],
+      "sources": [
+        {"title": "Minn. Stat. § 13.03", "url": "https://www.revisor.mn.gov/statutes/cite/13.03"},
+        {"title": "UMN Data Request Center FAQ", "url": "https://umn.nextrequest.com/faqs"}
+      ],
+      "related_page": "records-request.html#step-submit"
+    },
+    {
+      "id": "records-request-cost",
+      "question": "How much does a records request cost?",
+      "answer": "Inspecting records is always free. For copies of 100 or fewer black-and-white pages, the legal cap is 25 cents per page. For electronic copies, UMN may charge actual retrieval costs but may NOT charge for the time spent reviewing or redacting records (Minn. Stat. § 13.03, subd. 3(c)). Asking for existing PDFs delivered electronically usually costs nothing — and you can ask to be notified before any charges are incurred.",
+      "keywords": ["cost", "fee", "fees", "charge", "pay", "price", "free", "copies", "records", "request", "much"],
+      "sources": [
+        {"title": "Minn. Stat. § 13.03", "url": "https://www.revisor.mn.gov/statutes/cite/13.03"},
+        {"title": "UMN Data Request Center FAQ", "url": "https://umn.nextrequest.com/faqs"}
+      ],
+      "related_page": "records-request.html#step-fees"
+    },
+    {
+      "id": "records-request-timeline",
+      "question": "How long does a records request take?",
+      "answer": "The law requires a response 'in an appropriate and prompt manner' and within a 'reasonable time' — there is no fixed day count for public requesters (the 10-business-day rule applies only to people asking for data about themselves). State advisory opinions have found multi-week silence inadequate. Narrow requests are faster: UMN's General Counsel notes a single-vendor, single-year contract request is processed much faster than a sweeping one. If it stalls, send a status inquiry citing § 13.03, subd. 2, then consider a free state advisory opinion.",
+      "keywords": ["long", "time", "timeline", "wait", "days", "weeks", "prompt", "deadline", "slow", "delay", "respond", "response"],
+      "sources": [
+        {"title": "Minn. Stat. § 13.03", "url": "https://www.revisor.mn.gov/statutes/cite/13.03"},
+        {"title": "Data Practices Office opinions on timeliness", "url": "https://mn.gov/admin/data-practices/opinions/"}
+      ],
+      "related_page": "records-request.html#step-fees"
+    },
+    {
+      "id": "records-request-denied",
+      "question": "What if UMN denies my request or redacts everything?",
+      "answer": "Every redaction must cite the specific statute authorizing it (Minn. Stat. § 13.03, subd. 3(f)) — a vendor's 'proprietary' stamp is not a legal basis, and under § 13.37 the burden of proving trade-secret status is on the claiming party. Escalation ladder: (1) demand the statutory basis; (2) request a free, non-binding advisory opinion from the Commissioner of Administration; (3) file a data practices complaint with the Office of Administrative Hearings ($1,000 fee, mostly refunded if you prevail, attorney fees up to $5,000); (4) district court under § 13.08.",
+      "keywords": ["denied", "deny", "denial", "redacted", "redaction", "withheld", "refuse", "appeal", "trade", "secret", "proprietary", "complaint", "fight"],
+      "sources": [
+        {"title": "Minn. Stat. § 13.37", "url": "https://www.revisor.mn.gov/statutes/cite/13.37"},
+        {"title": "OAH data practices complaints", "url": "https://mn.gov/oah/self-help/administrative-law-overview/data-practices.jsp"},
+        {"title": "Requesting an advisory opinion — Data Practices Office", "url": "https://mn.gov/admin/data-practices/opinions/request/data/"}
+      ],
+      "related_page": "records-request.html#step-denied"
+    },
+    {
       "id": "umn-invented-gopher",
       "question": "Did UMN really invent part of the internet?",
       "answer": "Yes — the Gopher protocol, released in April 1991 by Mark McCahill's team at UMN's Microcomputer Center and named for the Golden Gophers. For about two years it was the dominant way to navigate the internet, before losing out to the World Wide Web — a defeat hastened when UMN announced licensing fees in 1993, just as CERN made the Web free. The earliest known use of the phrase 'surfing the internet' on Usenet is McCahill's, describing Gopher.",
