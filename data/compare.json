@@ -33,7 +33,7 @@
         },
         {
           "title": "Teaching with Generative AI | Teaching Support",
-          "url": "https://teachingsupport.umn.edu/generative-ai-teaching-and-learning"
+          "url": "https://teachingsupport.umn.edu/teaching-generative-ai"
         }
       ],
       "status": "partially-verified"
@@ -85,7 +85,7 @@
         },
         {
           "title": "Artificial Intelligence Tools - Technology at MSU",
-          "url": "https://tech.msu.edu/ai/"
+          "url": "https://tech.msu.edu/technology/ai/services/"
         },
         {
           "title": "Powerful AI tools (Feb 2026) - Technology at MSU",
@@ -126,14 +126,14 @@
       "conference": "Big Ten",
       "lms": "Canvas (single, centrally supported campus-wide LMS since 2018, part of the Learn@UW suite)",
       "ai_guidance": "UW–Madison's Center for Teaching, Learning and Mentoring publishes 'Guiding Principles for Generative AI in Teaching' plus sample AI syllabus statements. DoIT's 'Generative AI @ UW–Madison' pages list approved tools, and the Office of Student Conduct affirms AI use in coursework is allowed at the discretion of the instructor.",
-      "ai_guidance_url": "https://ctlm.wisc.edu/self-serve-resources/generativeai/",
+      "ai_guidance_url": "https://ctlm.wisc.edu/generativeai/",
       "enterprise_ai_tools": "Microsoft Copilot Chat (NetID-protected, all students/faculty/staff), Google Gemini and NotebookLM (prompts not used for model training), Zoom AI Companion, plus builder platforms AWS Bedrock and Azure AI Studio. No campus-wide ChatGPT Edu found.",
       "notable": "RISE-AI is the first focus of Chancellor Mnookin's Wisconsin RISE Initiative: up to 50 new AI-focused faculty hires, boosted by a $15 million Wisconsin Alumni Research Foundation commitment. UW–Madison designated 2026 the 'Year of AI Readiness and Competency.'",
       "syllabus_policy_approach": "Instructor discretion: no blanket institutional rule; students are responsible for knowing each instructor's expectations.",
       "sources": [
         {
           "title": "Generative AI in teaching & learning – CTLM, UW–Madison",
-          "url": "https://ctlm.wisc.edu/self-serve-resources/generativeai/"
+          "url": "https://ctlm.wisc.edu/generativeai/"
         },
         {
           "title": "Generative AI Services at UW–Madison – UW–Madison IT",
@@ -335,7 +335,7 @@
         },
         {
           "title": "AI and Education Advisory Committee — Office of the Provost",
-          "url": "https://www.northwestern.edu/provost/about/committees/generative-ai-advisory-committee/index.html"
+          "url": "https://www.northwestern.edu/provost/about/committees/ai-and-education-advisory-committee/"
         }
       ],
       "status": "partially-verified"
@@ -519,7 +519,7 @@
       "sources": [
         {
           "title": "Generative AI Policy Guidance — Stanford Office of Community Standards",
-          "url": "https://communitystandards.stanford.edu/generative-ai-policy-guidance"
+          "url": "https://communitystandards.stanford.edu/policies-guidance%23policies-guidance-links/bca-guidance-recommendations#generative-ai-policy-guidance"
         },
         {
           "title": "AI Playground — Stanford University IT",

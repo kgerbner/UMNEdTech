@@ -54,7 +54,7 @@
       "since": null,
       "sources": [
         {"title": "Office 365 FAQs — IT@UMN", "url": "https://it.umn.edu/office-365-faqs"},
-        {"title": "Office 365 ProPlus Transition — IT@UMN", "url": "https://it.umn.edu/planned-changes/office-365-proplus-transition"}
+        {"title": "Office 365 ProPlus Transition — IT@UMN", "url": "https://it.umn.edu/office-365-faqs"}
       ],
       "status": "partially-verified"
     },
@@ -122,7 +122,7 @@
       "data_notes": "UMN's 2020-era response to the privacy backlash was guidance discouraging unnecessary proctoring, not contract termination — the tool remained in use for nearly five more years. Contract value and data-retention terms were never publicly documented.",
       "since": "2017",
       "sources": [
-        {"title": "UMN selects Proctorio (2017 announcement) — PRWeb", "url": "https://www.prweb.com/releases/2017/08/prweb14560827.htm"},
+        {"title": "UMN selects Proctorio (2017 announcement) — PRWeb", "url": "https://www.prweb.com/releases/university_of_minnesota_selects_proctorio_to_protect_academic_integrity_in_online_testing/prweb14560827.htm"},
         {"title": "Cheating-detection companies made millions during the pandemic — Washington Post", "url": "https://www.washingtonpost.com/technology/2020/11/12/test-monitoring-student-revolt/"},
         {"title": "Distance learning prompts conversation about online exam proctoring — Minnesota Daily", "url": "https://mndaily.com/262572/news/distance-learning-prompts-conversation-about-online-exam-proctoring/"}
       ],
@@ -165,7 +165,7 @@
       "data_notes": "When signed in, prompts and responses are not saved and Microsoft does not use them for model training. Two notable restrictions: PHI is no longer approved for Copilot after Microsoft revised its data-protection statements, and file/image upload has been disabled since October 1, 2024. No separate contract value is documented — it rides on the M365 agreement.",
       "since": "2024",
       "sources": [
-        {"title": "Microsoft Copilot with Enterprise Data Protection — IT@UMN", "url": "https://it.umn.edu/services-technologies/copilot-enterprise-data-protection"},
+        {"title": "Microsoft Copilot with Enterprise Data Protection — IT@UMN", "url": "https://it.umn.edu/services-technologies/microsoft-copilot-enterprise-data"},
         {"title": "Navigating AI @ UMN — IT@UMN", "url": "https://it.umn.edu/navigating-ai-umn"}
       ],
       "status": "partially-verified"

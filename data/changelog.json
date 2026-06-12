@@ -1,3 +1,52 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "date": "2026-06-12T21:40:11+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://www.prweb.com/releases/2017/08/prweb14560827.htm -> https://www.prweb.com/releases/university_of_minnesota_selects_proctorio_to_protect_academic_integrity_in_online_testing/prweb14560827.htm",
+      "url": "https://www.prweb.com/releases/university_of_minnesota_selects_proctorio_to_protect_academic_integrity_in_online_testing/prweb14560827.htm"
+    },
+    {
+      "date": "2026-06-12T21:40:11+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://www.northwestern.edu/provost/about/committees/generative-ai-advisory-committee/index.html -> https://www.northwestern.edu/provost/about/committees/ai-and-education-advisory-committee/",
+      "url": "https://www.northwestern.edu/provost/about/committees/ai-and-education-advisory-committee/"
+    },
+    {
+      "date": "2026-06-12T21:40:11+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://tech.msu.edu/ai/ -> https://tech.msu.edu/technology/ai/services/",
+      "url": "https://tech.msu.edu/technology/ai/services/"
+    },
+    {
+      "date": "2026-06-12T21:40:11+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://teachingsupport.umn.edu/generative-ai-teaching-and-learning -> https://teachingsupport.umn.edu/teaching-generative-ai",
+      "url": "https://teachingsupport.umn.edu/teaching-generative-ai"
+    },
+    {
+      "date": "2026-06-12T21:40:11+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://it.umn.edu/services-technologies/copilot-enterprise-data-protection -> https://it.umn.edu/services-technologies/microsoft-copilot-enterprise-data",
+      "url": "https://it.umn.edu/services-technologies/microsoft-copilot-enterprise-data"
+    },
+    {
+      "date": "2026-06-12T21:40:11+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://it.umn.edu/planned-changes/office-365-proplus-transition -> https://it.umn.edu/office-365-faqs",
+      "url": "https://it.umn.edu/office-365-faqs"
+    },
+    {
+      "date": "2026-06-12T21:40:11+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://ctlm.wisc.edu/self-serve-resources/generativeai/ -> https://ctlm.wisc.edu/generativeai/",
+      "url": "https://ctlm.wisc.edu/generativeai/"
+    },
+    {
+      "date": "2026-06-12T21:40:11+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://communitystandards.stanford.edu/generative-ai-policy-guidance -> https://communitystandards.stanford.edu/policies-guidance%23policies-guidance-links/bca-guidance-recommendations#generative-ai-policy-guidance",
+      "url": "https://communitystandards.stanford.edu/policies-guidance%23policies-guidance-links/bca-guidance-recommendations#generative-ai-policy-guidance"
+    }
+  ]
 }
