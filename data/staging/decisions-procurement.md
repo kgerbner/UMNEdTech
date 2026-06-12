@@ -53,3 +53,16 @@ Key URLs:
 - https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force
 - https://it.umn.edu/services-technologies/comparisons/compare-ai-tools
 - https://it.umn.edu/news-alerts/news/upcoming-change-third-party-ai-app
+
+## 4. Board of Regents detail (VERIFIED unless noted)
+
+- Finance & Operations Committee carries purchasing items; dockets public at regents.umn.edu/meeting-materials (history archived in Digital Conservancy).
+- Current docket item: "Purchase of Goods and Services $5,000,000 and Over" (2024–2026 dockets). The older "$1,000,000 and Over" consent-report item is HISTORICAL (verified through ~Sept 2022); the threshold apparently rose, date of change unconfirmed. CAUTION: our FAQ/site text says "$1M+ appear in docket summaries" — should be reworded to reflect $5M approval threshold + historical $1M reporting.
+- Departments submit a "Purchase Consent Record" for $5M+ items; value includes optional extensions; 30%+ amendments return to the Board.
+- Tech examples in dockets: Canon printing press $1.89M (March 2023, verified). Zoom enterprise voice/video ~$13.15M (est.) / $20.1M with options — SINGLE SNIPPET, UNVERIFIED, do not publish without checking docket PDF. No Canvas/Honorlock/Microsoft/Salesforce/Oracle items surfaced in docket snippets this round (Salesforce $7.29M and Oracle ~$10M were corroborated in earlier research from March 2023 / Oct 2024 dockets).
+- Conflict: purchasing.umn.edu still says allow time for Board approval "if the contract is $1,000,000 or greater" — outdated vs the $5M policy text.
+
+Key URLs:
+- https://regents.umn.edu/meeting-materials
+- https://policy.umn.edu/finance/purchasing
+- https://policy.umn.edu/finance/purchasing-appa
