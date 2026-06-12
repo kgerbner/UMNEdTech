@@ -156,13 +156,26 @@
     {
       "id": "how-to-see-contracts",
       "question": "Why can't I read UMN's contracts with tech companies?",
-      "answer": "Because UMN doesn't publish them — and isn't required to. Purchases of $1,000,000+ appear only as one-paragraph summaries in Board of Regents docket PDFs (that's how the Oracle ~$10M and Salesforce $7.29M figures are public), and purchases of $5,000,000+ require Board approval. But full contract text is published nowhere, and there is no searchable contracts database. The remedy: as a public institution, UMN is subject to the Minnesota Government Data Practices Act, so you can request the contract documents directly.",
+      "answer": "Because UMN doesn't publish them — and isn't required to. Purchases of $1,000,000+ appear only as one-paragraph summaries in Board of Regents docket PDFs (that's how the Oracle ~$10M and Salesforce $7.29M figures are public), and purchases of $5,000,000+ require Board approval. But full contract text is published nowhere, and there is no searchable contracts database. The remedy: UMN is subject to the Minnesota Government Data Practices Act, and anyone can request contract documents through UMN's Data Request Center — see our step-by-step guide, including a template request.",
       "keywords": ["contract", "read", "request", "public", "records", "data", "practices", "act", "foia", "transparency", "regents", "docket", "secret", "hidden", "disclose", "why"],
       "sources": [
         {"title": "Board of Regents meeting materials", "url": "https://regents.umn.edu/meetings/board-meeting-materials"},
+        {"title": "UMN Data Request Center", "url": "https://umn.nextrequest.com/"},
         {"title": "Minnesota Government Data Practices Act", "url": "https://www.revisor.mn.gov/statutes/cite/13"}
       ],
-      "related_page": "contracts.html"
+      "related_page": "records-request.html"
+    },
+    {
+      "id": "how-to-file-records-request",
+      "question": "How do I file a public records request with UMN?",
+      "answer": "Five steps: (1) Scope it narrowly — name the vendor and the documents (contract, amendments, data protection addenda, pricing; for recent procurements, the RFP file too). (2) Use our template request letter. (3) Submit through UMN's Data Request Center portal (umn.nextrequest.com), run by the Data Access and Privacy Office. You don't have to say who you are or why you're asking. (4) Inspection is free; electronic copies usually cost nothing, and UMN can't charge for redaction-review time. (5) If stonewalled: a free advisory opinion from the state Data Practices Office, then an administrative complaint or court. Full step-by-step guide with the template on our Request Records page.",
+      "keywords": ["file", "request", "public", "records", "how", "foia", "data", "practices", "act", "mgdpa", "portal", "template", "freedom", "information", "submit"],
+      "sources": [
+        {"title": "UMN Data Request Center", "url": "https://umn.nextrequest.com/"},
+        {"title": "Requesting Information from the University of Minnesota — Policy Library", "url": "https://policy.umn.edu/operations/publicaccess-proc01"},
+        {"title": "Minn. Stat. § 13.03", "url": "https://www.revisor.mn.gov/statutes/cite/13.03"}
+      ],
+      "related_page": "records-request.html"
     },
     {
       "id": "umn-invented-gopher",
