@@ -253,6 +253,13 @@
       clearTimeout(timer);
       timer = setTimeout(run, 140);
     });
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        e.preventDefault(); // the input has no form; run the search directly
+        clearTimeout(timer);
+        run();
+      }
+    });
     input.addEventListener("focus", function () {
       if (input.value.trim().length >= 2) run();
     });
