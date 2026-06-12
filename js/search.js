@@ -103,7 +103,7 @@
         title: q.question,
         body: q.answer,
         keywords: (q.keywords || []).join(" "),
-        href: q.related_page || null,
+        href: q.id ? "faq.html#" + q.id : (q.related_page || null),
         sources: q.sources || [],
         boost: 2 // curated answers outrank raw documents
       });
@@ -203,26 +203,31 @@
     });
   }
 
-  function renderResults(container, results, query) {
+  function renderResults(container, results, query, fullAnswers) {
     if (!results.length) {
       container.innerHTML =
         '<div class="result-empty">No matches for &ldquo;' + escapeHtml(query) +
         '&rdquo;. Try other words (e.g. &ldquo;AI coursework&rdquo;, &ldquo;Canvas data&rdquo;, ' +
-        '&ldquo;proctoring&rdquo;), or browse the <a href="policies.html">policy index</a>.</div>';
+        '&ldquo;proctoring&rdquo;), or browse the <a href="faq.html">common questions</a>, ' +
+        'the <a href="policies.html">policy index</a>, or the ' +
+        '<a href="contracts.html">contracts list</a>.</div>';
       container.hidden = false;
       return;
     }
-    container.innerHTML = results.map(function (r) {
+    container.innerHTML = results.map(function (r, i) {
       const d = r.doc;
       const titleHtml = d.href
         ? '<a href="' + escapeHtml(d.href) + '">' + escapeHtml(d.title) + "</a>"
         : escapeHtml(d.title);
-      const snippet = d.body.length > 220 ? d.body.slice(0, 217) + "…" : d.body;
+      // Curated Q&A answers are the deliverable: show them whole on the
+      // full results page instead of a truncated teaser.
+      const showFull = fullAnswers && d.type === "Question & Answer";
+      const snippet = (!showFull && d.body.length > 220) ? d.body.slice(0, 217) + "…" : d.body;
       const sources = (d.sources || []).slice(0, 3).map(function (s) {
         return '<a href="' + escapeHtml(s.url) + '" target="_blank" rel="noopener">' +
           escapeHtml(s.title) + " ↗</a>";
       }).join("");
-      return '<div class="result">' +
+      return '<div class="result" id="sr-' + i + '" role="option" aria-selected="false">' +
         '<span class="r-type">' + escapeHtml(d.type) + "</span>" +
         "<h4>" + titleHtml + "</h4>" +
         "<p>" + escapeHtml(snippet) + "</p>" +
@@ -238,19 +243,52 @@
     if (!input || !resultsBox) return;
 
     let timer = null;
+    let activeIndex = -1;
+
+    resultsBox.id = resultsBox.id || "search-listbox";
+    resultsBox.setAttribute("role", "listbox");
+    input.setAttribute("role", "combobox");
+    input.setAttribute("aria-autocomplete", "list");
+    input.setAttribute("aria-controls", resultsBox.id);
+    input.setAttribute("aria-expanded", "false");
+
+    function setExpanded(open) {
+      resultsBox.hidden = !open;
+      input.setAttribute("aria-expanded", open ? "true" : "false");
+      if (!open) setActive(-1);
+    }
+
+    function setActive(idx) {
+      const items = resultsBox.querySelectorAll(".result");
+      activeIndex = idx;
+      items.forEach(function (el, i) {
+        el.classList.toggle("active", i === idx);
+        el.setAttribute("aria-selected", i === idx ? "true" : "false");
+      });
+      if (idx >= 0 && items[idx]) {
+        input.setAttribute("aria-activedescendant", items[idx].id);
+        if (typeof items[idx].scrollIntoView === "function") {
+          items[idx].scrollIntoView({ block: "nearest" });
+        }
+      } else {
+        input.removeAttribute("aria-activedescendant");
+      }
+    }
 
     async function run() {
       const query = input.value.trim();
-      if (query.length < 2) { resultsBox.hidden = true; return; }
+      if (query.length < 2) { setExpanded(false); return; }
       const docs = await buildIndex();
       const q = expandQuery(tokenize(query));
-      if (!q.strong.length && !q.weak.length) { resultsBox.hidden = true; return; }
+      if (!q.strong.length && !q.weak.length) { setExpanded(false); return; }
       const scored = docs
         .map(function (d) { return { doc: d, score: scoreDoc(d, q) }; })
         .filter(function (r) { return r.score > 0; })
         .sort(function (a, b) { return b.score - a.score; })
         .slice(0, 8);
       renderResults(resultsBox, scored, query);
+      input.setAttribute("aria-expanded", "true");
+      setActive(-1);
     }
 
     input.addEventListener("input", function () {
@@ -258,9 +296,20 @@
       timer = setTimeout(run, 140);
     });
     input.addEventListener("keydown", function (e) {
-      if (e.key === "Enter") {
+      const items = resultsBox.hidden ? [] : resultsBox.querySelectorAll(".result");
+      if (e.key === "ArrowDown" && items.length) {
+        e.preventDefault();
+        setActive((activeIndex + 1) % items.length);
+      } else if (e.key === "ArrowUp" && items.length) {
+        e.preventDefault();
+        setActive((activeIndex - 1 + items.length) % items.length);
+      } else if (e.key === "Enter") {
         e.preventDefault();
         clearTimeout(timer);
+        if (activeIndex >= 0 && items[activeIndex]) {
+          const link = items[activeIndex].querySelector("h4 a");
+          if (link) { window.location.href = link.getAttribute("href"); return; }
+        }
         const query = input.value.trim();
         if (query.length) {
           window.location.href = "search.html?q=" + encodeURIComponent(query);
@@ -271,10 +320,10 @@
       if (input.value.trim().length >= 2) run();
     });
     document.addEventListener("click", function (e) {
-      if (!resultsBox.contains(e.target) && e.target !== input) resultsBox.hidden = true;
+      if (!resultsBox.contains(e.target) && e.target !== input) setExpanded(false);
     });
     document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") resultsBox.hidden = true;
+      if (e.key === "Escape") setExpanded(false);
     });
 
     // Example-question buttons fill the search box.
@@ -307,7 +356,7 @@
         .filter(function (r) { return r.score > 0; })
         .sort(function (a, b) { return b.score - a.score; })
         .slice(0, 30);
-      renderResults(container, scored, query);
+      renderResults(container, scored, query, true);
       if (countEl) {
         countEl.textContent = scored.length
           ? scored.length + (scored.length === 1 ? " result" : " results") +

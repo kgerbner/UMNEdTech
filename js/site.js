@@ -41,6 +41,18 @@
       }).join(" ") + "</div>";
   }
 
+  /* After async rendering, the browser's initial anchor scroll has already
+   * failed (the target didn't exist yet) — redo it and flag the target. */
+  function scrollToHash() {
+    const hash = decodeURIComponent(window.location.hash.slice(1));
+    if (!hash) return;
+    const el = document.getElementById(hash);
+    if (!el) return;
+    if (typeof el.scrollIntoView === "function") el.scrollIntoView();
+    el.classList.add("hash-target");
+    setTimeout(function () { el.classList.remove("hash-target"); }, 2600);
+  }
+
   /* ---------- Filterable entry lists (policies & contracts) ---------- */
 
   function setupFilters(toolbar, items, getCat, render) {
@@ -124,12 +136,59 @@
       }).join("");
     }
 
-    const toolbar = document.getElementById("policy-filters");
-    if (toolbar) {
-      setupFilters(toolbar, data.policies, function (p) { return p.category; }, render);
+    const catToolbar = document.getElementById("policy-filters");
+    const audToolbar = document.getElementById("policy-audience-filters");
+    if (catToolbar && audToolbar) {
+      const cats = Array.from(new Set(data.policies.map(function (p) { return p.category; }))).sort();
+      const auds = ["faculty", "students", "staff", "community"];
+      let activeCat = "All";
+      let activeAud = "All";
+
+      // Deep links like policies.html?audience=students preselect a filter.
+      const param = (new URLSearchParams(window.location.search).get("audience") || "").toLowerCase();
+      if (auds.indexOf(param) !== -1) activeAud = param;
+
+      function apply() {
+        render(data.policies.filter(function (p) {
+          return (activeCat === "All" || p.category === activeCat) &&
+                 (activeAud === "All" || (p.audience || []).indexOf(activeAud) !== -1);
+        }));
+      }
+
+      function drawBar(toolbar, label, values, active, pretty) {
+        toolbar.innerHTML = '<span class="toolbar-label">' + label + "</span>" +
+          ["All"].concat(values).map(function (v) {
+            return '<button class="filter-btn' + (v === active ? " active" : "") +
+              '" data-val="' + esc(v) + '">' + esc(pretty ? pretty(v) : v) + "</button>";
+          }).join("");
+      }
+
+      function drawBoth() {
+        drawBar(catToolbar, "Topic:", cats, activeCat, null);
+        drawBar(audToolbar, "For:", auds, activeAud, function (v) {
+          return v === "All" ? "Everyone" : v.charAt(0).toUpperCase() + v.slice(1);
+        });
+        apply();
+      }
+
+      catToolbar.addEventListener("click", function (e) {
+        const btn = e.target.closest(".filter-btn");
+        if (!btn) return;
+        activeCat = btn.getAttribute("data-val");
+        drawBoth();
+      });
+      audToolbar.addEventListener("click", function (e) {
+        const btn = e.target.closest(".filter-btn");
+        if (!btn) return;
+        activeAud = btn.getAttribute("data-val");
+        drawBoth();
+      });
+
+      drawBoth();
     } else {
       render(data.policies);
     }
+    scrollToHash();
 
     // Changelog of detected changes.
     const cl = document.getElementById("changelog");
@@ -180,6 +239,31 @@
     } else {
       render(data.contracts);
     }
+    scrollToHash();
+  }
+
+  /* ---------- FAQ page ---------- */
+
+  async function renderFaq() {
+    const list = document.getElementById("faq-list");
+    if (!list) return;
+    const data = await loadJson("data/faq.json");
+    if (!data || !data.questions || !data.questions.length) {
+      list.innerHTML = '<p class="loading">Questions have not been loaded yet.</p>';
+      return;
+    }
+    list.innerHTML = data.questions.map(function (q) {
+      return '<article class="entry" id="' + esc(q.id) + '">' +
+        "<h3>" + esc(q.question) + "</h3>" +
+        '<p class="summary">' + esc(q.answer) + "</p>" +
+        sourceLinks(q.sources) +
+        (q.related_page
+          ? '<p style="margin:0.6rem 0 0;font-size:0.9rem"><a href="' + esc(q.related_page) +
+            '">More on this topic →</a></p>'
+          : "") +
+        "</article>";
+    }).join("");
+    scrollToHash();
   }
 
   /* ---------- History page ---------- */
@@ -210,8 +294,13 @@
       era.events.push(e);
     });
 
-    container.innerHTML = eras.map(function (era) {
-      return '<h2 class="era-label">' + esc(era.name) + "</h2>" +
+    const jumpNav = '<nav class="jump-nav" aria-label="Jump to era">' +
+      eras.map(function (era) {
+        return '<a href="#era-' + slug(era.name) + '">' + esc(era.name) + "</a>";
+      }).join("") + "</nav>";
+
+    container.innerHTML = jumpNav + eras.map(function (era) {
+      return '<h2 class="era-label" id="era-' + slug(era.name) + '">' + esc(era.name) + "</h2>" +
         '<ol class="timeline">' + era.events.map(function (e) {
           return '<li id="y' + e.year + "-" + slug(e.title) + '">' +
             '<span class="tl-year">' + esc(e.date_detail || e.year) + "</span> " +
@@ -227,6 +316,7 @@
             "</li>";
         }).join("") + "</ol>";
     }).join("");
+    scrollToHash();
   }
 
   /* ---------- Comparison page ---------- */
@@ -273,11 +363,28 @@
     }
 
     render(schools);
+    scrollToHash();
 
-    // Column sorting.
+    // Column sorting with a visible indicator of the current sort.
     const keys = ["school", "lms", "ai_guidance", "enterprise_ai_tools", "notable", null];
+    const headers = document.querySelectorAll("table.compare th");
     let sortKey = null, dir = 1;
-    document.querySelectorAll("table.compare th").forEach(function (th, i) {
+
+    function updateArrows() {
+      headers.forEach(function (th, i) {
+        const arrow = th.querySelector(".sort-arrow");
+        if (!arrow) return;
+        if (keys[i] === sortKey) {
+          arrow.textContent = dir > 0 ? "▲" : "▼";
+          th.setAttribute("aria-sort", dir > 0 ? "ascending" : "descending");
+        } else {
+          arrow.textContent = "⇅";
+          th.removeAttribute("aria-sort");
+        }
+      });
+    }
+
+    headers.forEach(function (th, i) {
       if (!keys[i]) return;
       th.addEventListener("click", function () {
         dir = (sortKey === keys[i]) ? -dir : 1;
@@ -286,6 +393,7 @@
           return String(a[sortKey] || "").localeCompare(String(b[sortKey] || "")) * dir;
         });
         render(schools);
+        updateArrows();
       });
     });
 
@@ -300,5 +408,6 @@
     renderContracts();
     renderHistory();
     renderCompare();
+    renderFaq();
   });
 })();

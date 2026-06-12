@@ -46,6 +46,26 @@ a:hover { color: var(--accent-dark); }
 .wrap { max-width: 1060px; margin: 0 auto; padding: 0 1.25rem; }
 .wrap-narrow { max-width: 780px; margin: 0 auto; padding: 0 1.25rem; }
 
+/* Skip link: hidden until keyboard focus */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--ink);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus { left: 0; color: #fff; }
+
+/* Anchor-landing highlight after async render */
+.hash-target {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+  transition: outline-color 1.5s ease;
+}
+
 /* ---------- Header ---------- */
 
 .site-header {
@@ -147,7 +167,7 @@ a:hover { color: var(--accent-dark); }
   border: 1px solid var(--rule);
   border-radius: 6px;
   box-shadow: 0 8px 28px rgba(20, 20, 20, 0.13);
-  max-height: 30rem;
+  max-height: min(30rem, 65vh);
   overflow-y: auto;
 }
 .search-results[hidden] { display: none; }
@@ -157,6 +177,7 @@ a:hover { color: var(--accent-dark); }
   border-bottom: 1px solid var(--rule-light);
 }
 .result:last-child { border-bottom: none; }
+.result.active { background: var(--accent-wash); }
 
 .result .r-type {
   font-size: 0.72rem;
@@ -288,6 +309,14 @@ pre.template {
   margin: 1.25rem 0;
 }
 .toolbar .spacer { flex: 1; }
+.toolbar-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-right: 0.25rem;
+}
 
 .filter-btn {
   font-family: var(--sans);
@@ -357,6 +386,24 @@ pre.template {
 
 /* ---------- Timeline (history) ---------- */
 
+.jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1.5rem 0 0.5rem;
+}
+.jump-nav a {
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--ink-soft);
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+}
+.jump-nav a:hover { border-color: var(--accent); color: var(--accent); }
+
 .era-label {
   font-family: var(--serif);
   font-size: 1.35rem;
@@ -387,7 +434,15 @@ pre.template {
 
 /* ---------- Comparison table ---------- */
 
-.table-scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--panel); }
+/* Vertical scrolling happens inside this container so the sticky header
+ * actually sticks while reading down the table. */
+.table-scroll {
+  overflow: auto;
+  max-height: 78vh;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--panel);
+}
 
 table.compare {
   width: 100%;

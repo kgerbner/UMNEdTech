@@ -83,6 +83,8 @@
     const rfp = document.getElementById("rb-rfp");
     const copyBtn = document.getElementById("rb-copy");
 
+    yearInput.max = String(new Date().getFullYear());
+
     VENDORS.forEach(function (v) {
       const opt = document.createElement("option");
       opt.value = v.id;
