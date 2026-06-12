@@ -205,7 +205,7 @@
         },
         {
           "title": "Canvas Is Replacing Compass — ATLAS, Illinois",
-          "url": "https://atlas.illinois.edu/news/2021-07-19t152859/canvas-replacing-compass"
+          "url": "http://web.archive.org/web/20240916121104/https://atlas.illinois.edu/news/2021-07-19t152859/canvas-replacing-compass"
         }
       ],
       "status": "partially-verified"
@@ -556,14 +556,14 @@
       "conference": "Other R1",
       "lms": "bCourses (Berkeley's branded Canvas instance, official since 2014)",
       "ai_guidance": "The Center for Teaching & Learning's 'Understanding GenAI and Campus Expectations' explains that campus leadership leaves GenAI adoption decisions to individual courses and faculty; the Office of Ethics, Risk, and Compliance publishes 'Appropriate Use of Generative AI Tools'; the Berkeley AI Hub centralizes tools and guidance.",
-      "ai_guidance_url": "https://teaching.berkeley.edu/topics/ai-teaching",
+      "ai_guidance_url": "http://web.archive.org/web/20260322062701/https://teaching.berkeley.edu/topics/ai-teaching",
       "enterprise_ai_tools": "UC-licensed Google Gemini for all students (from Aug 2025, with negotiated data protections); Campus AI Sandbox beta (LibreChat-based multi-model access to ChatGPT, Claude, and Gemini, piloted March 2025).",
       "notable": "College of Computing, Data Science, and Society (CDSS) — Berkeley's first new college in 50+ years (2023); emphasizes UC-negotiated data protections rather than a single-vendor OpenAI-style deal.",
       "syllabus_policy_approach": "Instructor discretion: campus leadership explicitly leaves GenAI permission decisions to individual instructors; unsanctioned use may constitute academic misconduct.",
       "sources": [
         {
           "title": "AI in Teaching — UC Berkeley Center for Teaching & Learning",
-          "url": "https://teaching.berkeley.edu/topics/ai-teaching"
+          "url": "http://web.archive.org/web/20260322062701/https://teaching.berkeley.edu/topics/ai-teaching"
         },
         {
           "title": "Campus AI Sandbox — Berkeley AI Hub",

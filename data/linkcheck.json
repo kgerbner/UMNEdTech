@@ -2,79 +2,80 @@
   "results": {
     "http://upgrade.umn.edu/about/": {
       "status": 0,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "http://www.mecc.co/history/mecc_timeline/1970s.html": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://academicintegrity.usc.edu/faculty-resources/addressing-generative-ai/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://ai.berkeley.edu/resources/campus-ai-sandbox": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://ai.northwestern.edu/education/use-of-generative-artificial-intelligence-in-courses.html": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://ai.psu.edu/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://ai.umd.edu/resources-guidelines/guidelines-for-use": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://aim.umd.edu/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://archives.lib.umn.edu/repositories/14/archival_objects/291225": {
       "status": 202,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://archives.lib.umn.edu/repositories/3/resources/11188/": {
       "status": 202,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://barrypopik.com/blog/surfing_the_internet": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://atlas.illinois.edu/news/2021-07-19t152859/canvas-replacing-compass": {
       "status": 404,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2,
+      "replaced_with": "http://web.archive.org/web/20240916121104/https://atlas.illinois.edu/news/2021-07-19t152859/canvas-replacing-compass"
     },
     "https://citl.illinois.edu/generative-artificial-intelligence-gen-ai/teaching-implications": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -86,51 +87,51 @@
     },
     "https://communitystandards.umn.edu/student-resources/avoiding-scholastic-dishonesty": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://conduct.students.wisc.edu/artificial-intelligence/": {
-      "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "status": 202,
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://conservancy.umn.edu/bitstreams/14fdf5af-df1a-4899-89fe-c68ad83e601a/download": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://coursera.umn.edu/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://cse.umn.edu/cbi/about": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://cse.umn.edu/cs/history": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://ctl.utexas.edu/generative-ai-teaching-and-learning-syllabus-statements": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://ctl.utexas.edu/generative-ai-teaching-and-learning-ut-guides-and-recommendations": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://ctlm.wisc.edu/self-serve-resources/generativeai/": {
       "status": 200,
@@ -140,25 +141,25 @@
     },
     "https://dl.acm.org/doi/pdf/10.1145/800181.810282": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://eldig.psu.edu/gen-a-i-syllabus-statements/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://en.wikipedia.org/wiki/Control_Data_Corporation": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://en.wikipedia.org/wiki/Engineering_Research_Associates": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -170,7 +171,7 @@
     },
     "https://en.wikipedia.org/wiki/MECC": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -182,79 +183,79 @@
     },
     "https://en.wikipedia.org/wiki/University_of_Minnesota_Supercomputing_Institute": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://en.wikipedia.org/wiki/Unizin": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://eric.ed.gov/?id=ED087434": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://gallery.lib.umn.edu/exhibits/show/digital-state/engineering-research-associate": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://genai.umich.edu/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://genai.umich.edu/resources/faculty": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://grad.umn.edu/guidance-generative-ai-graduate-education": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://ist.mit.edu/ai-guidance": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.purdue.edu/newsroom/2024/240313-copilot-with-data-protection.php": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.rutgers.edu/ai/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/navigating-ai-umn": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/news/canvas-replace-moodle": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://it.umn.edu/office-365-faqs": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -266,7 +267,7 @@
     },
     "https://it.umn.edu/services-technologies/canvas": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -278,451 +279,452 @@
     },
     "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/services-technologies/google-workspace": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/services-technologies/how-tos/google-apps-acceptable-use-data-security": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/services-technologies/kaltura": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/services-technologies/moodle": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://it.umn.edu/services-technologies/qualtrics": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/services-technologies/salesforce-crm": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/services-technologies/turnitin": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/services-technologies/zoom": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.umn.edu/teaching-with-technology-news/april-2025": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.uw.edu/guides/artificial-intelligence/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://it.wisc.edu/generative-ai-services-uw-madison/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://its.uiowa.edu/services/icon": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://its.umich.edu/academics-research/teaching-learning/canvas": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://its.umich.edu/computing/ai": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://itss.d.umn.edu/articles/2025attools": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://law.umn.edu/news/2023-02-24-four-minnesota-law-professors-discuss-their-globally-reported-chatgpt-experiment": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://libguides.umn.edu/genai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://mn.gov/admin/data-practices/data/types/contracting/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://mn.gov/admin/data-practices/opinions/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://mn.gov/admin/data-practices/opinions/request/data/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://mn.gov/oah/self-help/administrative-law-overview/data-practices.jsp": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://mndaily.com/244358/uncategorized/university-officials-did-not-disclose-acquisition-grenade-launchers/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/245759/uncategorized/google-u-follows-student-e-mail-outsourcing-trend/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/247272/uncategorized/eventually-peoplesofts/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/250257/uncategorized/u-tech-upgrade-nearing-deployment/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/255632/city/adzoom/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/257231/uncategorized/webvista-be-discontinued-2013/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/262572/news/distance-learning-prompts-conversation-about-online-exam-proctoring/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/275782/news/umn-developing-proposal-to-retire-lifelong-emails/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/290243/news/phd-student-sues-umn-files-human-rights-complaint-after-ai-plagiarism-expulsion/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://mndaily.com/campus/umn-announces-inaugural-vice-provost-for-ai/03/05/2026/adviser/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence/available-ai-tools": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://nebraska.edu/services/canvas/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://news.asu.edu/20240118-university-news-new-collaboration-openai-charts-future-ai-higher-education": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://news.osu.edu/ohio-state-google-announce-access-to-ai-tools-for-students-faculty-staff/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://news.osu.edu/ohio-state-launches-bold-ai-fluency-initiative-to-redefine-learning-and-innovation/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://news.uoregon.edu/content/canvas-selected-new-learning-management-system": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://newsroom.ucla.edu/releases/ucla-to-introduce-chatgpt-enterprise-on-campus": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://oaa.osu.edu/ai-fluency": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://ogc.umn.edu/data-access-and-privacy": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://ogc.umn.edu/frequently-asked-questions": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4335905": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://policy.umn.edu/education/studentrecords": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://policy.umn.edu/finance/purchasing": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://policy.umn.edu/it/dataclassification": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://policy.umn.edu/it/digitalaccess": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://policy.umn.edu/it/itresources": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://policy.umn.edu/it/securedata": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://policy.umn.edu/operations/publicaccess-proc01": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://policy.umn.edu/research/copyright": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://provost.asu.edu/generative-ai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://provost.uiowa.edu/ai-classroom": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://provost.umn.edu/about-evpp/communications/february-21-2013-university-minnesota-partners-coursera": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://provost.umn.edu/academic-oversight/genai-syllabus-statements": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://raise.mit.edu/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://regents.umn.edu/meeting-materials": {
-      "status": 404,
-      "last_checked": "2026-06-12T21:40:11+00:00",
-      "ok": false,
-      "consecutive_failures": 1
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
     },
     "https://regents.umn.edu/sites/regents.umn.edu/files/2024-05/policy_student_conduct_code.pdf": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://rise.wisc.edu/rise-ai/": {
-      "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "status": 202,
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://survey.umn.edu/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teach.its.uiowa.edu/artificial-intelligence-tools-and-teaching": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teaching.berkeley.edu/topics/ai-teaching": {
       "status": 404,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2,
+      "replaced_with": "http://web.archive.org/web/20260322062701/https://teaching.berkeley.edu/topics/ai-teaching"
     },
     "https://teaching.iu.edu/resources/generative-ai/policies.html": {
       "status": 0,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://teaching.rutgers.edu/genai/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teaching.ucla.edu/special-initiatives/generative-ai-in-teaching-learning/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teaching.unl.edu/ai/teaching-and-generative-artificial-intelligence/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teaching.uoregon.edu/ai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teaching.washington.edu/course-design/ai/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teachingcenter.msu.edu/teaching-resources/guidance-on-gen-ai-in-instructional-settings": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teachingcommons.stanford.edu/teaching-guides/artificial-intelligence-teaching-guide/creating-your-course-policy-ai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -734,25 +736,25 @@
     },
     "https://teachingsupport.umn.edu/resources/online-assessments-and-e-proctoring-guidance-instructors": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teachingsupport.umn.edu/teaching-generative-ai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://teachingsupport.umn.edu/what-faculty-should-know-about-genai-detectors": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://tech.asu.edu/features/asu-and-openai-expand-collaboration-scaling-ai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -764,187 +766,187 @@
     },
     "https://tech.msu.edu/news/2026/02/powerful-ai-tools/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://tech.utexas.edu/initiatives/artificial-intelligence": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://thehistoryoftheweb.com/postscript/the-webs-most-important-decision/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://themarkup.org/machine-learning/2023/11/30/he-wanted-privacy-his-college-gave-him-none": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://tltc.umd.edu/artificial-intelligence-ai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://today.usc.edu/university-of-southern-california-launches-1b-plus-initiative-for-computing-including-ai-advanced-computation-and-quantum-computing/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public": {
-      "status": 429,
-      "last_checked": "2026-06-12T21:40:11+00:00",
-      "ok": false,
-      "consecutive_failures": 1
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
     },
     "https://uit.stanford.edu/news/ai-playground-safer-ai-platform-stanford-community": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://uits.iu.edu/ai/index.html": {
       "status": 0,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://uits.iu.edu/services/canvas/index.html": {
       "status": 0,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://umarcomm.umn.edu/resources/guidance-use-generative-artificial-intelligence-ai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://umn.nextrequest.com/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://umn.nextrequest.com/faqs": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://umn.nextrequest.com/requests/new": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://unizin.umn.edu/": {
       "status": 0,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://www.axios.com/local/twin-cities/2023/03/15/university-minnesota-eliminating-alumni-retiree-emails": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://www.huit.harvard.edu/ai-sandbox": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.huit.harvard.edu/ai/guidelines": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.ils.unc.edu/callee/gopherpaper.htm": {
       "status": 0,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://www.insidehighered.com/news/quick-takes/2024/02/19/u-michigan-halts-offers-sell-student-data-train-ai": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.instructure.com/resources/case-studies/university-minnesota-finding-flagship-match-canvas-lms": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.it.northwestern.edu/about/policies/guidance-on-the-use-of-generative-ai.html": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.it.psu.edu/services/canvas/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.lib.umn.edu/collections/special/cbia": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.minnpost.com/business/2016/08/rise-and-fall-gopher-protocol/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.minnpost.com/learning-curve/2013/05/u-m-jumps-mooc-trend-interactive-class-17000/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.mnhs.org/mnopedia/search/index/thing/oregon-trail-computer-game": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.mprnews.org/story/2020/03/12/students-businesses-wary-of-u-of-m-coronavirusinspired-class-suspensions": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.muckrock.com/foi/minnesota-156/public-universities-records-requests-university-of-minnesota-twin-cities-154116/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://www.muckrock.com/place/united-states-of-america/minnesota/": {
       "status": 403,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://www.ncsa.illinois.edu/2025/10/08/illinois-chat-is-launched-for-campus-community/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -956,7 +958,7 @@
     },
     "https://www.provost.usc.edu/lms-replacement/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
@@ -968,95 +970,149 @@
     },
     "https://www.psu.edu/news/campus-life/story/penn-state-launches-ai-studio-faculty-and-staff": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.purdue.edu/innovativelearning/tools-resources/ai/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.purdue.edu/newsroom/2023/Q2/purdue-launches-nations-first-institute-of-physical-ai-ipai-recruiting-50-new-faculty/": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.purdue.edu/newsroom/archive/releases/2019/Q3/trustees-approve-new-learning-management-system-contract.html": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.revisor.mn.gov/statutes/cite/13": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.revisor.mn.gov/statutes/cite/13.03": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.revisor.mn.gov/statutes/cite/13.08": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.revisor.mn.gov/statutes/cite/13.085": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.revisor.mn.gov/statutes/cite/13.37": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.revisor.mn.gov/statutes/cite/13.591": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.rfc-editor.org/rfc/rfc1436": {
       "status": 200,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": true,
       "consecutive_failures": 0
     },
     "https://www.startribune.com/university-of-minnesota-cancels-in-person-classes-due-to-coronavirus/568707692": {
       "status": 429,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "https://www.techservices.illinois.edu/2025/11/11/chatgpt-edu-arrives-at-u-of-i/": {
-      "status": 404,
-      "last_checked": "2026-06-12T21:40:11+00:00",
-      "ok": false,
-      "consecutive_failures": 1
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
     },
     "https://www.washingtonpost.com/technology/2020/11/12/test-monitoring-student-revolt/": {
       "status": 0,
-      "last_checked": "2026-06-12T21:40:11+00:00",
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": false,
+      "consecutive_failures": 2
+    },
+    "https://communitystandards.stanford.edu/policies-guidance%23policies-guidance-links/bca-guidance-recommendations#generative-ai-policy-guidance": {
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
+    },
+    "https://ctlm.wisc.edu/generativeai/": {
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
+    },
+    "https://en.wikipedia.org/wiki/Gopher_(protocol)": {
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
+    },
+    "https://en.wikipedia.org/wiki/The_Oregon_Trail_(1971_video_game)": {
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
+    },
+    "https://it.umn.edu/services-technologies/microsoft-365-apps-enterprise": {
+      "status": 404,
+      "last_checked": "2026-06-12T21:44:23+00:00",
       "ok": false,
       "consecutive_failures": 1
+    },
+    "https://it.umn.edu/services-technologies/microsoft-copilot-enterprise-data": {
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
+    },
+    "https://tech.msu.edu/technology/ai/services/": {
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
+    },
+    "https://www.northwestern.edu/provost/about/committees/ai-and-education-advisory-committee/": {
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
+    },
+    "https://www.prweb.com/releases/university_of_minnesota_selects_proctorio_to_protect_academic_integrity_in_online_testing/prweb14560827.htm": {
+      "status": 200,
+      "last_checked": "2026-06-12T21:44:23+00:00",
+      "ok": true,
+      "consecutive_failures": 0
     }
   },
-  "last_run": "2026-06-12T21:40:11+00:00",
+  "last_run": "2026-06-12T21:44:23+00:00",
   "totals": {
-    "checked": 175,
-    "ok": 132,
-    "repaired": 8,
-    "dead": 6,
-    "unreachable": 37
+    "checked": 174,
+    "ok": 135,
+    "repaired": 2,
+    "dead": 3,
+    "unreachable": 36
   }
 }

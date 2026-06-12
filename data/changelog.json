@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-06-12T21:44:23+00:00",
+      "policy_id": "link-fix",
+      "description": "Dead link replaced with its archived copy: https://teaching.berkeley.edu/topics/ai-teaching",
+      "url": "http://web.archive.org/web/20260322062701/https://teaching.berkeley.edu/topics/ai-teaching"
+    },
+    {
+      "date": "2026-06-12T21:44:23+00:00",
+      "policy_id": "link-fix",
+      "description": "Dead link replaced with its archived copy: https://atlas.illinois.edu/news/2021-07-19t152859/canvas-replacing-compass",
+      "url": "http://web.archive.org/web/20240916121104/https://atlas.illinois.edu/news/2021-07-19t152859/canvas-replacing-compass"
+    },
+    {
       "date": "2026-06-12T21:40:11+00:00",
       "policy_id": "link-fix",
       "description": "Link updated to its new permanent address: https://www.prweb.com/releases/2017/08/prweb14560827.htm -> https://www.prweb.com/releases/university_of_minnesota_selects_proctorio_to_protect_academic_integrity_in_online_testing/prweb14560827.htm",
