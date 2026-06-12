@@ -255,9 +255,12 @@
     });
     input.addEventListener("keydown", function (e) {
       if (e.key === "Enter") {
-        e.preventDefault(); // the input has no form; run the search directly
+        e.preventDefault();
         clearTimeout(timer);
-        run();
+        const query = input.value.trim();
+        if (query.length) {
+          window.location.href = "search.html?q=" + encodeURIComponent(query);
+        }
       }
     });
     input.addEventListener("focus", function () {
@@ -282,5 +285,59 @@
     buildIndex(); // warm the index in the background
   }
 
-  document.addEventListener("DOMContentLoaded", initSearch);
+  /* Full-page results on search.html (?q=...). */
+  function initSearchPage() {
+    const input = document.querySelector("[data-search-page-input]");
+    const container = document.querySelector("[data-search-page-results]");
+    if (!input || !container) return;
+    const countEl = document.getElementById("search-count");
+    let timer = null;
+
+    async function run(updateUrl) {
+      const query = input.value.trim();
+      if (query.length < 2) return;
+      const docs = await buildIndex();
+      const q = expandQuery(tokenize(query));
+      const scored = docs
+        .map(function (d) { return { doc: d, score: scoreDoc(d, q) }; })
+        .filter(function (r) { return r.score > 0; })
+        .sort(function (a, b) { return b.score - a.score; })
+        .slice(0, 30);
+      renderResults(container, scored, query);
+      if (countEl) {
+        countEl.textContent = scored.length
+          ? scored.length + (scored.length === 1 ? " result" : " results") +
+            " for “" + query + "”"
+          : "";
+      }
+      if (updateUrl) {
+        history.replaceState(null, "", "search.html?q=" + encodeURIComponent(query));
+      }
+      document.title = "Search: " + query + " — UMN Ed Tech Transparency Project";
+    }
+
+    const initial = (new URLSearchParams(window.location.search).get("q") || "").trim();
+    if (initial) {
+      input.value = initial;
+      run(false);
+    }
+
+    input.addEventListener("input", function () {
+      clearTimeout(timer);
+      timer = setTimeout(function () { run(true); }, 160);
+    });
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        clearTimeout(timer);
+        run(true);
+      }
+    });
+    input.focus();
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    initSearch();
+    initSearchPage();
+  });
 })();
