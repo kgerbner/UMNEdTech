@@ -520,7 +520,7 @@
     {
       "id": "faculty-student-voice-ed-tech",
       "question": "Do faculty and students get a say in ed tech decisions?",
-      "answer": "Sometimes — advisory, not deciding. The Canvas selection (2015–17) is the strongest example: a 28-faculty committee (University Learning Technology Advisors) ran the evaluation, ~80% of pilot instructors favored Canvas, open vendor forums were held, and the Provost and CIO made the final call on the committee's recommendation. Students moved the proctoring issue: a 2021 student government resolution on Proctorio led to a Provost's e-proctoring privacy task force, and the 2024 RFP that replaced Proctorio cited 'lower intrusiveness' as a criterion. Standing Senate committees (SCIT for IT, SCEP for educational policy) advise continuously — but who actually scores procurement RFPs is not made public.",
+      "answer": "Sometimes — advisory, not deciding, and usually after the purchase. UMN's digitized Senate minutes show the pattern: procurement decisions bypass the Senate (Proctorio was bought in 2017 with no committee trace; the indexed minutes show no discussion of the 2009 Gmail outsourcing or the 2025 Gemini license), while usage policy is where committees act — the academic integrity committee's 2021 statement on camera monitoring, Big Ten benchmarking that fall, and a privacy task force that preceded the 2024 RFP replacing Proctorio. The strongest counterexamples: the Canvas selection (2015–17), where a 28-faculty committee ran the evaluation before the Provost and CIO decided, and the generative AI era, where SCEP authored the syllabus language the Provost distributed and 2025 SCIT minutes show review of draft retention policies — upstream input rather than after-the-fact briefings.",
       "keywords": [
         "faculty",
         "student",
@@ -543,16 +543,16 @@
           "url": "https://ulta.umn.edu/about"
         },
         {
+          "title": "SAIC minutes, Oct 13, 2021 (Proctorio, Big Ten peers) — Digital Conservancy",
+          "url": "https://conservancy.umn.edu/items/0061921b-f99f-482d-80b6-f090e46c3fac"
+        },
+        {
+          "title": "SCIT minutes collection — Digital Conservancy",
+          "url": "https://conservancy.umn.edu/collections/1cd752c5-1def-4061-800f-bfe088c28b7e"
+        },
+        {
           "title": "It's official: UMN to phase out Moodle — Minnesota Daily",
           "url": "https://mndaily.com/207828/city/brcanvas/"
-        },
-        {
-          "title": "Senate Committee on Educational Policy",
-          "url": "https://usenate.umn.edu/senate-committee-educational-policy-scep"
-        },
-        {
-          "title": "Fall 2023 Semester Update (e-proctoring task force) — University Senate",
-          "url": "https://usenate.umn.edu/fall-2023-semester-update"
         }
       ],
       "related_page": "contracts.html#who-decides"
