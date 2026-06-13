@@ -38,8 +38,11 @@ jobs:
           except Exception:
               print(raw[:limit])
               sys.exit()
-          docs = data.get("docs") or data.get("response", {}).get("docs") or data.get("items") or []
-          total = data.get("num_found") or data.get("numFound") or data.get("total")
+          if isinstance(data, list):
+              docs, total = data, len(data)
+          else:
+              docs = data.get("docs") or data.get("response", {}).get("docs") or data.get("items") or []
+              total = data.get("num_found") or data.get("numFound") or data.get("total")
           print(f"(JSON; {len(docs)} docs shown; total={total})")
           for d in docs[:15]:
               types = ",".join(d.get("types") or []) if isinstance(d.get("types"), list) else str(d.get("types") or "")
