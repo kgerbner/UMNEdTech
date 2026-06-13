@@ -29,9 +29,26 @@ jobs:
           URLS: ${{ inputs.urls }}
           BYTES: ${{ inputs.bytes }}
         run: |
+          cat > /tmp/summarize.py << 'PYEOF'
+          import json, sys
+          raw = sys.stdin.read()
+          limit = int(sys.argv[1]) if len(sys.argv) > 1 else 3000
+          try:
+              data = json.loads(raw)
+          except Exception:
+              print(raw[:limit])
+              sys.exit()
+          docs = data.get("docs") or data.get("response", {}).get("docs") or data.get("items") or []
+          total = data.get("num_found") or data.get("numFound") or data.get("total")
+          print(f"(JSON; {len(docs)} docs shown; total={total})")
+          for d in docs[:15]:
+              types = ",".join(d.get("types") or []) if isinstance(d.get("types"), list) else str(d.get("types") or "")
+              dates = ",".join(d.get("date_created") or []) if isinstance(d.get("date_created"), list) else str(d.get("date_created") or "")
+              org = str(d.get("contributing_organization_name") or "")[:60]
+              print("-", d.get("id"), "|", d.get("title"), "|", types, "|", dates, "|", org)
+          PYEOF
           for url in $URLS; do
             echo "===== $url ====="
-            curl -sL --max-time 30 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "$url" | head -c "$BYTES" || echo "(fetch failed)"
-            echo ""
+            curl -sL --max-time 30 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "$url" | python3 /tmp/summarize.py "$BYTES" || echo "(fetch failed)"
             echo ""
           done
