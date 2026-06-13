@@ -8,8 +8,14 @@
       "description": "Engineering Research Associates is founded in St. Paul to continue the work of the Navy's wartime codebreaking unit. Its Atlas machine (sold commercially as the ERA 1101) is among the first stored-program computers in the United States, and ERA's engineers seed a Minnesota computing industry that will shape the University for decades.",
       "significance": "Minnesota becomes one of the world's first computer-industry centers — with the University next door.",
       "sources": [
-        {"title": "Engineering Research Associates — Wikipedia", "url": "https://en.wikipedia.org/wiki/Engineering_Research_Associates"},
-        {"title": "Digital State exhibit — UMN Libraries", "url": "https://gallery.lib.umn.edu/exhibits/show/digital-state/engineering-research-associate"}
+        {
+          "title": "Engineering Research Associates — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engineering_Research_Associates"
+        },
+        {
+          "title": "Digital State exhibit — UMN Libraries",
+          "url": "https://gallery.lib.umn.edu/exhibits/show/digital-state/engineering-research-associate"
+        }
       ],
       "status": "verified"
     },
@@ -21,7 +27,14 @@
       "description": "Sperry-UNIVAC gifts the University 400 hours of time on an ERA-built 1103 in St. Paul. Mathematician Marvin L. Stein is hired to manage the allocation and begins teaching high-speed computation — arguably the start of UMN's computer science curriculum. Chemist (and future Nobel laureate) William Lipscomb is the heaviest user.",
       "significance": "The University's first hands-on computing, three years before it owned a machine.",
       "sources": [
-        {"title": "50 Years of Computing Excellence — cse.umn.edu", "url": "https://cse.umn.edu/cs/history"}
+        {
+          "title": "50 Years of Computing Excellence — cse.umn.edu",
+          "url": "https://cse.umn.edu/cs/history"
+        },
+        {
+          "title": "Oral history: Marvin Stein (CBI OH 90, 1984)",
+          "url": "https://conservancy.umn.edu/items/548fd9b8-7abe-4816-9605-c63fba8dc3bd"
+        }
       ],
       "status": "verified"
     },
@@ -33,8 +46,18 @@
       "description": "Ex-ERA engineers including William Norris and Seymour Cray incorporate Control Data Corporation. Its CDC 1604 becomes one of the world's most powerful computers, and CDC hardware will later run the University's and the state's educational timesharing systems.",
       "significance": "The company whose machines powered Minnesota's first educational computing networks.",
       "sources": [
-        {"title": "Control Data Corporation — Wikipedia", "url": "https://en.wikipedia.org/wiki/Control_Data_Corporation"},
-        {"title": "CDC Records — UMN Archives (Charles Babbage Institute)", "url": "https://archives.lib.umn.edu/repositories/3/resources/11188/"}
+        {
+          "title": "Control Data Corporation — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Control_Data_Corporation"
+        },
+        {
+          "title": "CDC Records — UMN Archives (Charles Babbage Institute)",
+          "url": "https://archives.lib.umn.edu/repositories/3/resources/11188/"
+        },
+        {
+          "title": "Oral history: William Norris (CBI OH 116, 1986)",
+          "url": "https://conservancy.umn.edu/items/b9a398ed-ebfb-421a-bad9-fb2715007174"
+        }
       ],
       "status": "verified"
     },
@@ -46,8 +69,14 @@
       "description": "The University purchases a UNIVAC 1103 (at a steep discount, about $250,000) and creates the Numerical Analysis Center under Marvin Stein, later the University Computer Center. Demand from researchers quickly exceeds the machine's capacity.",
       "significance": "The start of institutional computing at Minnesota.",
       "sources": [
-        {"title": "50 Years of Computing Excellence — cse.umn.edu", "url": "https://cse.umn.edu/cs/history"},
-        {"title": "Univac 1103 — UMN Archival Collections", "url": "https://archives.lib.umn.edu/repositories/14/archival_objects/291225"}
+        {
+          "title": "50 Years of Computing Excellence — cse.umn.edu",
+          "url": "https://cse.umn.edu/cs/history"
+        },
+        {
+          "title": "Univac 1103 — UMN Archival Collections",
+          "url": "https://archives.lib.umn.edu/repositories/14/archival_objects/291225"
+        }
       ],
       "status": "verified"
     },
@@ -59,7 +88,10 @@
       "description": "UMN establishes its Department of Computer Science, with Marvin Stein as acting head until J. Ben Rosen becomes the first permanent head in 1971.",
       "significance": "Computing becomes a formal academic discipline at Minnesota.",
       "sources": [
-        {"title": "50 Years of Computing Excellence — cse.umn.edu", "url": "https://cse.umn.edu/cs/history"}
+        {
+          "title": "50 Years of Computing Excellence — cse.umn.edu",
+          "url": "https://cse.umn.edu/cs/history"
+        }
       ],
       "status": "verified"
     },
@@ -71,7 +103,10 @@
       "description": "The Minnesota Educational Regional Interactive Time-Sharing System (MERITSS) begins operation, run by the University of Minnesota Computer Center on Control Data hardware, providing interactive computing to UMN campuses and state colleges. MECC's later statewide system was derived directly from UMN's MERITSS software.",
       "significance": "UMN becomes the operational backbone of instructional computing for all of Minnesota higher education.",
       "sources": [
-        {"title": "Historical Development of Minnesota's Instructional Computing Network — ACM", "url": "https://dl.acm.org/doi/pdf/10.1145/800181.810282"}
+        {
+          "title": "Historical Development of Minnesota's Instructional Computing Network — ACM",
+          "url": "https://dl.acm.org/doi/pdf/10.1145/800181.810282"
+        }
       ],
       "status": "verified"
     },
@@ -83,8 +118,14 @@
       "description": "Student teacher Don Rawitsch and his roommates Bill Heinemann and Paul Dillenberger — Carleton seniors — write The Oregon Trail in two weeks of HP Time-Shared BASIC and debut it in an eighth-grade class at Jordan Junior High over Teletype terminals. It is deleted from the district mainframe at semester's end; Rawitsch keeps a printout.",
       "significance": "Arguably the most influential educational game ever made, born in Minnesota public schools.",
       "sources": [
-        {"title": "The Oregon Trail (1971 video game) — Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Oregon_Trail_(1971_video_game)"},
-        {"title": "Oregon Trail — MNopedia", "url": "https://www.mnhs.org/mnopedia/search/index/thing/oregon-trail-computer-game"}
+        {
+          "title": "The Oregon Trail (1971 video game) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Oregon_Trail_(1971_video_game)"
+        },
+        {
+          "title": "Oregon Trail — MNopedia",
+          "url": "https://www.mnhs.org/mnopedia/search/index/thing/oregon-trail-computer-game"
+        }
       ],
       "status": "verified"
     },
@@ -96,8 +137,18 @@
       "description": "The Minnesota legislature creates the Minnesota Educational Computing Consortium as a joint-powers organization of the University of Minnesota, the state university system, the community colleges, and the Department of Education. MECC hires Rawitsch in 1974; The Oregon Trail enters its statewide library in 1975, recalibrated from pioneer diaries.",
       "significance": "A state consortium — with UMN as one of four founding systems — that made Minnesota the world leader in school computing.",
       "sources": [
-        {"title": "MECC — Wikipedia", "url": "https://en.wikipedia.org/wiki/MECC"},
-        {"title": "ERIC ED087434 (1973 report)", "url": "https://eric.ed.gov/?id=ED087434"}
+        {
+          "title": "MECC — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MECC"
+        },
+        {
+          "title": "ERIC ED087434 (1973 report)",
+          "url": "https://eric.ed.gov/?id=ED087434"
+        },
+        {
+          "title": "Oral history: Dale LaFrenz, MECC co-founder (CBI OH 315, 1995)",
+          "url": "https://conservancy.umn.edu/handle/11299/107423"
+        }
       ],
       "status": "verified"
     },
@@ -109,8 +160,14 @@
       "description": "MECC's CDC Cyber 73 runs a KRONOS system derived from UMN's MERITSS, supporting up to 448 simultaneous users on roughly 2,000 terminals statewide and reaching over 95% of Minnesota schoolchildren. The next year, MECC's competitive bid brings 500 Apple IIs to Minnesota schools — about 7% of Apple's total sales that year.",
       "significance": "Minnesota schoolchildren get computing access decades ahead of the rest of the country, on a system with UMN DNA.",
       "sources": [
-        {"title": "MECC — Wikipedia", "url": "https://en.wikipedia.org/wiki/MECC"},
-        {"title": "MECC timeline — mecc.co", "url": "http://www.mecc.co/history/mecc_timeline/1970s.html"}
+        {
+          "title": "MECC — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MECC"
+        },
+        {
+          "title": "MECC timeline — mecc.co",
+          "url": "http://www.mecc.co/history/mecc_timeline/1970s.html"
+        }
       ],
       "status": "verified"
     },
@@ -122,8 +179,14 @@
       "description": "The Charles Babbage Institute, the leading research center and archive for the history of information technology, relocates to the University of Minnesota. Its archives in Andersen Library — including the ERA and Control Data corporate records — remain open to the public today.",
       "significance": "UMN becomes the world's home for the history of computing itself.",
       "sources": [
-        {"title": "About CBI — cse.umn.edu", "url": "https://cse.umn.edu/cbi/about"},
-        {"title": "CBI Archives — UMN Libraries", "url": "https://www.lib.umn.edu/collections/special/cbia"}
+        {
+          "title": "About CBI — cse.umn.edu",
+          "url": "https://cse.umn.edu/cbi/about"
+        },
+        {
+          "title": "CBI Archives — UMN Libraries",
+          "url": "https://www.lib.umn.edu/collections/special/cbia"
+        }
       ],
       "status": "verified"
     },
@@ -135,7 +198,14 @@
       "description": "UMN becomes the first American university to acquire a supercomputer — a Cray-1, built by the company Seymour Cray founded after leaving Control Data. The Minnesota Supercomputing Institute follows in 1984 and still serves researchers from Walter Library.",
       "significance": "High-performance computing arrives in American higher education via Minnesota.",
       "sources": [
-        {"title": "Minnesota Supercomputing Institute — Wikipedia", "url": "https://en.wikipedia.org/wiki/University_of_Minnesota_Supercomputing_Institute"}
+        {
+          "title": "Minnesota Supercomputing Institute — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/University_of_Minnesota_Supercomputing_Institute"
+        },
+        {
+          "title": "Oral history: Peter Patton, UMN academic computing director (CBI, 2000)",
+          "url": "https://conservancy.umn.edu/items/aff0bc0c-9067-4799-a3f8-1ff0022fa9e6"
+        }
       ],
       "status": "verified"
     },
@@ -147,8 +217,18 @@
       "description": "A team at UMN's Microcomputer Center — Mark McCahill, Farhad Anklesaria, Paul Lindner, Daniel Torrey, and Bob Alberti — releases Gopher, a menu-driven system for navigating the internet, built without official university approval after their campus-wide information system proposal was rejected. The name is a triple pun: the Golden Gophers mascot, 'go-fer,' and burrowing through menus.",
       "significance": "The first widely popular way to navigate the internet, predating mass adoption of the Web.",
       "sources": [
-        {"title": "The rise and fall of the Gopher protocol — MinnPost", "url": "https://www.minnpost.com/business/2016/08/rise-and-fall-gopher-protocol/"},
-        {"title": "Gopher (protocol) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gopher_(protocol)"}
+        {
+          "title": "The rise and fall of the Gopher protocol — MinnPost",
+          "url": "https://www.minnpost.com/business/2016/08/rise-and-fall-gopher-protocol/"
+        },
+        {
+          "title": "Gopher (protocol) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gopher_(protocol)"
+        },
+        {
+          "title": "Oral history: Mark McCahill (CBI OH 328, 2001)",
+          "url": "https://conservancy.umn.edu/items/f9c8d4d6-1da5-4be0-83c5-07bde889427f"
+        }
       ],
       "status": "verified"
     },
@@ -160,8 +240,14 @@
       "description": "Gopher lead Mark McCahill posts the earliest known Usenet use of the phrase: 'surfing the internet with gopher from anywhere that you can find a phone jack.' Librarian Jean Armour Polly popularizes the phrase in print later that year. By 1993, Gopher traffic on the internet backbone grows nearly 1,000% and Gopher servers outnumber Web servers many times over.",
       "significance": "For a moment in 1992–93, the internet's dominant information system — and its slang — came from Minnesota.",
       "sources": [
-        {"title": "Surfing the internet — barrypopik.com etymology", "url": "https://barrypopik.com/blog/surfing_the_internet"},
-        {"title": "Where Have all the Gophers Gone? — UNC", "url": "https://www.ils.unc.edu/callee/gopherpaper.htm"}
+        {
+          "title": "Surfing the internet — barrypopik.com etymology",
+          "url": "https://barrypopik.com/blog/surfing_the_internet"
+        },
+        {
+          "title": "Where Have all the Gophers Gone? — UNC",
+          "url": "https://www.ils.unc.edu/callee/gopherpaper.htm"
+        }
       ],
       "status": "verified"
     },
@@ -173,8 +259,14 @@
       "description": "UMN announces licensing fees for commercial use of its Gopher server software, and internet sentiment turns sharply against the protocol. Partly in reaction, CERN places the World Wide Web in the public domain, royalty-free, on April 30, 1993. The same year brings RFC 1436 (the formal Gopher specification, authored by the UMN team) and the Mosaic browser. UMN re-licenses Gopher under the GPL in 2000 — far too late.",
       "significance": "One of the internet's great cautionary tales about openness, with UMN at its center.",
       "sources": [
-        {"title": "The Web's most important decision — The History of the Web", "url": "https://thehistoryoftheweb.com/postscript/the-webs-most-important-decision/"},
-        {"title": "RFC 1436 — IETF", "url": "https://www.rfc-editor.org/rfc/rfc1436"}
+        {
+          "title": "The Web's most important decision — The History of the Web",
+          "url": "https://thehistoryoftheweb.com/postscript/the-webs-most-important-decision/"
+        },
+        {
+          "title": "RFC 1436 — IETF",
+          "url": "https://www.rfc-editor.org/rfc/rfc1436"
+        }
       ],
       "status": "verified"
     },
@@ -186,8 +278,14 @@
       "description": "UMN implements PeopleSoft for student records, HR, and finance — among the earliest big public-university PeopleSoft student-system rollouts — first used for registration ahead of the 1999 quarters-to-semesters conversion. Regents documents put the full project cost near $52 million, roughly $18 million over the original budget.",
       "significance": "The administrative backbone UMN still runs today, and an early lesson in enterprise software cost overruns.",
       "sources": [
-        {"title": "Board of Regents minutes — UMN Digital Conservancy", "url": "https://conservancy.umn.edu/bitstreams/14fdf5af-df1a-4899-89fe-c68ad83e601a/download"},
-        {"title": "Eventually, PeopleSoft's — Minnesota Daily", "url": "https://mndaily.com/247272/uncategorized/eventually-peoplesofts/"}
+        {
+          "title": "Board of Regents minutes — UMN Digital Conservancy",
+          "url": "https://conservancy.umn.edu/bitstreams/14fdf5af-df1a-4899-89fe-c68ad83e601a/download"
+        },
+        {
+          "title": "Eventually, PeopleSoft's — Minnesota Daily",
+          "url": "https://mndaily.com/247272/uncategorized/eventually-peoplesofts/"
+        }
       ],
       "status": "verified"
     },
@@ -199,8 +297,14 @@
       "description": "Open-source Moodle enters use at UMN alongside the commercial WebCT/WebVista system, which serves over a third of academic courses. When Blackboard (which acquired WebCT in 2005) announces the end of WebVista support, UMN's 'Future CMS' workgroup chooses Moodle, which becomes the only centrally supported LMS by August 2012.",
       "significance": "A Big Ten flagship bets on open source for its core teaching platform.",
       "sources": [
-        {"title": "WebVista to be discontinued in 2013 — Minnesota Daily (Feb 2010)", "url": "https://mndaily.com/257231/uncategorized/webvista-be-discontinued-2013/"},
-        {"title": "Moodle — IT@UMN", "url": "https://it.umn.edu/services-technologies/moodle"}
+        {
+          "title": "WebVista to be discontinued in 2013 — Minnesota Daily (Feb 2010)",
+          "url": "https://mndaily.com/257231/uncategorized/webvista-be-discontinued-2013/"
+        },
+        {
+          "title": "Moodle — IT@UMN",
+          "url": "https://it.umn.edu/services-technologies/moodle"
+        }
       ],
       "status": "verified"
     },
@@ -212,8 +316,14 @@
       "description": "UMN begins moving email and collaboration to Google Apps for Education, replacing GopherMail, with projected savings of $2–3 million per year. The first migration phase completes in August 2010. UMN negotiates contract terms protecting student, faculty, staff, and alumni data, including FERPA coverage and a HIPAA Business Associate Agreement for health units.",
       "significance": "The University outsources its communications infrastructure to a tech giant — a trade of control for cost that defines the cloud era.",
       "sources": [
-        {"title": "With Google, U follows student e-mail outsourcing trend — Minnesota Daily", "url": "https://mndaily.com/245759/uncategorized/google-u-follows-student-e-mail-outsourcing-trend/"},
-        {"title": "Google Workspace — IT@UMN", "url": "https://it.umn.edu/services-technologies/google-workspace"}
+        {
+          "title": "With Google, U follows student e-mail outsourcing trend — Minnesota Daily",
+          "url": "https://mndaily.com/245759/uncategorized/google-u-follows-student-e-mail-outsourcing-trend/"
+        },
+        {
+          "title": "Google Workspace — IT@UMN",
+          "url": "https://it.umn.edu/services-technologies/google-workspace"
+        }
       ],
       "status": "verified"
     },
@@ -225,8 +335,14 @@
       "description": "UMN announces a nonexclusive Coursera partnership in a 29-university expansion, launching five free noncredit MOOCs that draw over 70,000 total enrollments. 'Sustainability of Food Systems' alone reaches 25,000+ students in 130+ countries. UMN later offers 'Coursera for Minnesota,' giving the whole University community free access to thousands of courses.",
       "significance": "Minnesota joins the MOOC wave — cautiously, without credit, and at no cost.",
       "sources": [
-        {"title": "University of Minnesota partners with Coursera — Provost (Feb 21, 2013)", "url": "https://provost.umn.edu/about-evpp/communications/february-21-2013-university-minnesota-partners-coursera"},
-        {"title": "U of M jumps on MOOC trend — MinnPost", "url": "https://www.minnpost.com/learning-curve/2013/05/u-m-jumps-mooc-trend-interactive-class-17000/"}
+        {
+          "title": "University of Minnesota partners with Coursera — Provost (Feb 21, 2013)",
+          "url": "https://provost.umn.edu/about-evpp/communications/february-21-2013-university-minnesota-partners-coursera"
+        },
+        {
+          "title": "U of M jumps on MOOC trend — MinnPost",
+          "url": "https://www.minnpost.com/learning-curve/2013/05/u-m-jumps-mooc-trend-interactive-class-17000/"
+        }
       ],
       "status": "verified"
     },
@@ -238,8 +354,14 @@
       "description": "UMN becomes a founding-wave member of Unizin, a university consortium formed to give institutions collective leverage over digital learning infrastructure and student data, with membership fees reported around $427,500 per year. UMN's later Canvas contract is procured through Unizin.",
       "significance": "Universities band together to avoid being price-takers in the ed tech market.",
       "sources": [
-        {"title": "Unizin at UMN", "url": "https://unizin.umn.edu/"},
-        {"title": "Unizin — Wikipedia", "url": "https://en.wikipedia.org/wiki/Unizin"}
+        {
+          "title": "Unizin at UMN",
+          "url": "https://unizin.umn.edu/"
+        },
+        {
+          "title": "Unizin — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unizin"
+        }
       ],
       "status": "verified"
     },
@@ -251,8 +373,14 @@
       "description": "The Enterprise Systems Upgrade Program — the largest UMN administrative IT project since the original 1990s PeopleSoft rollout — goes live, upgrading PeopleSoft to version 9.2 and launching the MyU portal as a single front door for students and employees.",
       "significance": "Two decades of accumulated administrative technology gets rebuilt at once.",
       "sources": [
-        {"title": "About The Upgrade — upgrade.umn.edu", "url": "http://upgrade.umn.edu/about/"},
-        {"title": "U tech upgrade nearing deployment — Minnesota Daily", "url": "https://mndaily.com/250257/uncategorized/u-tech-upgrade-nearing-deployment/"}
+        {
+          "title": "About The Upgrade — upgrade.umn.edu",
+          "url": "http://upgrade.umn.edu/about/"
+        },
+        {
+          "title": "U tech upgrade nearing deployment — Minnesota Daily",
+          "url": "https://mndaily.com/250257/uncategorized/u-tech-upgrade-nearing-deployment/"
+        }
       ],
       "status": "verified"
     },
@@ -264,8 +392,14 @@
       "description": "After a two-year evaluation, UMN selects Instructure's Canvas as its systemwide LMS, procured through the Unizin consortium (a reported $5,023,000 contract for 2017–2022). The transition runs through Summer 2019, making Fall 2019 the first all-Canvas semester. The same August, UMN adopts Proctorio for automated online exam proctoring.",
       "significance": "Teaching infrastructure moves from open source back to a commercial cloud vendor.",
       "sources": [
-        {"title": "University of Minnesota selects Canvas to replace Moodle — IT@UMN", "url": "https://it.umn.edu/news/canvas-replace-moodle"},
-        {"title": "Finding the Flagship Match with Canvas — Instructure case study", "url": "https://www.instructure.com/resources/case-studies/university-minnesota-finding-flagship-match-canvas-lms"}
+        {
+          "title": "University of Minnesota selects Canvas to replace Moodle — IT@UMN",
+          "url": "https://it.umn.edu/news/canvas-replace-moodle"
+        },
+        {
+          "title": "Finding the Flagship Match with Canvas — Instructure case study",
+          "url": "https://www.instructure.com/resources/case-studies/university-minnesota-finding-flagship-match-canvas-lms"
+        }
       ],
       "status": "verified"
     },
@@ -277,8 +411,14 @@
       "description": "UMN signs a five-year enterprise Zoom contract reported at over $1.4 million (about $281,000 per year), licensing video conferencing for all faculty, students, and staff — with a HIPAA Business Associate Agreement and a separate health-care-component instance. Nobody yet knows how essential it is about to become.",
       "significance": "The infrastructure for the pandemic pivot arrives fourteen months early.",
       "sources": [
-        {"title": "University continues use of Zoom amid questions about privacy — Minnesota Daily", "url": "https://mndaily.com/255632/city/adzoom/"},
-        {"title": "Zoom — IT@UMN", "url": "https://it.umn.edu/services-technologies/zoom"}
+        {
+          "title": "University continues use of Zoom amid questions about privacy — Minnesota Daily",
+          "url": "https://mndaily.com/255632/city/adzoom/"
+        },
+        {
+          "title": "Zoom — IT@UMN",
+          "url": "https://it.umn.edu/services-technologies/zoom"
+        }
       ],
       "status": "verified"
     },
@@ -290,8 +430,14 @@
       "description": "President Joan Gabel suspends in-person instruction across all five UMN campuses, moving teaching to Canvas and Zoom. OIT's 'Keep Teaching' resources guide an emergency transition for tens of thousands of students and faculty.",
       "significance": "The largest, fastest educational technology shift in University history.",
       "sources": [
-        {"title": "U of M cancels in-person classes — Star Tribune", "url": "https://www.startribune.com/university-of-minnesota-cancels-in-person-classes-due-to-coronavirus/568707692"},
-        {"title": "MPR News, March 12, 2020", "url": "https://www.mprnews.org/story/2020/03/12/students-businesses-wary-of-u-of-m-coronavirusinspired-class-suspensions"}
+        {
+          "title": "U of M cancels in-person classes — Star Tribune",
+          "url": "https://www.startribune.com/university-of-minnesota-cancels-in-person-classes-due-to-coronavirus/568707692"
+        },
+        {
+          "title": "MPR News, March 12, 2020",
+          "url": "https://www.mprnews.org/story/2020/03/12/students-businesses-wary-of-u-of-m-coronavirusinspired-class-suspensions"
+        }
       ],
       "status": "verified"
     },
@@ -303,8 +449,14 @@
       "description": "Students petition against Proctorio's recording of screens, webcams, audio, and keystrokes during remote exams, and UMN appears in the Washington Post's national coverage of the proctoring revolt — including a UMN chemistry professor who refused to use the tool. UMN's response is guidance discouraging unnecessary proctoring; the contract itself continues until 2025.",
       "significance": "Surveillance-based ed tech meets organized student resistance.",
       "sources": [
-        {"title": "Distance learning prompts conversation about online exam proctoring — Minnesota Daily", "url": "https://mndaily.com/262572/news/distance-learning-prompts-conversation-about-online-exam-proctoring/"},
-        {"title": "Cheating-detection companies made millions during the pandemic — Washington Post", "url": "https://www.washingtonpost.com/technology/2020/11/12/test-monitoring-student-revolt/"}
+        {
+          "title": "Distance learning prompts conversation about online exam proctoring — Minnesota Daily",
+          "url": "https://mndaily.com/262572/news/distance-learning-prompts-conversation-about-online-exam-proctoring/"
+        },
+        {
+          "title": "Cheating-detection companies made millions during the pandemic — Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2020/11/12/test-monitoring-student-revolt/"
+        }
       ],
       "status": "verified"
     },
@@ -316,8 +468,14 @@
       "description": "Four UMN Law professors — Jonathan Choi, Kristin Hickman, Amy Monahan, and Daniel Schwarcz — blind-grade ChatGPT's answers on four real law school final exams. It earns a C+ average and passes all four, in one of the first empirical tests of ChatGPT on real exams anywhere, reported worldwide. In April, the Provost issues model syllabus statements letting each instructor embrace, allow, or prohibit generative AI.",
       "significance": "UMN produces some of the earliest evidence of what generative AI means for higher education.",
       "sources": [
-        {"title": "ChatGPT Goes to Law School — SSRN", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4335905"},
-        {"title": "Four Minnesota Law professors discuss their globally reported ChatGPT experiment", "url": "https://law.umn.edu/news/2023-02-24-four-minnesota-law-professors-discuss-their-globally-reported-chatgpt-experiment"}
+        {
+          "title": "ChatGPT Goes to Law School — SSRN",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4335905"
+        },
+        {
+          "title": "Four Minnesota Law professors discuss their globally reported ChatGPT experiment",
+          "url": "https://law.umn.edu/news/2023-02-24-four-minnesota-law-professors-discuss-their-globally-reported-chatgpt-experiment"
+        }
       ],
       "status": "verified"
     },
@@ -329,8 +487,14 @@
       "description": "After Google ends free unlimited education storage (with overage billed at a reported $150,000 per petabyte), UMN's Sustainable Storage Program caps individual accounts at 50 GB and ends its 'Email for Life' promise: alumni and retirees no longer keep @umn.edu addresses, prompting petitions and pushback. Keeping lifetime accounts would have cost at least $350,000 per year.",
       "significance": "The hidden costs of 'free' cloud platforms come due, and a long-standing community benefit disappears.",
       "sources": [
-        {"title": "UMN developing proposal to retire lifelong emails — Minnesota Daily", "url": "https://mndaily.com/275782/news/umn-developing-proposal-to-retire-lifelong-emails/"},
-        {"title": "U of M eliminating alumni, retiree emails — Axios Twin Cities", "url": "https://www.axios.com/local/twin-cities/2023/03/15/university-minnesota-eliminating-alumni-retiree-emails"}
+        {
+          "title": "UMN developing proposal to retire lifelong emails — Minnesota Daily",
+          "url": "https://mndaily.com/275782/news/umn-developing-proposal-to-retire-lifelong-emails/"
+        },
+        {
+          "title": "U of M eliminating alumni, retiree emails — Axios Twin Cities",
+          "url": "https://www.axios.com/local/twin-cities/2023/03/15/university-minnesota-eliminating-alumni-retiree-emails"
+        }
       ],
       "status": "verified"
     },
@@ -342,8 +506,14 @@
       "description": "President Rebecca Cunningham charges a Presidential AI Task Force with work groups on education, research, and operations, whose public reports recommend a university-wide AI governance framework. The same month, PhD student Haishan Yang is expelled over alleged AI use on an exam; he sues, and the Minnesota Court of Appeals upholds the expulsion in February 2026 — a case that draws national attention to AI-detection evidence, which UMN's own guidance calls unreliable.",
       "significance": "AI governance and AI discipline arrive at UMN in the same month, pulling in opposite directions.",
       "sources": [
-        {"title": "Presidential AI Task Force — president.umn.edu", "url": "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force"},
-        {"title": "Ph.D. student sues UMN after AI plagiarism expulsion — Minnesota Daily", "url": "https://mndaily.com/290243/news/phd-student-sues-umn-files-human-rights-complaint-after-ai-plagiarism-expulsion/"}
+        {
+          "title": "Presidential AI Task Force — president.umn.edu",
+          "url": "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force"
+        },
+        {
+          "title": "Ph.D. student sues UMN after AI plagiarism expulsion — Minnesota Daily",
+          "url": "https://mndaily.com/290243/news/phd-student-sues-umn-files-human-rights-complaint-after-ai-plagiarism-expulsion/"
+        }
       ],
       "status": "verified"
     },
@@ -355,8 +525,14 @@
       "description": "After a 2024 competitive RFP, UMN retires Proctorio — eight years and one national controversy after adopting it — and replaces it with Honorlock, citing cost, Canvas integration, and 'lower intrusiveness.' Honorlock's AI flags suspicious behavior and triggers live human proctors; recordings are retained about a year and viewable only by UMN staff.",
       "significance": "Exam surveillance doesn't end; it changes vendors, with somewhat better-documented data terms.",
       "sources": [
-        {"title": "Fall 2025 Academic Technology Tools Update — UMD ITSS", "url": "https://itss.d.umn.edu/articles/2025attools"},
-        {"title": "Teaching with Technology News, April 2025 — IT@UMN", "url": "https://it.umn.edu/teaching-with-technology-news/april-2025"}
+        {
+          "title": "Fall 2025 Academic Technology Tools Update — UMD ITSS",
+          "url": "https://itss.d.umn.edu/articles/2025attools"
+        },
+        {
+          "title": "Teaching with Technology News, April 2025 — IT@UMN",
+          "url": "https://it.umn.edu/teaching-with-technology-news/april-2025"
+        }
       ],
       "status": "verified"
     },
@@ -368,8 +544,14 @@
       "description": "UMN makes Google Gemini with enterprise-grade data protection available systemwide (opt-in, 100 prompts/day), partly after learning that roughly 13,000 umn.edu accounts were already using free consumer ChatGPT. Under the contract, UMN data stays within the University and is not used to train Google's models. Microsoft Copilot with enterprise data protection and Zoom AI Companion round out the licensed lineup.",
       "significance": "UMN's answer to shadow AI use: provide contractually protected tools rather than ban the technology.",
       "sources": [
-        {"title": "Google's generative AI tool now available for UMN systemwide use — Minnesota Daily", "url": "https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/"},
-        {"title": "Gemini with Enterprise-Grade Data Protection — IT@UMN", "url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"}
+        {
+          "title": "Google's generative AI tool now available for UMN systemwide use — Minnesota Daily",
+          "url": "https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/"
+        },
+        {
+          "title": "Gemini with Enterprise-Grade Data Protection — IT@UMN",
+          "url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"
+        }
       ],
       "status": "verified"
     },
@@ -381,8 +563,14 @@
       "description": "UMN launches a university-wide AI Hub under its Elevate Extraordinary 2030 strategic roadmap and names statistician Galin Jones its inaugural Vice Provost for Artificial Intelligence — centralizing AI literacy, research, governance, and statewide partnerships that the Presidential Task Force recommended.",
       "significance": "AI becomes a permanent, cabinet-level part of how the University runs.",
       "sources": [
-        {"title": "UMN launches AI Hub — twin-cities.umn.edu", "url": "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public"},
-        {"title": "UMN announces inaugural vice provost for AI — Minnesota Daily", "url": "https://mndaily.com/campus/umn-announces-inaugural-vice-provost-for-ai/03/05/2026/adviser/"}
+        {
+          "title": "UMN launches AI Hub — twin-cities.umn.edu",
+          "url": "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public"
+        },
+        {
+          "title": "UMN announces inaugural vice provost for AI — Minnesota Daily",
+          "url": "https://mndaily.com/campus/umn-announces-inaugural-vice-provost-for-ai/03/05/2026/adviser/"
+        }
       ],
       "status": "verified"
     }
