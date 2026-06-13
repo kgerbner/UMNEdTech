@@ -1,0 +1,34 @@
+name: Research fetch (manual)
+
+# One-off helper: fetches a list of URLs from the Actions runner (which has
+# open egress, unlike the development sandbox) and prints truncated responses
+# to the job log for research purposes. Does not modify the repository.
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "URLs to fetch, separated by spaces"
+        required: true
+        type: string
+      bytes:
+        description: "Max bytes to print per response"
+        required: false
+        default: "3000"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch each URL and print response
+        run: |
+          for url in ${{ inputs.urls }}; do
+            echo "===== $url ====="
+            curl -sL --max-time 30 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "$url" | head -c ${{ inputs.bytes }} || echo "(fetch failed)"
+            echo ""
+            echo ""
+          done
