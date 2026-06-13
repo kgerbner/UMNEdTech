@@ -25,10 +25,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch each URL and print response
+        env:
+          URLS: ${{ inputs.urls }}
+          BYTES: ${{ inputs.bytes }}
         run: |
-          for url in ${{ inputs.urls }}; do
+          for url in $URLS; do
             echo "===== $url ====="
-            curl -sL --max-time 30 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "$url" | head -c ${{ inputs.bytes }} || echo "(fetch failed)"
+            curl -sL --max-time 30 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "$url" | head -c "$BYTES" || echo "(fetch failed)"
             echo ""
             echo ""
           done
