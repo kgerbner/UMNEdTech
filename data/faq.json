@@ -359,7 +359,7 @@
     {
       "id": "how-much-does-umn-spend",
       "question": "How much does UMN spend on ed tech contracts?",
-      "answer": "Nobody outside the administration knows the full total — most contract amounts are never disclosed. What is public comes from Board of Regents docket materials (purchases of $5,000,000+ require Board approval, and in earlier years $1,000,000+ purchases were also reported there) and news reporting: roughly $10 million to Oracle for PeopleSoft licensing and maintenance (2025–2027), $7.29 million to Salesforce (2023–2028), a reported $5.02 million for Canvas via the Unizin consortium (2017–2022) plus about $427,500/year in Unizin membership fees, about $281,000/year for Zoom, and the one-time $83.5 million ESUP systems upgrade completed in 2015. Smaller contracts — Turnitin, Kaltura, Honorlock, Qualtrics, and many more — are not publicly reported at all.",
+      "answer": "Nobody outside the administration knows the full total — most contract amounts are never disclosed. What is public comes from Board of Regents docket materials and news reporting; our Contracts page keeps a sourced table of every technology purchase found there. Highlights: an estimated $13.15 million to Zoom for enterprise telephony (2024–2031, up to $20.1 million with options — the largest tech purchase in the public record), roughly $10 million to Oracle for PeopleSoft (2025–2027), $7.29 million to Salesforce (2023–2028), $5.02 million plus a $2.7 million renewal for Canvas via the Unizin consortium, about $427,500/year in Unizin membership fees, and the one-time $83.5 million ESUP systems upgrade (2015). Since March 2024 only $5,000,000+ purchases require Board action, so smaller deals — Turnitin, Kaltura, Honorlock, Qualtrics — no longer surface publicly at all.",
       "keywords": [
         "spend",
         "spending",
@@ -379,6 +379,10 @@
       ],
       "sources": [
         {
+          "title": "Board of Regents docket, March 2024 (Zoom enterprise voice)",
+          "url": "https://regents.umn.edu/sites/regents.umn.edu/files/2026-03/docket-bor-mar2024-v3.pdf"
+        },
+        {
           "title": "Board of Regents meeting materials",
           "url": "https://regents.umn.edu/meeting-materials"
         },
@@ -391,7 +395,7 @@
           "url": "http://upgrade.umn.edu/about/"
         }
       ],
-      "related_page": "contracts.html"
+      "related_page": "contracts.html#spending-record"
     },
     {
       "id": "what-data-shared-with-vendors",

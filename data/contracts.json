@@ -6,7 +6,7 @@
       "product": "Canvas (learning management system)",
       "category": "LMS",
       "summary": "UMN's systemwide learning management system since 2017 (fully replacing Moodle by Fall 2019), hosting course sites, assignments, and grades for students and instructors across all campuses. Procured through the Unizin university consortium rather than directly from Instructure.",
-      "data_notes": "A reported Board of Regents item lists a $5,023,000 contract with Unizin, Ltd. for Canvas covering July 2017 – June 2022 (figure from secondary reporting; not confirmed against the docket). As the system of record for coursework and grades, Canvas holds FERPA-protected education records, but the contract's specific data-protection terms are not published. Renewal terms after 2022 are not publicly documented.",
+      "data_notes": "Regents dockets show a $5,023,000 contract with Unizin, Ltd. for Canvas covering July 2017 – June 2022, and an estimated $2,700,000 three-year renewal (June 2022 docket, for 2022–2025). As the system of record for coursework and grades, Canvas holds FERPA-protected education records, but the contract's specific data-protection terms are not published. Terms after June 2025 are not yet publicly documented.",
       "since": "2017",
       "sources": [
         {
@@ -20,6 +20,10 @@
         {
           "title": "Unizin at UMN",
           "url": "https://unizin.umn.edu/"
+        },
+        {
+          "title": "Board of Regents docket, June 2022 (Canvas renewal)",
+          "url": "https://regents.umn.edu/sites/regents.umn.edu/files/2022-06/docket-bor-june2022.pdf"
         }
       ],
       "status": "partially-verified"
@@ -90,7 +94,7 @@
       "product": "Zoom (video conferencing, Zoom Phone, Zoom Rooms)",
       "category": "Video & Media",
       "summary": "UMN's preferred video conferencing platform since January 2019, licensed for all current faculty, students, and staff (meetings up to 300 participants; webinars up to 1,000). Became the backbone of remote instruction in March 2020.",
-      "data_notes": "The original deal was reported as a five-year contract worth over $1.4 million (~$281,000/year); renewal terms after ~2024 are not publicly documented. Zoom signed a HIPAA Business Associate Agreement approved by UMN's General Counsel, and a separate health-care-component instance exists for PHI. OIT reviewed Zoom's contract and privacy terms before signing. Zoom AI Companion is available but off by default (opt-in).",
+      "data_notes": "The original 2019 deal was reported at over $1.4 million (~$281,000/year). Regents dockets later show an estimated $1,868,850 enterprise-meetings renewal (October 2023, for 2023–2028) and a separate enterprise voice/telephony contract estimated at $13,150,000 — up to $20,125,000 with options (March 2024, through 2031–2034), the largest technology purchase in the public record. Zoom signed a HIPAA Business Associate Agreement approved by UMN's General Counsel, and a separate health-care-component instance exists for PHI. Zoom AI Companion is available but off by default (opt-in).",
       "since": "2019",
       "sources": [
         {
@@ -100,6 +104,10 @@
         {
           "title": "University continues use of Zoom amid questions about privacy — Minnesota Daily",
           "url": "https://mndaily.com/255632/city/adzoom/"
+        },
+        {
+          "title": "Board of Regents docket, March 2024 (Zoom enterprise voice)",
+          "url": "https://regents.umn.edu/sites/regents.umn.edu/files/2026-03/docket-bor-mar2024-v3.pdf"
         }
       ],
       "status": "partially-verified"
