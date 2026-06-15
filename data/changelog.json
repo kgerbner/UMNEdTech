@@ -1,6 +1,72 @@
 {
   "entries": [
     {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/ -> https://mndaily.com/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/07/30/2025/eicmndaily-com/",
+      "url": "https://mndaily.com/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/07/30/2025/eicmndaily-com/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/275782/news/umn-developing-proposal-to-retire-lifelong-emails/ -> https://mndaily.com/city/umn-developing-proposal-to-retire-lifelong-emails/03/03/2023/snoadmin/",
+      "url": "https://mndaily.com/city/umn-developing-proposal-to-retire-lifelong-emails/03/03/2023/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/262572/news/distance-learning-prompts-conversation-about-online-exam-proctoring/ -> https://mndaily.com/city/distance-learning-prompts-conversation-about-online-exam-proctoring/09/27/2020/snoadmin/",
+      "url": "https://mndaily.com/city/distance-learning-prompts-conversation-about-online-exam-proctoring/09/27/2020/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/257231/uncategorized/webvista-be-discontinued-2013/ -> https://mndaily.com/uncategorized/webvista-be-discontinued-2013/02/04/2010/snoadmin/",
+      "url": "https://mndaily.com/uncategorized/webvista-be-discontinued-2013/02/04/2010/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/255632/city/adzoom/ -> https://mndaily.com/city/adzoom/04/25/2020/snoadmin/",
+      "url": "https://mndaily.com/city/adzoom/04/25/2020/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/250257/uncategorized/u-tech-upgrade-nearing-deployment/ -> https://mndaily.com/uncategorized/u-tech-upgrade-nearing-deployment/09/29/2014/snoadmin/",
+      "url": "https://mndaily.com/uncategorized/u-tech-upgrade-nearing-deployment/09/29/2014/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/247272/uncategorized/eventually-peoplesofts/ -> https://mndaily.com/uncategorized/eventually-peoplesofts/02/16/2000/snoadmin/",
+      "url": "https://mndaily.com/uncategorized/eventually-peoplesofts/02/16/2000/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/245759/uncategorized/google-u-follows-student-e-mail-outsourcing-trend/ -> https://mndaily.com/uncategorized/google-u-follows-student-e-mail-outsourcing-trend/04/21/2009/snoadmin/",
+      "url": "https://mndaily.com/uncategorized/google-u-follows-student-e-mail-outsourcing-trend/04/21/2009/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/244358/uncategorized/university-officials-did-not-disclose-acquisition-grenade-launchers/ -> https://mndaily.com/uncategorized/university-officials-did-not-disclose-acquisition-grenade-launchers/08/05/2015/snoadmin/",
+      "url": "https://mndaily.com/uncategorized/university-officials-did-not-disclose-acquisition-grenade-launchers/08/05/2015/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:25+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/207828/city/brcanvas/ -> https://mndaily.com/city/brcanvas/06/07/2017/snoadmin/",
+      "url": "https://mndaily.com/city/brcanvas/06/07/2017/snoadmin/"
+    },
+    {
+      "date": "2026-06-15T21:37:22+00:00",
+      "policy_id": "grad-genai-guidance",
+      "description": "Change detected on: Graduate School GenAI guidance",
+      "url": "https://grad.umn.edu/guidance-generative-ai-graduate-education"
+    },
+    {
       "date": "2026-06-12T21:44:23+00:00",
       "policy_id": "link-fix",
       "description": "Dead link replaced with its archived copy: https://teaching.berkeley.edu/topics/ai-teaching",
