@@ -1,6 +1,12 @@
 {
   "entries": [
     {
+      "date": "2026-06-22T21:23:13+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
       "date": "2026-06-15T21:37:25+00:00",
       "policy_id": "link-fix",
       "description": "Link updated to its new permanent address: https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/ -> https://mndaily.com/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/07/30/2025/eicmndaily-com/",
