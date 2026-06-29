@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-06-29T14:43:29+00:00",
+      "policy_id": "libraries-genai-guide",
+      "description": "Change detected on: Libraries GenAI research guide",
+      "url": "https://libguides.umn.edu/genai"
+    },
+    {
+      "date": "2026-06-29T14:43:29+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
       "date": "2026-06-22T21:23:13+00:00",
       "policy_id": "digital-access-policy",
       "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
