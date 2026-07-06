@@ -1,6 +1,60 @@
 {
   "entries": [
     {
+      "date": "2026-07-06T14:21:55+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://conduct.students.wisc.edu/artificial-intelligence/ -> https://conduct.students.wisc.edu/faculty-staff-resources/artificial-intelligence/",
+      "url": "https://conduct.students.wisc.edu/faculty-staff-resources/artificial-intelligence/"
+    },
+    {
+      "date": "2026-07-06T14:21:48+00:00",
+      "policy_id": "policy-education",
+      "description": "Change detected on: University Policy Library — Education section",
+      "url": "https://policy.umn.edu/education"
+    },
+    {
+      "date": "2026-07-06T14:21:48+00:00",
+      "policy_id": "libraries-genai-guide",
+      "description": "Change detected on: Libraries GenAI research guide",
+      "url": "https://libguides.umn.edu/genai"
+    },
+    {
+      "date": "2026-07-06T14:21:48+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
+      "date": "2026-07-06T14:21:48+00:00",
+      "policy_id": "provost-ai-communications",
+      "description": "Change detected on: Provost — AI at the University of Minnesota (governance updates)",
+      "url": "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota"
+    },
+    {
+      "date": "2026-07-06T14:21:48+00:00",
+      "policy_id": "teaching-generative-ai",
+      "description": "Change detected on: Teaching Support — Teaching with Generative AI hub",
+      "url": "https://teachingsupport.umn.edu/teaching-generative-ai"
+    },
+    {
+      "date": "2026-07-06T14:21:48+00:00",
+      "policy_id": "genai-syllabus-statements",
+      "description": "Change detected on: Provost GenAI syllabus statements",
+      "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements"
+    },
+    {
+      "date": "2026-07-06T14:21:48+00:00",
+      "policy_id": "ai-umn-hub",
+      "description": "Change detected on: UMN AI Hub — central AI site incl. licensed tools list",
+      "url": "https://ai.umn.edu/"
+    },
+    {
+      "date": "2026-07-06T14:21:48+00:00",
+      "policy_id": "navigating-ai-umn",
+      "description": "Change detected on: Navigating AI @ UMN — OIT systemwide AI guidance hub",
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
       "date": "2026-06-29T14:43:29+00:00",
       "policy_id": "libraries-genai-guide",
       "description": "Change detected on: Libraries GenAI research guide",
