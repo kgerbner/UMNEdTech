@@ -28,7 +28,7 @@
   }
 
   function verifiedBadge(status) {
-    if (status === "verified") return '<span class="badge badge-verified">✓ source verified</span>';
+    if (status === "verified") return '<span class="badge badge-verified">✓ human verified</span>';
     if (status === "partially-verified") return '<span class="badge badge-unverified">partially verified</span>';
     return '<span class="badge badge-unverified">unverified — treat with caution</span>';
   }

@@ -50,14 +50,35 @@
     colleague, not the way they're written.</li>
   </ul>
 
+  <h2 id="how-made">How this site was made</h2>
+  <p>This site was researched, written, and built using <strong>Claude Code, Anthropic's AI coding
+  agent</strong> — under the direction of a human maintainer, who chose every research question,
+  set the verification standards, reviewed the findings, and decides what is published. The AI did
+  the labor: searching the web and the indexed full text of public archives (such as UMN's Digital
+  Conservancy and Board of Regents materials), drafting the plain-language summaries, assembling
+  every citation, and building the site's search, monitoring, and link-checking systems. The
+  judgment about what to investigate and what to publish is human.</p>
+  <p>Because AI research can make mistakes, the site is designed so you never have to take its
+  word for anything:</p>
+  <ul>
+    <li><strong>Every factual statement links to its source.</strong> The linked document is the
+    authority; the summary is a starting point.</li>
+    <li><strong>Verification badges say exactly how much checking a claim has had</strong> — see
+    the levels below. Only claims a human has double-checked carry the ✓ badge.</li>
+    <li><strong>Everything is auditable.</strong> The complete code, data, research notes, and
+    edit history are public in the site's
+    <a href="https://github.com/kgerbner/UMNEdTech" target="_blank" rel="noopener">GitHub
+    repository ↗</a>, along with the automated weekly policy and link checks.</li>
+  </ul>
+
   <h2>Verification levels</h2>
   <p>Each entry carries a verification badge:</p>
   <ul>
-    <li><span class="badge badge-verified">✓ source verified</span> — the claim is corroborated by
-    multiple independent sources, and the cited link has been confirmed by the automated checker.</li>
-    <li><span class="badge badge-unverified">partially verified</span> — the claim is corroborated
-    by multiple independent sources (official UMN pages, news coverage, public records), but we
-    have not yet re-confirmed every detail against the live primary document.</li>
+    <li><span class="badge badge-verified">✓ human verified</span> — a human has double-checked
+    this claim against the linked source.</li>
+    <li><span class="badge badge-unverified">partially verified</span> — the claim was corroborated
+    across multiple independent sources (official UMN pages, news coverage, public records) during
+    AI-assisted research, but has <strong>not yet been double-checked by a human</strong>.</li>
     <li><span class="badge badge-unverified">unverified</span> — a single source, a disputed
     detail, or an inference. Treat with caution.</li>
   </ul>
@@ -89,8 +110,10 @@
   </ul>
 
   <h2>Corrections</h2>
-  <p>Found an error or a missing source? Open an issue in the site's repository or contact the
-  maintainer. Corrections are tracked publicly in the repository history.</p>
+  <p>Found an error or a missing source? Open an issue in the
+  <a href="https://github.com/kgerbner/UMNEdTech/issues" target="_blank" rel="noopener">site's
+  repository ↗</a> or contact the maintainer. Corrections are made publicly and tracked in the
+  repository history.</p>
 </main>
 
 <footer class="site-footer">
@@ -100,6 +123,9 @@
       <p class="disclaimer">An independent, unofficial resource. Not produced or endorsed by the
       University of Minnesota. Always confirm with the linked official sources; policies summarized
       here may change.</p>
+      <p class="disclaimer">Researched and built with AI (Claude Code) under human direction;
+      the ✓ badge marks claims double-checked by a human —
+      <a href="about.html#how-made">how this site was made</a>.</p>
     </div>
     <nav aria-label="Footer">
       <a href="faq.html">Common questions</a>

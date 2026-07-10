@@ -64,6 +64,20 @@ python3 -m http.server 8000
 1. In the repository settings, set **Pages → Source → GitHub Actions**.
 2. Merge to `main`. `.github/workflows/deploy-pages.yml` deploys the site.
 
+## Human verification workflow
+
+The ✓ "human verified" badge is reserved for claims a human has double-checked against the
+linked source. Everything produced by AI-assisted research starts as `partially-verified`,
+no matter how well corroborated. To promote an entry after you have personally confirmed it:
+
+1. Open the entry in its data file (`data/policies.json`, `data/contracts.json`,
+   `data/history.json`, or `data/compare.json`) and change `"status": "partially-verified"`
+   to `"status": "verified"`.
+2. For the spending table (static HTML in `contracts.html#spending-record`), change the row's
+   badge from `badge-unverified` / "partially verified" to `badge-verified` / "✓ human verified".
+3. Commit with a message noting what you checked (e.g., `Human-verified: Salesforce docket
+   figure against March 2023 PDF`) — the git history is the public review log.
+
 ## Verification methodology
 
 See `about.html`. In short: every claim links a source; entries are badged by verification level;
