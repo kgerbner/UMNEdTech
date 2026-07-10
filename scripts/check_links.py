@@ -43,6 +43,22 @@ TIMEOUT = 25
 URL_RE = re.compile(r'https?://[^\s"\'<>\\]+')
 HREF_RE = re.compile(r'href="([^"]+)"')
 
+# UMN Libraries' archive systems ask that automated traffic stay away (their
+# bot protection rejects us regardless). Out of respect, never probe these —
+# their links are recorded as "skipped" and never rewritten.
+NO_PROBE_DOMAINS = (
+    "conservancy.umn.edu",
+    "umedia.lib.umn.edu",
+    "archives.lib.umn.edu",
+    "gallery.lib.umn.edu",
+    "www.lib.umn.edu",
+)
+
+
+def is_no_probe(url):
+    host = urllib.parse.urlparse(url).hostname or ""
+    return any(host == d or host.endswith("." + d) for d in NO_PROBE_DOMAINS)
+
 
 def load_json(path, default):
     if path.exists():
@@ -207,8 +223,11 @@ def check_external():
     state = load_json(DATA / "linkcheck.json", {"results": {}})
     changelog = load_json(DATA / "changelog.json", {"entries": []})
     urls = collect_external_urls()
+    skipped = [u for u in urls if is_no_probe(u)]
+    urls = [u for u in urls if not is_no_probe(u)]
 
-    print(f"Checking {len(urls)} external URLs…\n")
+    print(f"Checking {len(urls)} external URLs "
+          f"({len(skipped)} archive URLs skipped by crawling policy)…\n")
     with ThreadPoolExecutor(max_workers=8) as pool:
         outcomes = dict(zip(urls, pool.map(probe, urls)))
 
@@ -266,9 +285,17 @@ def check_external():
 
         state["results"][url] = entry
 
+    for url in skipped:
+        state["results"][url] = {
+            "status": "skipped",
+            "ok": None,
+            "last_checked": now,
+            "note": "not probed — UMN Libraries archive systems ask automated traffic to stay away",
+        }
+
     state["last_run"] = now
     state["totals"] = {"checked": len(urls), "ok": ok, "repaired": repaired,
-                       "dead": dead, "unreachable": suspect}
+                       "dead": dead, "unreachable": suspect, "skipped": len(skipped)}
     # Drop state for URLs no longer present on the site (including ones this
     # run just rewrote), so the report reflects only current links.
     current = set(collect_external_urls())
