@@ -1,16 +1,74 @@
 {
   "watch_urls": [
-    {"id": "navigating-ai-umn", "url": "https://it.umn.edu/navigating-ai-umn", "label": "Navigating AI @ UMN — OIT systemwide AI guidance hub"},
-    {"id": "ai-umn-hub", "url": "https://ai.umn.edu/", "label": "UMN AI Hub — central AI site incl. licensed tools list"},
-    {"id": "ai-appropriate-use", "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use", "label": "OIT appropriate-use rules for generative AI"},
-    {"id": "policy-library-it", "url": "https://policy.umn.edu/it", "label": "University Policy Library — Information Technology section"},
-    {"id": "genai-syllabus-statements", "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements", "label": "Provost GenAI syllabus statements"},
-    {"id": "teaching-generative-ai", "url": "https://teachingsupport.umn.edu/teaching-generative-ai", "label": "Teaching Support — Teaching with Generative AI hub"},
-    {"id": "provost-ai-communications", "url": "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota", "label": "Provost — AI at the University of Minnesota (governance updates)"},
-    {"id": "digital-access-policy", "url": "https://policy.umn.edu/it/digitalaccess", "label": "Digital accessibility policy (enforceable April 2027)"},
-    {"id": "libraries-genai-guide", "url": "https://libguides.umn.edu/genai", "label": "Libraries GenAI research guide"},
-    {"id": "grad-genai-guidance", "url": "https://grad.umn.edu/guidance-generative-ai-graduate-education", "label": "Graduate School GenAI guidance"},
-    {"id": "policy-education", "url": "https://policy.umn.edu/education", "label": "University Policy Library — Education section"},
-    {"id": "policy-library-home", "url": "https://policy.umn.edu/", "label": "University Policy Library — homepage (announcements & recent revisions)"}
+    {
+      "id": "navigating-ai-umn",
+      "url": "https://it.umn.edu/navigating-ai-umn",
+      "label": "Navigating AI @ UMN — OIT systemwide AI guidance hub"
+    },
+    {
+      "id": "ai-umn-hub",
+      "url": "https://ai.umn.edu/",
+      "label": "UMN AI Hub — central AI site incl. licensed tools list"
+    },
+    {
+      "id": "ai-appropriate-use",
+      "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use",
+      "label": "OIT appropriate-use rules for generative AI"
+    },
+    {
+      "id": "policy-library-it",
+      "url": "https://policy.umn.edu/it",
+      "label": "University Policy Library — Information Technology section"
+    },
+    {
+      "id": "genai-syllabus-statements",
+      "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements",
+      "label": "Provost GenAI syllabus statements"
+    },
+    {
+      "id": "teaching-generative-ai",
+      "url": "https://teachingsupport.umn.edu/teaching-generative-ai",
+      "label": "Teaching Support — Teaching with Generative AI hub"
+    },
+    {
+      "id": "provost-ai-communications",
+      "url": "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota",
+      "label": "Provost — AI at the University of Minnesota (governance updates)"
+    },
+    {
+      "id": "digital-access-policy",
+      "url": "https://policy.umn.edu/it/digitalaccess",
+      "label": "Digital accessibility policy (enforceable April 2027)"
+    },
+    {
+      "id": "libraries-genai-guide",
+      "url": "https://libguides.umn.edu/genai",
+      "label": "Libraries GenAI research guide"
+    },
+    {
+      "id": "grad-genai-guidance",
+      "url": "https://grad.umn.edu/guidance-generative-ai-graduate-education",
+      "label": "Graduate School GenAI guidance"
+    },
+    {
+      "id": "policy-education",
+      "url": "https://policy.umn.edu/education",
+      "label": "University Policy Library — Education section"
+    },
+    {
+      "id": "policy-library-home",
+      "url": "https://policy.umn.edu/",
+      "label": "University Policy Library — homepage (announcements & recent revisions)"
+    },
+    {
+      "id": "regents-meeting-materials",
+      "url": "https://regents.umn.edu/meeting-materials",
+      "label": "Board of Regents meeting materials (new dockets — where $5M+ contract approvals appear)"
+    },
+    {
+      "id": "purchasing-policy",
+      "url": "https://policy.umn.edu/finance/purchasing",
+      "label": "Purchasing Goods and Services policy (contract/procurement rule changes)"
+    }
   ]
 }
