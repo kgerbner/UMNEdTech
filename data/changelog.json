@@ -1,6 +1,30 @@
 {
   "entries": [
     {
+      "date": "2026-07-13T13:18:13+00:00",
+      "policy_id": "policy-education",
+      "description": "Change detected on: University Policy Library — Education section",
+      "url": "https://policy.umn.edu/education"
+    },
+    {
+      "date": "2026-07-13T13:18:13+00:00",
+      "policy_id": "libraries-genai-guide",
+      "description": "Change detected on: Libraries GenAI research guide",
+      "url": "https://libguides.umn.edu/genai"
+    },
+    {
+      "date": "2026-07-13T13:18:13+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
+      "date": "2026-07-13T13:18:13+00:00",
+      "policy_id": "provost-ai-communications",
+      "description": "Change detected on: Provost — AI at the University of Minnesota (governance updates)",
+      "url": "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota"
+    },
+    {
       "date": "2026-07-06T14:21:55+00:00",
       "policy_id": "link-fix",
       "description": "Link updated to its new permanent address: https://conduct.students.wisc.edu/artificial-intelligence/ -> https://conduct.students.wisc.edu/faculty-staff-resources/artificial-intelligence/",
