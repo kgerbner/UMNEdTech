@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "date": "2026-07-20T13:01:18+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://it.wisc.edu/generative-ai-services-uw-madison/ -> https://it.wisc.edu/ai/",
+      "url": "https://it.wisc.edu/ai/"
+    },
+    {
+      "date": "2026-07-20T13:01:11+00:00",
+      "policy_id": "purchasing-policy",
+      "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
+      "url": "https://policy.umn.edu/finance/purchasing"
+    },
+    {
+      "date": "2026-07-20T13:01:11+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
       "date": "2026-07-13T13:18:13+00:00",
       "policy_id": "policy-education",
       "description": "Change detected on: University Policy Library — Education section",
