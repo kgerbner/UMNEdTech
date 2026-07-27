@@ -1,6 +1,60 @@
 {
   "entries": [
     {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "purchasing-policy",
+      "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
+      "url": "https://policy.umn.edu/finance/purchasing"
+    },
+    {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "regents-meeting-materials",
+      "description": "Change detected on: Board of Regents meeting materials (new dockets — where $5M+ contract approvals appear)",
+      "url": "https://regents.umn.edu/meeting-materials"
+    },
+    {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "policy-library-home",
+      "description": "Change detected on: University Policy Library — homepage (announcements & recent revisions)",
+      "url": "https://policy.umn.edu/"
+    },
+    {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "policy-education",
+      "description": "Change detected on: University Policy Library — Education section",
+      "url": "https://policy.umn.edu/education"
+    },
+    {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "policy-library-it",
+      "description": "Change detected on: University Policy Library — Information Technology section",
+      "url": "https://policy.umn.edu/it"
+    },
+    {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "ai-appropriate-use",
+      "description": "Change detected on: OIT appropriate-use rules for generative AI",
+      "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use"
+    },
+    {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "ai-umn-hub",
+      "description": "Change detected on: UMN AI Hub — central AI site incl. licensed tools list",
+      "url": "https://ai.umn.edu/"
+    },
+    {
+      "date": "2026-07-27T13:33:35+00:00",
+      "policy_id": "navigating-ai-umn",
+      "description": "Change detected on: Navigating AI @ UMN — OIT systemwide AI guidance hub",
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
       "date": "2026-07-20T13:01:18+00:00",
       "policy_id": "link-fix",
       "description": "Link updated to its new permanent address: https://it.wisc.edu/generative-ai-services-uw-madison/ -> https://it.wisc.edu/ai/",
