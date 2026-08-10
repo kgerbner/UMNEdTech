@@ -1,6 +1,42 @@
 {
   "entries": [
     {
+      "date": "2026-08-10T11:42:13+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://ai.berkeley.edu/resources/campus-ai-sandbox -> https://ai.berkeley.edu/tools-training/campus-ai-sandbox-beta",
+      "url": "https://ai.berkeley.edu/tools-training/campus-ai-sandbox-beta"
+    },
+    {
+      "date": "2026-08-10T11:42:09+00:00",
+      "policy_id": "purchasing-policy",
+      "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
+      "url": "https://policy.umn.edu/finance/purchasing"
+    },
+    {
+      "date": "2026-08-10T11:42:09+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
+      "date": "2026-08-10T11:42:09+00:00",
+      "policy_id": "teaching-generative-ai",
+      "description": "Change detected on: Teaching Support — Teaching with Generative AI hub",
+      "url": "https://teachingsupport.umn.edu/teaching-generative-ai"
+    },
+    {
+      "date": "2026-08-10T11:42:09+00:00",
+      "policy_id": "ai-umn-hub",
+      "description": "Change detected on: UMN AI Hub — central AI site incl. licensed tools list",
+      "url": "https://ai.umn.edu/"
+    },
+    {
+      "date": "2026-08-10T11:42:09+00:00",
+      "policy_id": "navigating-ai-umn",
+      "description": "Change detected on: Navigating AI @ UMN — OIT systemwide AI guidance hub",
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
       "date": "2026-08-03T13:33:48+00:00",
       "policy_id": "purchasing-policy",
       "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
