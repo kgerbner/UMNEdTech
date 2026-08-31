@@ -1,6 +1,54 @@
 {
   "entries": [
     {
+      "date": "2026-08-31T17:46:01+00:00",
+      "policy_id": "link-fix",
+      "description": "Dead link replaced with its archived copy: https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence/available-ai-tools",
+      "url": "http://web.archive.org/web/20260208025212/https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence/available-ai-tools"
+    },
+    {
+      "date": "2026-08-31T17:45:55+00:00",
+      "policy_id": "purchasing-policy",
+      "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
+      "url": "https://policy.umn.edu/finance/purchasing"
+    },
+    {
+      "date": "2026-08-31T17:45:55+00:00",
+      "policy_id": "libraries-genai-guide",
+      "description": "Change detected on: Libraries GenAI research guide",
+      "url": "https://libguides.umn.edu/genai"
+    },
+    {
+      "date": "2026-08-31T17:45:55+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
+      "date": "2026-08-31T17:45:55+00:00",
+      "policy_id": "teaching-generative-ai",
+      "description": "Change detected on: Teaching Support — Teaching with Generative AI hub",
+      "url": "https://teachingsupport.umn.edu/teaching-generative-ai"
+    },
+    {
+      "date": "2026-08-31T17:45:55+00:00",
+      "policy_id": "ai-appropriate-use",
+      "description": "Change detected on: OIT appropriate-use rules for generative AI",
+      "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use"
+    },
+    {
+      "date": "2026-08-31T17:45:55+00:00",
+      "policy_id": "ai-umn-hub",
+      "description": "Change detected on: UMN AI Hub — central AI site incl. licensed tools list",
+      "url": "https://ai.umn.edu/"
+    },
+    {
+      "date": "2026-08-31T17:45:55+00:00",
+      "policy_id": "navigating-ai-umn",
+      "description": "Change detected on: Navigating AI @ UMN — OIT systemwide AI guidance hub",
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
       "date": "2026-08-24T11:19:20+00:00",
       "policy_id": "purchasing-policy",
       "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
