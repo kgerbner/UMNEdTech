@@ -1,6 +1,72 @@
 {
   "entries": [
     {
+      "date": "2026-10-19T17:16:29+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://www.rfc-editor.org/rfc/rfc1436 -> https://www.rfc-editor.org/info/rfc1436/",
+      "url": "https://www.rfc-editor.org/info/rfc1436/"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "purchasing-policy",
+      "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
+      "url": "https://policy.umn.edu/finance/purchasing"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "policy-library-home",
+      "description": "Change detected on: University Policy Library — homepage (announcements & recent revisions)",
+      "url": "https://policy.umn.edu/"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "policy-education",
+      "description": "Change detected on: University Policy Library — Education section",
+      "url": "https://policy.umn.edu/education"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "grad-genai-guidance",
+      "description": "Change detected on: Graduate School GenAI guidance",
+      "url": "https://grad.umn.edu/guidance-generative-ai-graduate-education"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "provost-ai-communications",
+      "description": "Change detected on: Provost — AI at the University of Minnesota (governance updates)",
+      "url": "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "genai-syllabus-statements",
+      "description": "Change detected on: Provost GenAI syllabus statements",
+      "url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "policy-library-it",
+      "description": "Change detected on: University Policy Library — Information Technology section",
+      "url": "https://policy.umn.edu/it"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "ai-umn-hub",
+      "description": "Change detected on: UMN AI Hub — central AI site incl. licensed tools list",
+      "url": "https://ai.umn.edu/"
+    },
+    {
+      "date": "2026-10-19T17:16:24+00:00",
+      "policy_id": "navigating-ai-umn",
+      "description": "Change detected on: Navigating AI @ UMN — OIT systemwide AI guidance hub",
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
       "date": "2026-10-12T20:03:38+00:00",
       "policy_id": "purchasing-policy",
       "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
