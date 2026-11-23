@@ -1,6 +1,48 @@
 {
   "entries": [
     {
+      "date": "2026-11-23T22:19:52+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://tech.msu.edu/technology/ai/services/ -> https://tech.msu.edu/technology/ai/",
+      "url": "https://tech.msu.edu/technology/ai/"
+    },
+    {
+      "date": "2026-11-23T22:19:52+00:00",
+      "policy_id": "link-fix",
+      "description": "Link updated to its new permanent address: https://mndaily.com/campus/umn-announces-inaugural-vice-provost-for-ai/03/05/2026/adviser/ -> https://mndaily.com/uncategorized/adviser-accused-sexual-assault/07/25/2007/",
+      "url": "https://mndaily.com/uncategorized/adviser-accused-sexual-assault/07/25/2007/"
+    },
+    {
+      "date": "2026-11-23T22:19:49+00:00",
+      "policy_id": "purchasing-policy",
+      "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
+      "url": "https://policy.umn.edu/finance/purchasing"
+    },
+    {
+      "date": "2026-11-23T22:19:49+00:00",
+      "policy_id": "policy-education",
+      "description": "Change detected on: University Policy Library — Education section",
+      "url": "https://policy.umn.edu/education"
+    },
+    {
+      "date": "2026-11-23T22:19:49+00:00",
+      "policy_id": "digital-access-policy",
+      "description": "Change detected on: Digital accessibility policy (enforceable April 2027)",
+      "url": "https://policy.umn.edu/it/digitalaccess"
+    },
+    {
+      "date": "2026-11-23T22:19:49+00:00",
+      "policy_id": "ai-umn-hub",
+      "description": "Change detected on: UMN AI Hub — central AI site incl. licensed tools list",
+      "url": "https://ai.umn.edu/"
+    },
+    {
+      "date": "2026-11-23T22:19:49+00:00",
+      "policy_id": "navigating-ai-umn",
+      "description": "Change detected on: Navigating AI @ UMN — OIT systemwide AI guidance hub",
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
       "date": "2026-11-16T20:45:06+00:00",
       "policy_id": "purchasing-policy",
       "description": "Change detected on: Purchasing Goods and Services policy (contract/procurement rule changes)",
